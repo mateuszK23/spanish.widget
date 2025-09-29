@@ -10,10 +10,15 @@ PROJECT_ROOT = os.path.dirname(BASE_DIR)
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 LOGS_DIR = os.path.join(PROJECT_ROOT, "logs")
 ASSETS_DIR = os.path.join(PROJECT_ROOT, "assets") 
+DICTIONARY_DIR = os.path.join(PROJECT_ROOT, "dictionary") 
+
+# Ensure all directories exist
+for dir in (DATA_DIR, LOGS_DIR, ASSETS_DIR, DICTIONARY_DIR):
+    os.makedirs(dir, exist_ok=True)
 
 # Files
-LOOKUP_FILE = os.path.join(DATA_DIR, "jehle_verb_lookup.json")
+LOOKUP_FILE = os.path.join(DICTIONARY_DIR, "jehle_verb_lookup.json")
+FALLBACK_NOUNS_FILE = os.path.join(DICTIONARY_DIR, "fallback_nouns.json")
 HISTORY_FILE = os.path.join(DATA_DIR, "history.json")
 SETTINGS_FILE = os.path.join(DATA_DIR, "settings.json")
 TRAY_ICON = os.path.join(ASSETS_DIR, "dictionary.ico")
-FALLBACK_NOUNS_FILE = os.path.join(DATA_DIR, "fallback_nouns.json")

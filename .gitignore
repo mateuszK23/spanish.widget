@@ -33,3 +33,5 @@ Thumbs.db
 *.db
 
 launch.bat
+history.json
+settings.json

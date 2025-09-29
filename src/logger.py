@@ -3,7 +3,7 @@ import os
 import sys
 from paths import LOGS_DIR
 
-LOG_FILE = os.path.join(LOGS_DIR, "app.log")
+LOG_FILE = os.path.join(LOGS_DIR, "SpanishWidget.log")
 
 logging.basicConfig(
     level=logging.INFO,

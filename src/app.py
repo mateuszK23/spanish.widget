@@ -28,7 +28,7 @@ class SpanishWidgetApp:
         self.quiz_interval = settings['quiz_interval']
         self._quiz_job = None  # handle for root.after
 
-        logger.info(f"\n\nConfig values: \nquiz_enabled = {self.quiz_enabled}\nquiz_interval = {self.quiz_interval}\n")
+        logger.info(f"Config values: {settings}")
         self.tray = TrayController(self)
         self.tray.start()
 
