@@ -16,7 +16,7 @@ dist/
 
 # ---- Logs ----
 *.log
-!logs/.gitkeep   # keep logs/ folder if you add a .gitkeep placeholder
+logs/
 
 # ---- IDE / Editor settings ----
 .vscode/
@@ -32,6 +32,8 @@ Thumbs.db
 *.sqlite3
 *.db
 
+# ---- Settings and history files ----
+data/
+
+# ---- Launcher helper ----
 launch.bat
-history.json
-settings.json
