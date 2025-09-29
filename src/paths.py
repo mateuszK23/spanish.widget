@@ -9,8 +9,8 @@ PROJECT_ROOT = os.path.dirname(BASE_DIR)
 # Directories
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 LOGS_DIR = os.path.join(PROJECT_ROOT, "logs")
-ASSETS_DIR = os.path.join(PROJECT_ROOT, "assets") 
-DICTIONARY_DIR = os.path.join(PROJECT_ROOT, "dictionary") 
+ASSETS_DIR = os.path.join(PROJECT_ROOT, "assets")
+DICTIONARY_DIR = os.path.join(PROJECT_ROOT, "dictionary")
 
 # Ensure all directories exist
 for dir in (DATA_DIR, LOGS_DIR, ASSETS_DIR, DICTIONARY_DIR):

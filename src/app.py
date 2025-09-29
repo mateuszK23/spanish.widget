@@ -13,6 +13,7 @@ TEXT_COLOR = "#f9f9f9"
 FRAME_COLOR = "#2e2e2e"
 SEPARATOR_COLOR = "black"
 
+
 class SpanishWidgetApp:
     def __init__(self):
         logger.info("Starting the app")
@@ -24,8 +25,8 @@ class SpanishWidgetApp:
 
         # Quiz
         settings = load_settings()
-        self.quiz_enabled = settings['quiz_enabled']
-        self.quiz_interval = settings['quiz_interval']
+        self.quiz_enabled = settings["quiz_enabled"]
+        self.quiz_interval = settings["quiz_interval"]
         self._quiz_job = None  # handle for root.after
 
         logger.info(f"Config values: {settings}")
@@ -67,26 +68,57 @@ class SpanishWidgetApp:
             w.destroy()
 
         def build_frame(title, content_top, content_bottom):
-            f = tk.Frame(self.main_frame, bg=FRAME_COLOR, bd=2, relief="ridge", padx=10, pady=5)
-            tk.Label(f, text=title, font=("Arial", 13, "bold"), bg=FRAME_COLOR, fg=TEXT_COLOR).pack(anchor="w")
+            f = tk.Frame(
+                self.main_frame, bg=FRAME_COLOR, bd=2, relief="ridge", padx=10, pady=5
+            )
+            tk.Label(
+                f, text=title, font=("Arial", 13, "bold"), bg=FRAME_COLOR, fg=TEXT_COLOR
+            ).pack(anchor="w")
             tk.Frame(f, height=1, bg=SEPARATOR_COLOR).pack(fill="x", pady=4)
-            tk.Label(f, text=content_top, font=("Arial", 12), bg=FRAME_COLOR, fg=TEXT_COLOR).pack(anchor="w")
+            tk.Label(
+                f, text=content_top, font=("Arial", 12), bg=FRAME_COLOR, fg=TEXT_COLOR
+            ).pack(anchor="w")
             tk.Frame(f, height=1, bg=SEPARATOR_COLOR).pack(fill="x", pady=4)
-            tk.Label(f, text=content_bottom, font=("Arial", 11), bg=FRAME_COLOR, fg=TEXT_COLOR).pack(anchor="w")
+            tk.Label(
+                f,
+                text=content_bottom,
+                font=("Arial", 11),
+                bg=FRAME_COLOR,
+                fg=TEXT_COLOR,
+            ).pack(anchor="w")
             f.pack(fill="x", padx=10, pady=5)
 
-        build_frame("Random noun", data["noun"]["spanish"].upper(), data["noun"]["english"])
-        build_frame("Random verb", data["verb"]["spanish"].upper(), data["verb"]["english"])
+        build_frame(
+            "Random noun", data["noun"]["spanish"].upper(), data["noun"]["english"]
+        )
+        build_frame(
+            "Random verb", data["verb"]["spanish"].upper(), data["verb"]["english"]
+        )
 
         # Conjugation table
-        conj_frame = tk.Frame(self.main_frame, bg=BG_COLOR, bd=2, relief="ridge", padx=5, pady=5)
-        tk.Label(conj_frame, text="Conjugation", font=("Arial", 13, "bold"),
-                 bg=BG_COLOR, fg=TEXT_COLOR).grid(row=0, column=0, columnspan=len(data["conjugation"][0]), pady=(0, 5))
+        conj_frame = tk.Frame(
+            self.main_frame, bg=BG_COLOR, bd=2, relief="ridge", padx=5, pady=5
+        )
+        tk.Label(
+            conj_frame,
+            text="Conjugation",
+            font=("Arial", 13, "bold"),
+            bg=BG_COLOR,
+            fg=TEXT_COLOR,
+        ).grid(row=0, column=0, columnspan=len(data["conjugation"][0]), pady=(0, 5))
         for i, row in enumerate(data["conjugation"][:10]):
             for j, cell in enumerate(row):
-                tk.Label(conj_frame, text=cell, font=("Courier", 10),
-                         bg=BG_COLOR, fg=TEXT_COLOR, borderwidth=1, relief="solid",
-                         padx=5, pady=2).grid(row=i+1, column=j, sticky="nsew")
+                tk.Label(
+                    conj_frame,
+                    text=cell,
+                    font=("Courier", 10),
+                    bg=BG_COLOR,
+                    fg=TEXT_COLOR,
+                    borderwidth=1,
+                    relief="solid",
+                    padx=5,
+                    pady=2,
+                ).grid(row=i + 1, column=j, sticky="nsew")
                 conj_frame.grid_columnconfigure(j, weight=1)
         conj_frame.pack(fill="x", padx=10, pady=5)
 
@@ -103,7 +135,7 @@ class SpanishWidgetApp:
         # Reschedule new quiz
         self._quiz_job = self.root.after(
             self.quiz_interval * 1000,
-            lambda: (QuizDialog(self.root, noun), self.schedule_quiz(noun))
+            lambda: (QuizDialog(self.root, noun), self.schedule_quiz(noun)),
         )
 
     def set_quiz_enabled(self, enabled: bool):

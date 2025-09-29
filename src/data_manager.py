@@ -6,6 +6,7 @@ from paths import LOOKUP_FILE, HISTORY_FILE, FALLBACK_NOUNS_FILE
 from logger import logger
 import time
 
+
 @dataclass
 class NounData:
     spanish: str
@@ -17,16 +18,19 @@ class VerbData:
     spanish: str
     english: str
 
+
 # --- Helpers ---
 def load_fallback_words():
     with open(FALLBACK_NOUNS_FILE, "r", encoding="utf-8") as f:
         return json.load(f)
 
+
 def get_fallback_word():
     words = load_fallback_words()
     entry = random.choice(words)
     return NounData(spanish=entry["word"], english=entry["definition"])
-    
+
+
 class DailyDataManager:
     def __init__(self):
         self.history = self._load_history()
@@ -60,32 +64,46 @@ class DailyDataManager:
         """Fetch a random noun from the API once; if it fails, use local JSON fallback."""
         try:
             resp = requests.get(
-                "https://random-words-api.vercel.app/word/spanish",
-                timeout=5
+                "https://random-words-api.vercel.app/word/spanish", timeout=5
             )
             if resp.status_code == 200:
                 data = resp.json()
                 noun_spanish = data[0]["word"]
                 noun_english = data[0]["definition"]
-                logger.info(f"Generated random noun: {noun_spanish}, translation: {noun_english}")
+                logger.info(
+                    f"Generated random noun: {noun_spanish}, translation: {noun_english}"
+                )
                 return NounData(spanish=noun_spanish, english=noun_english)
             else:
                 noun = get_fallback_word()
-                logger.warning(f"API returned {resp.status_code}, using a random fallback noun: {noun}")
+                logger.warning(
+                    f"API returned {resp.status_code}, using a random fallback noun: {noun}"
+                )
                 return noun
         except requests.RequestException as e:
             noun = get_fallback_word()
-            logger.warning(f"API request failed: {e}. Using a random fallback noun: {noun}")
+            logger.warning(
+                f"API request failed: {e}. Using a random fallback noun: {noun}"
+            )
             return noun
 
     def random_verb(self) -> VerbData:
         try:
             with open(LOOKUP_FILE, "r", encoding="utf-8") as f:
-                verbs = json.load(f)
-            verb = random.choice(list(verbs.keys()))
-            entry = random.choice(verbs[verb])
-            logger.info(f"Generated random verb: {verb}, translation: {entry['translation']}")
-            return VerbData(spanish=verb, english=entry["translation"])
+                data = json.load(f)
+
+            keys = list(data.keys())
+            random.shuffle(keys)
+
+            for key in keys:
+                for entry in data[key]:
+                    if entry.get("tense") == "Present":
+                        verb_spanish = entry["infinitive"]
+                        verb_english = entry["translation"]
+                        logger.info(
+                            f"Generated random verb: {verb_spanish}, translation: {verb_english}"
+                        )
+                        return VerbData(spanish=verb_spanish, english=verb_english)
         except:
             return VerbData("error", "error")
 

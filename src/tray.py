@@ -7,16 +7,19 @@ from paths import TRAY_ICON
 from logger import logger
 from settings_manager import save_settings
 
+
 class TrayController:
     def __init__(self, app):
         """
         app: reference to your main SpanishWidgetApp
         """
         self.app = app
-        self.icon = pystray.Icon("SpanishWidget", Image.open(TRAY_ICON), "Spanish Widget")
+        self.icon = pystray.Icon(
+            "SpanishWidget", Image.open(TRAY_ICON), "Spanish Widget"
+        )
         self.menu = pystray.Menu(
             pystray.MenuItem("Settings", self.open_settings),
-            pystray.MenuItem("Quit", self.quit_app)
+            pystray.MenuItem("Quit", self.quit_app),
         )
         self.icon.menu = self.menu
 
@@ -24,24 +27,25 @@ class TrayController:
         # Run tray in a background thread
         thread = threading.Thread(target=self.icon.run, daemon=True)
         thread.start()
-    
+
     def toggle_quiz(self, icon, item):
         self.app.toggle_quiz()  # delegate to app
 
     def set_interval(self, icon, item):
         def ask():
             import tkinter.simpledialog as simpledialog
+
             interval = simpledialog.askinteger(
                 "Quiz Interval",
                 "Enter interval in seconds:",  # seconds for easier testing
-                initialvalue=self.app.quiz_interval
+                initialvalue=self.app.quiz_interval,
             )
             if interval and interval > 0:
                 self.app.quiz_interval = interval
                 today = self.app.manager.get_today()
                 if today:
                     self.app.schedule_quiz(today["noun"])
-    
+
         # Run on Tk main thread
         self.app.root.after(0, ask)
 
@@ -61,13 +65,13 @@ class TrayController:
             container.pack(fill="both", expand=True)
 
             # Title
-            ttk.Label(container, text="Settings", font=("Segoe UI", 12, "bold")).pack(anchor="w", pady=(0, 10))
+            ttk.Label(container, text="Settings", font=("Segoe UI", 12, "bold")).pack(
+                anchor="w", pady=(0, 10)
+            )
 
             # Quiz enabled checkbox
             quiz_var = tk.BooleanVar(value=self.app.quiz_enabled)
-            chk = ttk.Checkbutton(
-                container, text="Enable Quizzes", variable=quiz_var
-            )
+            chk = ttk.Checkbutton(container, text="Enable Quizzes", variable=quiz_var)
             chk.pack(anchor="w", pady=5)
 
             # Interval row
@@ -76,7 +80,9 @@ class TrayController:
 
             ttk.Label(interval_frame, text="Quiz Interval (seconds):").pack(side="left")
             interval_var = tk.IntVar(value=self.app.quiz_interval)
-            spin = ttk.Spinbox(interval_frame, from_=1, to=3600, textvariable=interval_var, width=6)
+            spin = ttk.Spinbox(
+                interval_frame, from_=1, to=3600, textvariable=interval_var, width=6
+            )
             spin.pack(side="left", padx=(10, 0))
 
             # Buttons row
@@ -91,10 +97,11 @@ class TrayController:
                 save_settings(quiz_enabled, quiz_interval)
                 win.destroy()
 
-            ttk.Button(btn_frame, text="Save & Close", command=save_and_close).pack(side="right")
+            ttk.Button(btn_frame, text="Save & Close", command=save_and_close).pack(
+                side="right"
+            )
 
         self.app.root.after(0, show)
-
 
     def quit_app(self, icon, item):
         logger.info("Quitting the app")
