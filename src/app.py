@@ -5,15 +5,36 @@ from quiz import QuizDialog
 from tray import TrayController
 from logger import logger
 from datetime import date
-from utils import format_seconds
 from settings_manager import load_settings
 
+
+# === COLORS ===
 BG_COLOR = "#2e2e2e"
 TEXT_COLOR = "#f9f9f9"
 FRAME_COLOR = "#2e2e2e"
 SEPARATOR_COLOR = "black"
+HIGHLIGHTED_CELL_COLOR = "#1A1A1A"
+WINDOW_BG_COLOR = "white"
 
+# === LAYOUT ===
+WINDOW_MARGIN = 20
+WINDOW_WIDTH = 850
+WINDOW_HEIGHT = 500
+FRAME_PADX = 10
+FRAME_PADY = 5
+CELL_WIDTH = 15
+CELL_PADX = 5
+CELL_PADY = 5
+SECTION_PADX = 10
+SECTION_PADY = 5
+
+# === FONT ===
 FONT_NAME = "DejaVu Sans Mono"
+TITLE_FONT = (FONT_NAME, 13, "bold")
+SUBTITLE_FONT = (FONT_NAME, 12)
+CONTENT_FONT = (FONT_NAME, 11)
+CONJUGATION_HEADER_FONT = (FONT_NAME, 13, "bold")
+CONJUGATION_CELLS_FONT = (FONT_NAME, 11)
 
 
 class SpanishWidgetApp:
@@ -23,7 +44,7 @@ class SpanishWidgetApp:
         self.root = tk.Tk()
         self.root.title("Spanish Widget")
         self.root.overrideredirect(True)
-        self.root.config(bg="white")
+        self.root.config(bg=WINDOW_BG_COLOR)
 
         # Quiz
         settings = load_settings()
@@ -36,22 +57,18 @@ class SpanishWidgetApp:
         self.tray.start()
 
         # Position top-right with equal margins
-        margin = 20  # same distance from top and right
         screen_w = self.root.winfo_screenwidth()
+        x = screen_w - WINDOW_WIDTH + WINDOW_MARGIN - 30
+        y = WINDOW_MARGIN
+        self.root.geometry(f"{WINDOW_WIDTH}x{WINDOW_HEIGHT}+{x}+{y}")
 
-        w, h = 850, 500
-        x = screen_w - w + margin - 30
-        y = margin
-
-        self.root.geometry(f"{w}x{h}+{x}+{y}")
-
-        self.main_frame = tk.Frame(self.root, bg="white")
+        self.main_frame = tk.Frame(self.root, bg=WINDOW_BG_COLOR)
         self.main_frame.pack(padx=5, pady=5)
 
         # Windows click-through
         hwnd = ctypes.windll.user32.FindWindowW(None, self.root.title())
         ctypes.windll.user32.SetWindowLongW(hwnd, -20, 0x80000 | 0x20)
-        self.root.attributes("-transparentcolor", "white")
+        self.root.attributes("-transparentcolor", WINDOW_BG_COLOR)
         self.root.attributes("-topmost", False)
 
         # Get today's data
@@ -76,24 +93,25 @@ class SpanishWidgetApp:
 
         def build_frame(title, content_top, content_bottom):
             f = tk.Frame(
-                self.main_frame, bg=FRAME_COLOR, bd=2, relief="ridge", padx=10, pady=5
+                self.main_frame,
+                bg=FRAME_COLOR,
+                bd=2,
+                relief="ridge",
+                padx=FRAME_PADX,
+                pady=FRAME_PADY,
             )
             tk.Label(
-                f, text=title, font=(FONT_NAME, 13, "bold"), bg=FRAME_COLOR, fg=TEXT_COLOR
+                f, text=title, font=TITLE_FONT, bg=FRAME_COLOR, fg=TEXT_COLOR
             ).pack(anchor="w")
             tk.Frame(f, height=1, bg=SEPARATOR_COLOR).pack(fill="x", pady=4)
             tk.Label(
-                f, text=content_top, font=(FONT_NAME, 12), bg=FRAME_COLOR, fg=TEXT_COLOR
+                f, text=content_top, font=SUBTITLE_FONT, bg=FRAME_COLOR, fg=TEXT_COLOR
             ).pack(anchor="w")
             tk.Frame(f, height=1, bg=SEPARATOR_COLOR).pack(fill="x", pady=4)
             tk.Label(
-                f,
-                text=content_bottom,
-                font=(FONT_NAME, 11),
-                bg=FRAME_COLOR,
-                fg=TEXT_COLOR,
+                f, text=content_bottom, font=CONTENT_FONT, bg=FRAME_COLOR, fg=TEXT_COLOR
             ).pack(anchor="w")
-            f.pack(fill="x", padx=10, pady=5)
+            f.pack(fill="x", padx=SECTION_PADX, pady=SECTION_PADY)
 
         build_frame(
             "Random noun", data["noun"]["spanish"].upper(), data["noun"]["english"]
@@ -104,61 +122,90 @@ class SpanishWidgetApp:
 
         # Conjugation table
         conj_frame = tk.Frame(
-            self.main_frame, bg=BG_COLOR, bd=2, relief="ridge", padx=5, pady=5
+            self.main_frame,
+            bg=BG_COLOR,
+            bd=2,
+            relief="ridge",
+            padx=FRAME_PADX,
+            pady=FRAME_PADY,
         )
         tk.Label(
             conj_frame,
             text="Conjugation",
-            font=(FONT_NAME, 13, "bold"),
+            font=CONJUGATION_HEADER_FONT,
             bg=BG_COLOR,
             fg=TEXT_COLOR,
         ).grid(row=0, column=0, columnspan=len(data["conjugation"][0]), pady=(0, 5))
-        for i, row in enumerate(data["conjugation"][:10]):
-            for j, cell in enumerate(row):
-                font_style = (
-                    (FONT_NAME, 11, "bold") if i == 0 or j == 0 else (FONT_NAME, 11)
-                )
 
-                tk.Label(
+        # Keep references to row widgets
+        self.row_widgets = []
+        self.active_col = None  # track highlighted column
+
+        for i, row in enumerate(data["conjugation"][:10]):
+            row_labels = []
+            for j, cell in enumerate(row):
+                label = tk.Label(
                     conj_frame,
                     text=cell,
-                    font=font_style,
+                    font=CONJUGATION_CELLS_FONT,
                     bg=BG_COLOR,
                     fg=TEXT_COLOR,
                     borderwidth=1,
                     relief="solid",
-                    padx=5,
-                    pady=5,
-                    width=15,
-                ).grid(row=i + 1, column=j, sticky="nsew")
+                    padx=CELL_PADX,
+                    pady=CELL_PADY,
+                    width=CELL_WIDTH,
+                )
+                label.grid(row=i + 1, column=j, sticky="nsew")
                 conj_frame.grid_columnconfigure(j, weight=1)
-        conj_frame.pack(fill="x", padx=10, pady=5)
+
+                # Bind click handler to column index
+                label.bind("<Button-1>", lambda e, c=j: self.highlight_column(c))
+
+                row_labels.append(label)
+            self.row_widgets.append(row_labels)
+
+        conj_frame.pack(fill="x", padx=SECTION_PADX, pady=SECTION_PADY)
+
+    def highlight_column(self, col_index):
+        """Toggle highlight for the clicked column."""
+        if self.active_col == col_index:
+            for row in self.row_widgets:
+                for label in row:
+                    label.config(bg=BG_COLOR, font=CONJUGATION_CELLS_FONT)
+            self.active_col = None
+            return
+
+        for i, row in enumerate(self.row_widgets):
+            for j, label in enumerate(row):
+                if j == col_index:
+                    label.config(
+                        bg=HIGHLIGHTED_CELL_COLOR,
+                        font=(FONT_NAME, CONJUGATION_CELLS_FONT[1], "bold"),
+                    )
+                else:
+                    label.config(bg=BG_COLOR, font=CONJUGATION_CELLS_FONT)
+
+        self.active_col = col_index
 
     def schedule_quiz(self, noun):
-        """Schedule or cancel the quiz depending on quiz_enabled."""
-        # Cancel any existing scheduled quiz
         if self._quiz_job:
             self.root.after_cancel(self._quiz_job)
             self._quiz_job = None
-
         if not self.quiz_enabled:
-            return  # don’t reschedule if disabled
-
-        # Reschedule new quiz
+            return
         self._quiz_job = self.root.after(
             self.quiz_interval * 1000,
             lambda: (QuizDialog(self.root, noun), self.schedule_quiz(noun)),
         )
 
     def set_quiz_enabled(self, enabled: bool):
-        """Enable or disable quizzes and reschedule accordingly."""
         self.quiz_enabled = enabled
         today = self.manager.get_today()
         if today:
             self.schedule_quiz(today["noun"])
 
     def set_quiz_interval(self, seconds: int):
-        """Update quiz interval (in seconds) and reschedule."""
         self.quiz_interval = seconds
         today = self.manager.get_today()
         if today:
