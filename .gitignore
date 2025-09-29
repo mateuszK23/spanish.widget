@@ -31,3 +31,5 @@ Thumbs.db
 # ---- Other common ignores ----
 *.sqlite3
 *.db
+
+launch.bat

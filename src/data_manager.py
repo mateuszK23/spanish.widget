@@ -2,7 +2,7 @@ import os, json, requests, random
 from bs4 import BeautifulSoup
 from dataclasses import dataclass
 from datetime import date
-from paths import LOOKUP_FILE, HISTORY_FILE
+from paths import LOOKUP_FILE, HISTORY_FILE, FALLBACK_NOUNS_FILE
 from logger import logger
 import time
 
@@ -17,7 +17,16 @@ class VerbData:
     spanish: str
     english: str
 
+# --- Helpers ---
+def load_fallback_words():
+    with open(FALLBACK_NOUNS_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
 
+def get_fallback_word():
+    words = load_fallback_words()
+    entry = random.choice(words)
+    return NounData(spanish=entry["word"], english=entry["definition"])
+    
 class DailyDataManager:
     def __init__(self):
         self.history = self._load_history()
@@ -47,33 +56,27 @@ class DailyDataManager:
         self.save_history()
 
     # --- Fetchers ---
-    def random_noun(self) -> NounData:
-        """Fetch a random noun from the API, retrying until success.
-        Handles rate limits with longer backoff on 429 responses.
-        """
-        while True:
-            try:
-                resp = requests.get(
-                    "https://random-words-api.vercel.app/word/spanish",
-                    timeout=5
-                )
-
-                if resp.status_code == 429:
-                    logger.warning("Rate limited (429). Waiting 60s before retrying...")
-                    time.sleep(60)
-                    continue
-
-                resp.raise_for_status()
+    def random_noun(self) -> "NounData":
+        """Fetch a random noun from the API once; if it fails, use local JSON fallback."""
+        try:
+            resp = requests.get(
+                "https://random-words-api.vercel.app/word/spanish",
+                timeout=5
+            )
+            if resp.status_code == 200:
                 data = resp.json()
-
-                noun_spanish = data[0]['word']
-                noun_english = data[0]['definition']
+                noun_spanish = data[0]["word"]
+                noun_english = data[0]["definition"]
                 logger.info(f"Generated random noun: {noun_spanish}, translation: {noun_english}")
                 return NounData(spanish=noun_spanish, english=noun_english)
-
-            except requests.RequestException as e:
-                logger.warning(f"Failed to generate a noun (retrying in 15s): {e}")
-                time.sleep(15)
+            else:
+                noun = get_fallback_word()
+                logger.warning(f"API returned {resp.status_code}, using a random fallback noun: {noun}")
+                return noun
+        except requests.RequestException as e:
+            noun = get_fallback_word()
+            logger.warning(f"API request failed: {e}. Using a random fallback noun: {noun}")
+            return noun
 
     def random_verb(self) -> VerbData:
         try:

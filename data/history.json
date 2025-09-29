@@ -1,0 +1,70 @@
+{
+  "2025-09-29": {
+    "noun": {
+      "spanish": "dinero",
+      "english": "money"
+    },
+    "verb": {
+      "spanish": "molestábamos",
+      "english": "to bother; annoy; inconovenience; put out; upset"
+    },
+    "conjugation": [
+      [
+        "",
+        "Present",
+        "Preterite",
+        "Imperfect",
+        "Conditional",
+        "Future"
+      ],
+      [
+        "yo",
+        "molesto",
+        "molesté",
+        "molestaba",
+        "molestaría",
+        "molestaré"
+      ],
+      [
+        "tú",
+        "molestas",
+        "molestaste",
+        "molestabas",
+        "molestarías",
+        "molestarás"
+      ],
+      [
+        "él/ella/Ud.",
+        "molesta",
+        "molestó",
+        "molestaba",
+        "molestaría",
+        "molestará"
+      ],
+      [
+        "nosotros",
+        "molestamos",
+        "molestamos",
+        "molestábamos",
+        "molestaríamos",
+        "molestaremos"
+      ],
+      [
+        "vosotros",
+        "molestáis",
+        "molestasteis",
+        "molestabais",
+        "molestaríais",
+        "molestaréis"
+      ],
+      [
+        "ellos/ellas/Uds.",
+        "molestan",
+        "molestaron",
+        "molestaban",
+        "molestarían",
+        "molestarán"
+      ]
+    ]
+  }
+}
