@@ -34,12 +34,11 @@ class SpanishWidgetApp:
         self.tray.start()
 
         # Position top-right with equal margins
-        margin = 30  # same distance from top and right
+        margin = 40  # same distance from top and right
         screen_w = self.root.winfo_screenwidth()
-        offset = 70
 
         w, h = 850, 500
-        x = screen_w - w - margin + offset
+        x = screen_w - w + margin
         y = margin
 
         self.root.geometry(f"{w}x{h}+{x}+{y}")
