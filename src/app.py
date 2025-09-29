@@ -33,10 +33,16 @@ class SpanishWidgetApp:
         self.tray = TrayController(self)
         self.tray.start()
 
-        # Position top-right
-        w, h = 650, 500
-        x = self.root.winfo_screenwidth() - w - 10
-        self.root.geometry(f"{w}x{h}+{x}+10")
+        # Position top-right with equal margins
+        margin = 30  # same distance from top and right
+        screen_w = self.root.winfo_screenwidth()
+        offset = 70
+
+        w, h = 850, 500
+        x = screen_w - w - margin + offset
+        y = margin
+
+        self.root.geometry(f"{w}x{h}+{x}+{y}")
 
         self.main_frame = tk.Frame(self.root, bg="white")
         self.main_frame.pack(padx=5, pady=5)
