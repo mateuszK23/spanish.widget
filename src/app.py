@@ -13,6 +13,8 @@ TEXT_COLOR = "#f9f9f9"
 FRAME_COLOR = "#2e2e2e"
 SEPARATOR_COLOR = "black"
 
+FONT_NAME = "DejaVu Sans Mono"
+
 
 class SpanishWidgetApp:
     def __init__(self):
@@ -34,11 +36,11 @@ class SpanishWidgetApp:
         self.tray.start()
 
         # Position top-right with equal margins
-        margin = 40  # same distance from top and right
+        margin = 20  # same distance from top and right
         screen_w = self.root.winfo_screenwidth()
 
         w, h = 850, 500
-        x = screen_w - w + margin
+        x = screen_w - w + margin - 30
         y = margin
 
         self.root.geometry(f"{w}x{h}+{x}+{y}")
@@ -77,17 +79,17 @@ class SpanishWidgetApp:
                 self.main_frame, bg=FRAME_COLOR, bd=2, relief="ridge", padx=10, pady=5
             )
             tk.Label(
-                f, text=title, font=("Arial", 13, "bold"), bg=FRAME_COLOR, fg=TEXT_COLOR
+                f, text=title, font=(FONT_NAME, 13, "bold"), bg=FRAME_COLOR, fg=TEXT_COLOR
             ).pack(anchor="w")
             tk.Frame(f, height=1, bg=SEPARATOR_COLOR).pack(fill="x", pady=4)
             tk.Label(
-                f, text=content_top, font=("Arial", 12), bg=FRAME_COLOR, fg=TEXT_COLOR
+                f, text=content_top, font=(FONT_NAME, 12), bg=FRAME_COLOR, fg=TEXT_COLOR
             ).pack(anchor="w")
             tk.Frame(f, height=1, bg=SEPARATOR_COLOR).pack(fill="x", pady=4)
             tk.Label(
                 f,
                 text=content_bottom,
-                font=("Arial", 11),
+                font=(FONT_NAME, 11),
                 bg=FRAME_COLOR,
                 fg=TEXT_COLOR,
             ).pack(anchor="w")
@@ -107,22 +109,27 @@ class SpanishWidgetApp:
         tk.Label(
             conj_frame,
             text="Conjugation",
-            font=("Arial", 13, "bold"),
+            font=(FONT_NAME, 13, "bold"),
             bg=BG_COLOR,
             fg=TEXT_COLOR,
         ).grid(row=0, column=0, columnspan=len(data["conjugation"][0]), pady=(0, 5))
         for i, row in enumerate(data["conjugation"][:10]):
             for j, cell in enumerate(row):
+                font_style = (
+                    (FONT_NAME, 11, "bold") if i == 0 or j == 0 else (FONT_NAME, 11)
+                )
+
                 tk.Label(
                     conj_frame,
                     text=cell,
-                    font=("Courier", 10),
+                    font=font_style,
                     bg=BG_COLOR,
                     fg=TEXT_COLOR,
                     borderwidth=1,
                     relief="solid",
                     padx=5,
-                    pady=2,
+                    pady=5,
+                    width=15,
                 ).grid(row=i + 1, column=j, sticky="nsew")
                 conj_frame.grid_columnconfigure(j, weight=1)
         conj_frame.pack(fill="x", padx=10, pady=5)
