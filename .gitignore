@@ -1,0 +1,33 @@
+# ---- Python build/cache ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- Distribution / packaging ----
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Logs ----
+*.log
+!logs/.gitkeep   # keep logs/ folder if you add a .gitkeep placeholder
+
+# ---- IDE / Editor settings ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- OS-specific junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Other common ignores ----
+*.sqlite3
+*.db
