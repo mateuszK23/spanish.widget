@@ -18,6 +18,7 @@ class TrayController:
             "SpanishWidget", Image.open(TRAY_ICON), "Spanish Widget"
         )
         self.menu = pystray.Menu(
+            pystray.MenuItem("Refresh Now", self.refresh_now),
             pystray.MenuItem("Settings", self.open_settings),
             pystray.MenuItem("Quit", self.quit_app),
         )
@@ -102,6 +103,10 @@ class TrayController:
             )
 
         self.app.root.after(0, show)
+
+    def refresh_now(self):
+        logger.info("Manual refresh triggered from tray")
+        self.app.root.after(0, self.app.regenerate_data_for_today) 
 
     def quit_app(self, icon, item):
         logger.info("Quitting the app")

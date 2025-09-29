@@ -53,8 +53,8 @@ class DailyDataManager:
         today = str(date.today())
         logger.info(f"Saving data for today: noun: {noun}, verb: {verb}")
         self.history[today] = {
-            "noun": noun.__dict__,
-            "verb": verb.__dict__,
+            "noun": noun,
+            "verb": verb,
             "conjugation": conjug,
         }
         self.save_history()

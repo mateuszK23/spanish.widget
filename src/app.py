@@ -100,6 +100,12 @@ class SpanishWidgetApp:
         self.root.attributes("-transparentcolor", WINDOW_BG_COLOR)
         self.root.attributes("-topmost", False)
 
+    def _generate_data(self):
+        noun = self.manager.random_noun()
+        verb = self.manager.random_verb()
+        conj = self.manager.conjugation(verb.spanish)
+        return  {"noun": noun.__dict__, "verb": verb.__dict__, "conjugation": conj}
+
     # === Data loading ===
     def _load_today_data(self):
         logger.info(f"Checking if there is an entry for {str(date.today())}")
@@ -109,12 +115,16 @@ class SpanishWidgetApp:
             return data
 
         logger.info("Data not found, generating new")
-        noun = self.manager.random_noun()
-        verb = self.manager.random_verb()
-        conj = self.manager.conjugation(verb.spanish)
-        data = {"noun": noun.__dict__, "verb": verb.__dict__, "conjugation": conj}
-        self.manager.save_today(noun, verb, conj)
-        return data
+        generated_data = self._generate_data()
+        self.manager.save_today(generated_data['noun'], generated_data['verb'], generated_data['conjugation'])
+        return generated_data
+
+    def regenerate_data_for_today(self):
+        generated_data = self._generate_data()
+        self.manager.save_today(generated_data['noun'], generated_data['verb'], generated_data['conjugation'])
+
+        self.display_data(generated_data)
+        self.schedule_quiz(generated_data["noun"])
 
     # === Display ===
     def display_data(self, data):
