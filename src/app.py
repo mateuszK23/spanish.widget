@@ -108,11 +108,6 @@ class SpanishWidgetApp:
 
     def set_quiz_enabled(self, enabled: bool):
         """Enable or disable quizzes and reschedule accordingly."""
-        if enabled:
-            logger.info("Toggling on the quiz")
-        else:
-            logger.info("Toggling off the quiz")
-
         self.quiz_enabled = enabled
         today = self.manager.get_today()
         if today:
@@ -120,7 +115,6 @@ class SpanishWidgetApp:
 
     def set_quiz_interval(self, seconds: int):
         """Update quiz interval (in seconds) and reschedule."""
-        logger.info(f"Updating quiz interval to: {seconds}s, which is {format_seconds(seconds)}")
         self.quiz_interval = seconds
         today = self.manager.get_today()
         if today:
