@@ -11,6 +11,7 @@ DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 LOGS_DIR = os.path.join(PROJECT_ROOT, "logs")
 ASSETS_DIR = os.path.join(PROJECT_ROOT, "assets")
 DICTIONARY_DIR = os.path.join(PROJECT_ROOT, "dictionary")
+UI_DIR = os.path.join(PROJECT_ROOT, "ui")
 
 # Ensure all directories exist
 for dir in (DATA_DIR, LOGS_DIR, ASSETS_DIR, DICTIONARY_DIR):
@@ -22,3 +23,4 @@ FALLBACK_NOUNS_FILE = os.path.join(DICTIONARY_DIR, "fallback_nouns.json")
 HISTORY_FILE = os.path.join(DATA_DIR, "history.json")
 SETTINGS_FILE = os.path.join(DATA_DIR, "settings.json")
 TRAY_ICON = os.path.join(ASSETS_DIR, "dictionary.ico")
+MAIN_WIDGET_UI = os.path.join(UI_DIR, "main_widget.ui")
