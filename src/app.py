@@ -66,7 +66,7 @@ class SettingsDialog(QDialog):
 class SpanishWidget(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        logger.info("Starting PySide6 SpanishWidgetApp")
+        logger.info("Starting SpanishWidget")
         self.manager = DailyDataManager()
 
         # Load UI
