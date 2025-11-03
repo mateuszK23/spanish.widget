@@ -86,6 +86,7 @@ class SpanishWidget(QtWidgets.QMainWindow):
         settings = load_settings()
         self.quiz_enabled = settings["quiz_enabled"]
         self.quiz_interval = settings["quiz_interval"]
+        self.tense_filters = settings.get("tense_filters", {})
         self._quiz_timer = None
 
         logger.info(f"Loaded settings: {settings}")
@@ -212,7 +213,8 @@ class SpanishWidget(QtWidgets.QMainWindow):
         for tense in ["Present", "Preterite", "Imperfect", "Conditional", "Future"]:
             action = QAction(tense, menu)
             action.setCheckable(True)
-            action.setChecked(True)
+            # Use saved filter state
+            action.setChecked(self.tense_filters.get(tense, True))
             action.triggered.connect(
                 lambda checked, t=tense: self.toggle_tense(t, checked)
             )
@@ -221,6 +223,10 @@ class SpanishWidget(QtWidgets.QMainWindow):
 
         menu.aboutToShow.connect(lambda: self.conjugationTable.clearSelection())
         self.ui.filterButton.setMenu(menu)
+
+        # Apply filters on startup
+        for tense, checked in self.tense_filters.items():
+            self.toggle_tense(tense, checked)
 
     def toggle_tense(self, tense, checked):
         col_map = {
@@ -232,6 +238,10 @@ class SpanishWidget(QtWidgets.QMainWindow):
         }
         if tense in col_map:
             self.conjugationTable.setColumnHidden(col_map[tense], not checked)
+
+        # Save the change to settings
+        self.tense_filters[tense] = checked
+        save_settings(self.quiz_enabled, self.quiz_interval, self.tense_filters)
 
     # === Quiz ===
     def schedule_quiz(self, noun):
