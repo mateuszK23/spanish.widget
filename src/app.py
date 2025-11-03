@@ -146,17 +146,21 @@ class SpanishWidget(QtWidgets.QMainWindow):
         self.ui.verbEnglishLabel.setText(verb_data["english"])
 
     def populate_conjugation_table(self, conjugation):
-        rows = len(conjugation) - 1
-        cols = len(conjugation[0]) - 1
+        filtered_conjugation = [
+            row for row in conjugation if not (row and "vosotros" in row[0].lower())
+        ]
+
+        rows = len(filtered_conjugation) - 1
+        cols = len(filtered_conjugation[0]) - 1
 
         table = self.conjugationTable
         table.clear()
         table.setRowCount(rows)
         table.setColumnCount(cols)
-        table.setHorizontalHeaderLabels(conjugation[0][1:])
+        table.setHorizontalHeaderLabels(filtered_conjugation[0][1:])
 
         vertical_headers = []
-        for i, row_data in enumerate(conjugation[1:]):
+        for i, row_data in enumerate(filtered_conjugation[1:]):
             for j, cell in enumerate(row_data):
                 if j == 0:
                     vertical_headers.append(cell)

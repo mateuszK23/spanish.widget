@@ -1,3 +1,4 @@
+import sys, os
 from PySide6 import QtWidgets
 
 
@@ -22,3 +23,9 @@ def center_on_screen(widget):
     x = screen.center().x() - size.width() // 2
     y = screen.center().y() - size.height() // 2
     widget.move(x, y)
+
+def resource_path(path):
+    if hasattr(sys, "_MEIPASS"):
+        # PyInstaller bundled resource
+        return os.path.join(sys._MEIPASS, path)
+    return os.path.abspath(path)
