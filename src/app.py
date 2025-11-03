@@ -1,5 +1,5 @@
 from datetime import date
-from PySide6 import QtUiTools, QtCore, QtWidgets
+from PySide6 import QtUiTools, QtCore, QtWidgets, QtGui
 from PySide6.QtWidgets import (
     QMenu,
     QHeaderView,
@@ -102,6 +102,26 @@ class SpanishWidget(QtWidgets.QMainWindow):
 
         # Setup UI behavior
         self.populate_filter_menu()
+
+        # Drag events
+        self.ui.dragButton.pressed.connect(self.start_drag)
+        self.ui.dragButton.released.connect(self.end_drag)
+
+    def start_drag(self):
+        self._drag_active = True
+        self._drag_offset = QtGui.QCursor.pos() - self.frameGeometry().topLeft()
+        QtWidgets.QApplication.instance().installEventFilter(self)
+
+    def end_drag(self):
+        self._drag_active = False
+        QtWidgets.QApplication.instance().removeEventFilter(self)
+
+    def eventFilter(self, obj, event):
+        if self._drag_active and event.type() == QtCore.QEvent.MouseMove:
+            cursor_pos = QtGui.QCursor.pos()
+            self.move(cursor_pos - self._drag_offset)
+            return True
+        return super().eventFilter(obj, event)
 
     # === Data management ===
     def _generate_data(self):
