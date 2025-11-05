@@ -1,10 +1,10 @@
-import os, json, requests, random
-from bs4 import BeautifulSoup
+import os, json
 from dataclasses import dataclass
 from datetime import date
-from paths import LOOKUP_FILE, HISTORY_FILE, FALLBACK_NOUNS_FILE
+from paths import HISTORY_FILE, NOUNS_FILE, VERBS_FILE, SENTENCES_FILE
 from logger import logger
-import time
+import random
+from spanishconjugator import Conjugator
 
 
 @dataclass
@@ -17,18 +17,6 @@ class NounData:
 class VerbData:
     spanish: str
     english: str
-
-
-# --- Helpers ---
-def load_fallback_words():
-    with open(FALLBACK_NOUNS_FILE, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def get_fallback_word():
-    words = load_fallback_words()
-    entry = random.choice(words)
-    return NounData(spanish=entry["word"], english=entry["definition"])
 
 
 class DailyDataManager:
@@ -61,62 +49,46 @@ class DailyDataManager:
 
     # --- Fetchers ---
     def random_noun(self) -> "NounData":
-        """Fetch a random noun from the API once; if it fails, use local JSON fallback."""
-        try:
-            resp = requests.get(
-                "https://random-words-api.vercel.app/word/spanish", timeout=5
-            )
-            if resp.status_code == 200:
-                data = resp.json()
-                noun_spanish = data[0]["word"]
-                noun_english = data[0]["definition"]
-                logger.info(
-                    f"Generated random noun: {noun_spanish}, translation: {noun_english}"
-                )
-                return NounData(spanish=noun_spanish, english=noun_english)
-            else:
-                noun = get_fallback_word()
-                logger.warning(
-                    f"API returned {resp.status_code}, using a random fallback noun: {noun}"
-                )
-                return noun
-        except requests.RequestException as e:
-            noun = get_fallback_word()
-            logger.warning(
-                f"API request failed: {e}. Using a random fallback noun: {noun}"
-            )
-            return noun
+        """Fetch a random noun"""
+        with open(NOUNS_FILE, "r", encoding="utf-8") as f:
+            json_data = json.load(f)
+
+        noun_entry = random.choice(json_data)
+        return NounData(spanish=noun_entry["es_noun"], english=noun_entry["en_noun"])
 
     def random_verb(self) -> VerbData:
-        try:
-            with open(LOOKUP_FILE, "r", encoding="utf-8") as f:
-                data = json.load(f)
+        with open(VERBS_FILE, "r", encoding="utf-8") as f:
+            json_data = json.load(f)
 
-            keys = list(data.keys())
-            random.shuffle(keys)
-
-            for key in keys:
-                for entry in data[key]:
-                    if entry.get("tense") == "Present":
-                        verb_spanish = entry["infinitive"]
-                        verb_english = entry["translation"]
-                        logger.info(
-                            f"Generated random verb: {verb_spanish}, translation: {verb_english}"
-                        )
-                        return VerbData(spanish=verb_spanish, english=verb_english)
-        except:
-            return VerbData("error", "error")
+        verb_entry = random.choice(json_data)
+        return VerbData(spanish=verb_entry["es_verb"], english=verb_entry["en_verb"])
 
     def conjugation(self, verb: str):
-        try:
-            url = f"https://www.spanishdict.com/conjugate/{verb}"
-            soup = BeautifulSoup(requests.get(url, timeout=5).text, "html.parser")
-            table = soup.find("table", {"class": "sTe03NLF"})
-            if not table:
-                return [["Conjugation not found"]]
-            return [
-                [cell.get_text(strip=True) for cell in row.find_all(["th", "td"])]
-                for row in table.find_all("tr")
-            ]
-        except:
-            return [["Error fetching conjugation"]]
+        conj = Conjugator()
+        tenses = ["present", "preterite", "imperfect", "conditional", "future"]
+        persons = ["yo", "tu", "el/ella/usted", "nosotros", "ellos/ellas/ustedes"]
+
+        table = []
+        for person in persons:
+            row = [person]
+            for tense in tenses:
+                try:
+                    if tense == "conditional":
+                        temp = conj.conjugate(verb, "simple_conditional", "conditional")
+                    else:
+                        temp = conj.conjugate(verb, tense, "indicative")
+                    form = temp[person].encode("latin1").decode("utf-8")
+                except Exception:
+                    form = "-"
+                row.append(form)
+            table.append(row)
+
+        headers = [[""] + [t.capitalize() for t in tenses]]
+
+        for row in table:
+            if row[0] == "el/ella/usted":
+                row[0] = "el/ella/Ud."
+            elif row[0] == "ellos/ellas/ustedes":
+                row[0] = "ellos/ellas/Uds."
+
+        return headers + table

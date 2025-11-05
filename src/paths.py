@@ -26,15 +26,16 @@ HISTORY_FILE = os.path.join(DATA_DIR, "history.json")
 SETTINGS_FILE = os.path.join(DATA_DIR, "settings.json")
 
 # === Read-only files (use resource_path) ===
-LOOKUP_FILE = resource_path(os.path.join(DICTIONARY_DIR, "jehle_verb_lookup.json"))
-FALLBACK_NOUNS_FILE = resource_path(os.path.join(DICTIONARY_DIR, "fallback_nouns.json"))
+VERBS_FILE = resource_path(os.path.join(DICTIONARY_DIR, "verbs.json"))
+NOUNS_FILE = resource_path(os.path.join(DICTIONARY_DIR, "nouns.json"))
+SENTENCES_FILE = resource_path(os.path.join(DICTIONARY_DIR, "sentences.json"))
 TRAY_ICON = resource_path(os.path.join(ASSETS_DIR, "dictionary.ico"))
 MAIN_WIDGET_UI = resource_path(os.path.join(UI_DIR, "main_widget.ui"))
 
 
 ## DEV -> Uncomment to develop, comment out section above
 
-# # Directory of the current file (src/)
+# Directory of the current file (src/)
 # BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # # Project root (parent)
@@ -52,8 +53,10 @@ MAIN_WIDGET_UI = resource_path(os.path.join(UI_DIR, "main_widget.ui"))
 #     os.makedirs(dir, exist_ok=True)
 
 # # Files
-# LOOKUP_FILE = os.path.join(DICTIONARY_DIR, "jehle_verb_lookup.json")
-# FALLBACK_NOUNS_FILE = os.path.join(DICTIONARY_DIR, "fallback_nouns.json")
+# VERBS_FILE = os.path.join(DICTIONARY_DIR, "verbs.json")
+# NOUNS_FILE = os.path.join(DICTIONARY_DIR, "nouns.json")
+# SENTENCES_FILE = os.path.join(DICTIONARY_DIR, "sentences.json")
+
 # HISTORY_FILE = os.path.join(DATA_DIR, "history.json")
 # SETTINGS_FILE = os.path.join(DATA_DIR, "settings.json")
 # TRAY_ICON = os.path.join(ASSETS_DIR, "dictionary.ico")

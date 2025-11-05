@@ -1,0 +1,7998 @@
+[
+  {
+    "es_noun": "el tiempo",
+    "en_noun": "time"
+  },
+  {
+    "es_noun": "el hombre",
+    "en_noun": "man"
+  },
+  {
+    "es_noun": "el camino",
+    "en_noun": "way"
+  },
+  {
+    "es_noun": "la gente",
+    "en_noun": "people"
+  },
+  {
+    "es_noun": "la vida",
+    "en_noun": "life"
+  },
+  {
+    "es_noun": "el día",
+    "en_noun": "day"
+  },
+  {
+    "es_noun": "el trabajo",
+    "en_noun": "work"
+  },
+  {
+    "es_noun": "la llamada",
+    "en_noun": "call"
+  },
+  {
+    "es_noun": "la noche",
+    "en_noun": "night"
+  },
+  {
+    "es_noun": "el hogar",
+    "en_noun": "home"
+  },
+  {
+    "es_noun": "el pensamiento",
+    "en_noun": "thought"
+  },
+  {
+    "es_noun": "el dinero",
+    "en_noun": "money"
+  },
+  {
+    "es_noun": "el nombre",
+    "en_noun": "name"
+  },
+  {
+    "es_noun": "el padre",
+    "en_noun": "father"
+  },
+  {
+    "es_noun": "el chico",
+    "en_noun": "guy"
+  },
+  {
+    "es_noun": "el lugar",
+    "en_noun": "place"
+  },
+  {
+    "es_noun": "el sentimiento",
+    "en_noun": "feel"
+  },
+  {
+    "es_noun": "la chica",
+    "en_noun": "girl"
+  },
+  {
+    "es_noun": "la casa",
+    "en_noun": "house"
+  },
+  {
+    "es_noun": "la izquierda",
+    "en_noun": "left"
+  },
+  {
+    "es_noun": "la derecha",
+    "en_noun": "right"
+  },
+  {
+    "es_noun": "la madre",
+    "en_noun": "mother"
+  },
+  {
+    "es_noun": "el curso",
+    "en_noun": "course"
+  },
+  {
+    "es_noun": "el papá",
+    "en_noun": "dad"
+  },
+  {
+    "es_noun": "el mundo",
+    "en_noun": "world"
+  },
+  {
+    "es_noun": "el hijo",
+    "en_noun": "son"
+  },
+  {
+    "es_noun": "el coche",
+    "en_noun": "car"
+  },
+  {
+    "es_noun": "la mujer",
+    "en_noun": "woman"
+  },
+  {
+    "es_noun": "el amigo",
+    "en_noun": "friend"
+  },
+  {
+    "es_noun": "la mente",
+    "en_noun": "mind"
+  },
+  {
+    "es_noun": "la cabeza",
+    "en_noun": "head"
+  },
+  {
+    "es_noun": "la mamá",
+    "en_noun": "mom"
+  },
+  {
+    "es_noun": "el niño",
+    "en_noun": "boy"
+  },
+  {
+    "es_noun": "el trabajo",
+    "en_noun": "job"
+  },
+  {
+    "es_noun": "el bebé",
+    "en_noun": "baby"
+  },
+  {
+    "es_noun": "la familia",
+    "en_noun": "family"
+  },
+  {
+    "es_noun": "la habitación",
+    "en_noun": "room"
+  },
+  {
+    "es_noun": "el hermano",
+    "en_noun": "brother"
+  },
+  {
+    "es_noun": "la cabeza",
+    "en_noun": "head"
+  },
+  {
+    "es_noun": "la idea",
+    "en_noun": "idea"
+  },
+  {
+    "es_noun": "la esposa",
+    "en_noun": "wife"
+  },
+  {
+    "es_noun": "el inicio",
+    "en_noun": "start"
+  },
+  {
+    "es_noun": "la puerta",
+    "en_noun": "door"
+  },
+  {
+    "es_noun": "el pedazo",
+    "en_noun": "bit"
+  },
+  {
+    "es_noun": "la materia",
+    "en_noun": "matter"
+  },
+  {
+    "es_noun": "la carrera",
+    "en_noun": "run"
+  },
+  {
+    "es_noun": "la escuela",
+    "en_noun": "school"
+  },
+  {
+    "es_noun": "el juego",
+    "en_noun": "play"
+  },
+  {
+    "es_noun": "el problema",
+    "en_noun": "problem"
+  },
+  {
+    "es_noun": "el fin",
+    "en_noun": "end"
+  },
+  {
+    "es_noun": "el teléfono",
+    "en_noun": "phone"
+  },
+  {
+    "es_noun": "la esperanza",
+    "en_noun": "hope"
+  },
+  {
+    "es_noun": "la excusa",
+    "en_noun": "excuse"
+  },
+  {
+    "es_noun": "la cara",
+    "en_noun": "face"
+  },
+  {
+    "es_noun": "el turno",
+    "en_noun": "turn"
+  },
+  {
+    "es_noun": "la policía",
+    "en_noun": "police"
+  },
+  {
+    "es_noun": "el corazón",
+    "en_noun": "heart"
+  },
+  {
+    "es_noun": "la preocupación",
+    "en_noun": "worry"
+  },
+  {
+    "es_noun": "el negocio",
+    "en_noun": "business"
+  },
+  {
+    "es_noun": "el reloj",
+    "en_noun": "watch"
+  },
+  {
+    "es_noun": "el año",
+    "en_noun": "year"
+  },
+  {
+    "es_noun": "la mano",
+    "en_noun": "hand"
+  },
+  {
+    "es_noun": "el médico",
+    "en_noun": "doctor"
+  },
+  {
+    "es_noun": "la sentada",
+    "en_noun": "sit"
+  },
+  {
+    "es_noun": "el segundo",
+    "en_noun": "second"
+  },
+  {
+    "es_noun": "el niño",
+    "en_noun": "kid"
+  },
+  {
+    "es_noun": "el pago",
+    "en_noun": "pay"
+  },
+  {
+    "es_noun": "la agua",
+    "en_noun": "water"
+  },
+  {
+    "es_noun": "la muerte",
+    "en_noun": "death"
+  },
+  {
+    "es_noun": "la cosas",
+    "en_noun": "stuff"
+  },
+  {
+    "es_noun": "el minuto",
+    "en_noun": "minute"
+  },
+  {
+    "es_noun": "la parte",
+    "en_noun": "part"
+  },
+  {
+    "es_noun": "la persona",
+    "en_noun": "person"
+  },
+  {
+    "es_noun": "la bebida",
+    "en_noun": "drink"
+  },
+  {
+    "es_noun": "el cambio",
+    "en_noun": "change"
+  },
+  {
+    "es_noun": "el golpe",
+    "en_noun": "hit"
+  },
+  {
+    "es_noun": "el cheque",
+    "en_noun": "check"
+  },
+  {
+    "es_noun": "la música",
+    "en_noun": "music"
+  },
+  {
+    "es_noun": "el interior",
+    "en_noun": "inside"
+  },
+  {
+    "es_noun": "el sueño",
+    "en_noun": "sleep"
+  },
+  {
+    "es_noun": "el mío",
+    "en_noun": "mine"
+  },
+  {
+    "es_noun": "el acuerdo",
+    "en_noun": "deal"
+  },
+  {
+    "es_noun": "el punto",
+    "en_noun": "point"
+  },
+  {
+    "es_noun": "el cuerpo",
+    "en_noun": "body"
+  },
+  {
+    "es_noun": "el querido",
+    "en_noun": "dear"
+  },
+  {
+    "es_noun": "la oportunidad",
+    "en_noun": "chance"
+  },
+  {
+    "es_noun": "el cierre",
+    "en_noun": "close"
+  },
+  {
+    "es_noun": "la fiesta",
+    "en_noun": "party"
+  },
+  {
+    "es_noun": "la hija",
+    "en_noun": "daughter"
+  },
+  {
+    "es_noun": "la palabra",
+    "en_noun": "word"
+  },
+  {
+    "es_noun": "la diversión",
+    "en_noun": "fun"
+  },
+  {
+    "es_noun": "el número",
+    "en_noun": "number"
+  },
+  {
+    "es_noun": "la historia",
+    "en_noun": "story"
+  },
+  {
+    "es_noun": "el conjunto",
+    "en_noun": "set"
+  },
+  {
+    "es_noun": "el deseo",
+    "en_noun": "wish"
+  },
+  {
+    "es_noun": "el esposo",
+    "en_noun": "husband"
+  },
+  {
+    "es_noun": "el fuego",
+    "en_noun": "fire"
+  },
+  {
+    "es_noun": "la pelea",
+    "en_noun": "fight"
+  },
+  {
+    "es_noun": "el descanso",
+    "en_noun": "rest"
+  },
+  {
+    "es_noun": "el momento",
+    "en_noun": "moment"
+  },
+  {
+    "es_noun": "la semana",
+    "en_noun": "week"
+  },
+  {
+    "es_noun": "el soporte",
+    "en_noun": "stand"
+  },
+  {
+    "es_noun": "el juego",
+    "en_noun": "game"
+  },
+  {
+    "es_noun": "el corte",
+    "en_noun": "cut"
+  },
+  {
+    "es_noun": "la hermana",
+    "en_noun": "sister"
+  },
+  {
+    "es_noun": "el niño",
+    "en_noun": "child"
+  },
+  {
+    "es_noun": "el lado",
+    "en_noun": "side"
+  },
+  {
+    "es_noun": "la sangre",
+    "en_noun": "blood"
+  },
+  {
+    "es_noun": "la verdad",
+    "en_noun": "truth"
+  },
+  {
+    "es_noun": "la dama",
+    "en_noun": "lady"
+  },
+  {
+    "es_noun": "el disparo",
+    "en_noun": "shot"
+  },
+  {
+    "es_noun": "la guerra",
+    "en_noun": "war"
+  },
+  {
+    "es_noun": "la ruptura",
+    "en_noun": "break"
+  },
+  {
+    "es_noun": "el paseo",
+    "en_noun": "walk"
+  },
+  {
+    "es_noun": "la razón",
+    "en_noun": "reason"
+  },
+  {
+    "es_noun": "el problema",
+    "en_noun": "trouble"
+  },
+  {
+    "es_noun": "la ciudad",
+    "en_noun": "city"
+  },
+  {
+    "es_noun": "el pueblo",
+    "en_noun": "town"
+  },
+  {
+    "es_noun": "la confianza",
+    "en_noun": "trust"
+  },
+  {
+    "es_noun": "la pregunta",
+    "en_noun": "question"
+  },
+  {
+    "es_noun": "la oficina",
+    "en_noun": "office"
+  },
+  {
+    "es_noun": "la mitad",
+    "en_noun": "half"
+  },
+  {
+    "es_noun": "la bienvenida",
+    "en_noun": "welcome"
+  },
+  {
+    "es_noun": "la pareja",
+    "en_noun": "couple"
+  },
+  {
+    "es_noun": "la prisa",
+    "en_noun": "hurry"
+  },
+  {
+    "es_noun": "el cariño",
+    "en_noun": "honey"
+  },
+  {
+    "es_noun": "el poder",
+    "en_noun": "power"
+  },
+  {
+    "es_noun": "la cama",
+    "en_noun": "bed"
+  },
+  {
+    "es_noun": "el frente",
+    "en_noun": "front"
+  },
+  {
+    "es_noun": "la respuesta",
+    "en_noun": "answer"
+  },
+  {
+    "es_noun": "la pistola",
+    "en_noun": "gun"
+  },
+  {
+    "es_noun": "la línea",
+    "en_noun": "line"
+  },
+  {
+    "es_noun": "el equipo",
+    "en_noun": "team"
+  },
+  {
+    "es_noun": "la noticias",
+    "en_noun": "news"
+  },
+  {
+    "es_noun": "el capitán",
+    "en_noun": "captain"
+  },
+  {
+    "es_noun": "el odio",
+    "en_noun": "hate"
+  },
+  {
+    "es_noun": "el perro",
+    "en_noun": "dog"
+  },
+  {
+    "es_noun": "la comida",
+    "en_noun": "food"
+  },
+  {
+    "es_noun": "la luz",
+    "en_noun": "light"
+  },
+  {
+    "es_noun": "el orden",
+    "en_noun": "order"
+  },
+  {
+    "es_noun": "el país",
+    "en_noun": "country"
+  },
+  {
+    "es_noun": "la elección",
+    "en_noun": "pick"
+  },
+  {
+    "es_noun": "el hecho",
+    "en_noun": "fact"
+  },
+  {
+    "es_noun": "el negro",
+    "en_noun": "black"
+  },
+  {
+    "es_noun": "el jefe",
+    "en_noun": "boss"
+  },
+  {
+    "es_noun": "la causa",
+    "en_noun": "cause"
+  },
+  {
+    "es_noun": "la cena",
+    "en_noun": "dinner"
+  },
+  {
+    "es_noun": "la promesa",
+    "en_noun": "promise"
+  },
+  {
+    "es_noun": "el plan",
+    "en_noun": "plan"
+  },
+  {
+    "es_noun": "el tipo",
+    "en_noun": "sort"
+  },
+  {
+    "es_noun": "el libro",
+    "en_noun": "book"
+  },
+  {
+    "es_noun": "la hora",
+    "en_noun": "hour"
+  },
+  {
+    "es_noun": "el tío",
+    "en_noun": "uncle"
+  },
+  {
+    "es_noun": "la caja fuerte",
+    "en_noun": "safe"
+  },
+  {
+    "es_noun": "el disparo",
+    "en_noun": "shoot"
+  },
+  {
+    "es_noun": "el toque",
+    "en_noun": "touch"
+  },
+  {
+    "es_noun": "la empresa",
+    "en_noun": "company"
+  },
+  {
+    "es_noun": "el pasado",
+    "en_noun": "past"
+  },
+  {
+    "es_noun": "la perra",
+    "en_noun": "bitch"
+  },
+  {
+    "es_noun": "el sonido",
+    "en_noun": "sound"
+  },
+  {
+    "es_noun": "el pelo",
+    "en_noun": "hair"
+  },
+  {
+    "es_noun": "el ser humano",
+    "en_noun": "human"
+  },
+  {
+    "es_noun": "la conducción",
+    "en_noun": "drive"
+  },
+  {
+    "es_noun": "la suerte",
+    "en_noun": "luck"
+  },
+  {
+    "es_noun": "la cima",
+    "en_noun": "top"
+  },
+  {
+    "es_noun": "la victoria",
+    "en_noun": "win"
+  },
+  {
+    "es_noun": "el control",
+    "en_noun": "control"
+  },
+  {
+    "es_noun": "el frío",
+    "en_noun": "cold"
+  },
+  {
+    "es_noun": "el aire",
+    "en_noun": "air"
+  },
+  {
+    "es_noun": "el maestro",
+    "en_noun": "master"
+  },
+  {
+    "es_noun": "el baile",
+    "en_noun": "dance"
+  },
+  {
+    "es_noun": "el sexo",
+    "en_noun": "sex"
+  },
+  {
+    "es_noun": "el otros",
+    "en_noun": "others"
+  },
+  {
+    "es_noun": "el hospital",
+    "en_noun": "hospital"
+  },
+  {
+    "es_noun": "la calle",
+    "en_noun": "street"
+  },
+  {
+    "es_noun": "el asesinato",
+    "en_noun": "murder"
+  },
+  {
+    "es_noun": "la mentira",
+    "en_noun": "lie"
+  },
+  {
+    "es_noun": "el sueño",
+    "en_noun": "dream"
+  },
+  {
+    "es_noun": "la captura",
+    "en_noun": "catch"
+  },
+  {
+    "es_noun": "el dulce",
+    "en_noun": "sweet"
+  },
+  {
+    "es_noun": "el sentido",
+    "en_noun": "sense"
+  },
+  {
+    "es_noun": "la apuesta",
+    "en_noun": "bet"
+  },
+  {
+    "es_noun": "la voz",
+    "en_noun": "voice"
+  },
+  {
+    "es_noun": "la señal",
+    "en_noun": "sign"
+  },
+  {
+    "es_noun": "el silencio",
+    "en_noun": "quiet"
+  },
+  {
+    "es_noun": "el sentimiento",
+    "en_noun": "felt"
+  },
+  {
+    "es_noun": "el latido",
+    "en_noun": "beat"
+  },
+  {
+    "es_noun": "el regreso",
+    "en_noun": "return"
+  },
+  {
+    "es_noun": "el café",
+    "en_noun": "coffee"
+  },
+  {
+    "es_noun": "la cita",
+    "en_noun": "date"
+  },
+  {
+    "es_noun": "el tirón",
+    "en_noun": "pull"
+  },
+  {
+    "es_noun": "el secreto",
+    "en_noun": "secret"
+  },
+  {
+    "es_noun": "la culpa",
+    "en_noun": "fault"
+  },
+  {
+    "es_noun": "la caída",
+    "en_noun": "fall"
+  },
+  {
+    "es_noun": "la canción",
+    "en_noun": "song"
+  },
+  {
+    "es_noun": "la calma",
+    "en_noun": "calm"
+  },
+  {
+    "es_noun": "el camino",
+    "en_noun": "road"
+  },
+  {
+    "es_noun": "la gota",
+    "en_noun": "drop"
+  },
+  {
+    "es_noun": "el futuro",
+    "en_noun": "future"
+  },
+  {
+    "es_noun": "el lanzamiento",
+    "en_noun": "throw"
+  },
+  {
+    "es_noun": "el paso",
+    "en_noun": "step"
+  },
+  {
+    "es_noun": "la pieza",
+    "en_noun": "piece"
+  },
+  {
+    "es_noun": "la imagen",
+    "en_noun": "picture"
+  },
+  {
+    "es_noun": "la tierra",
+    "en_noun": "land"
+  },
+  {
+    "es_noun": "la maravilla",
+    "en_noun": "wonder"
+  },
+  {
+    "es_noun": "el valor",
+    "en_noun": "worth"
+  },
+  {
+    "es_noun": "el presidente",
+    "en_noun": "president"
+  },
+  {
+    "es_noun": "el ojo",
+    "en_noun": "eye"
+  },
+  {
+    "es_noun": "el tipo",
+    "en_noun": "dude"
+  },
+  {
+    "es_noun": "el estado",
+    "en_noun": "state"
+  },
+  {
+    "es_noun": "la figura",
+    "en_noun": "figure"
+  },
+  {
+    "es_noun": "el acto",
+    "en_noun": "act"
+  },
+  {
+    "es_noun": "la ley",
+    "en_noun": "law"
+  },
+  {
+    "es_noun": "el beso",
+    "en_noun": "kiss"
+  },
+  {
+    "es_noun": "la obras",
+    "en_noun": "works"
+  },
+  {
+    "es_noun": "el informe",
+    "en_noun": "report"
+  },
+  {
+    "es_noun": "el dolor",
+    "en_noun": "pain"
+  },
+  {
+    "es_noun": "el pase",
+    "en_noun": "pass"
+  },
+  {
+    "es_noun": "el despertar",
+    "en_noun": "wake"
+  },
+  {
+    "es_noun": "el general",
+    "en_noun": "general"
+  },
+  {
+    "es_noun": "el barco",
+    "en_noun": "ship"
+  },
+  {
+    "es_noun": "la elección",
+    "en_noun": "choice"
+  },
+  {
+    "es_noun": "la clase",
+    "en_noun": "class"
+  },
+  {
+    "es_noun": "el oficial",
+    "en_noun": "officer"
+  },
+  {
+    "es_noun": "el error",
+    "en_noun": "mistake"
+  },
+  {
+    "es_noun": "el jefe",
+    "en_noun": "chief"
+  },
+  {
+    "es_noun": "la edad",
+    "en_noun": "age"
+  },
+  {
+    "es_noun": "la boca",
+    "en_noun": "mouth"
+  },
+  {
+    "es_noun": "la finalización",
+    "en_noun": "finish"
+  },
+  {
+    "es_noun": "la ropa",
+    "en_noun": "clothes"
+  },
+  {
+    "es_noun": "el paseo",
+    "en_noun": "ride"
+  },
+  {
+    "es_noun": "el cumpleaños",
+    "en_noun": "birthday"
+  },
+  {
+    "es_noun": "la oscuridad",
+    "en_noun": "dark"
+  },
+  {
+    "es_noun": "el sistema",
+    "en_noun": "system"
+  },
+  {
+    "es_noun": "la película",
+    "en_noun": "film"
+  },
+  {
+    "es_noun": "el tribunal",
+    "en_noun": "court"
+  },
+  {
+    "es_noun": "la película",
+    "en_noun": "movie"
+  },
+  {
+    "es_noun": "el mes",
+    "en_noun": "month"
+  },
+  {
+    "es_noun": "el uso",
+    "en_noun": "wear"
+  },
+  {
+    "es_noun": "el tren",
+    "en_noun": "train"
+  },
+  {
+    "es_noun": "el hotel",
+    "en_noun": "hotel"
+  },
+  {
+    "es_noun": "la evidencia",
+    "en_noun": "evidence"
+  },
+  {
+    "es_noun": "la seguridad",
+    "en_noun": "security"
+  },
+  {
+    "es_noun": "la información",
+    "en_noun": "information"
+  },
+  {
+    "es_noun": "la bolsa",
+    "en_noun": "bag"
+  },
+  {
+    "es_noun": "el ataque",
+    "en_noun": "attack"
+  },
+  {
+    "es_noun": "la ronda",
+    "en_noun": "round"
+  },
+  {
+    "es_noun": "el azul",
+    "en_noun": "blue"
+  },
+  {
+    "es_noun": "la estación",
+    "en_noun": "station"
+  },
+  {
+    "es_noun": "la mesa",
+    "en_noun": "table"
+  },
+  {
+    "es_noun": "el mensaje",
+    "en_noun": "message"
+  },
+  {
+    "es_noun": "la historia",
+    "en_noun": "history"
+  },
+  {
+    "es_noun": "el tonto",
+    "en_noun": "fool"
+  },
+  {
+    "es_noun": "el amigo",
+    "en_noun": "buddy"
+  },
+  {
+    "es_noun": "el suelo",
+    "en_noun": "floor"
+  },
+  {
+    "es_noun": "el sol",
+    "en_noun": "sun"
+  },
+  {
+    "es_noun": "el mango",
+    "en_noun": "handle"
+  },
+  {
+    "es_noun": "el ejército",
+    "en_noun": "army"
+  },
+  {
+    "es_noun": "el matrimonio",
+    "en_noun": "marriage"
+  },
+  {
+    "es_noun": "la carta",
+    "en_noun": "letter"
+  },
+  {
+    "es_noun": "la atención",
+    "en_noun": "attention"
+  },
+  {
+    "es_noun": "la paz",
+    "en_noun": "peace"
+  },
+  {
+    "es_noun": "la situación",
+    "en_noun": "situation"
+  },
+  {
+    "es_noun": "el medio",
+    "en_noun": "middle"
+  },
+  {
+    "es_noun": "la roca",
+    "en_noun": "rock"
+  },
+  {
+    "es_noun": "la prueba",
+    "en_noun": "test"
+  },
+  {
+    "es_noun": "el liderazgo",
+    "en_noun": "lead"
+  },
+  {
+    "es_noun": "el club",
+    "en_noun": "club"
+  },
+  {
+    "es_noun": "el miedo",
+    "en_noun": "fear"
+  },
+  {
+    "es_noun": "el regalo",
+    "en_noun": "present"
+  },
+  {
+    "es_noun": "el idiota",
+    "en_noun": "idiot"
+  },
+  {
+    "es_noun": "la caja",
+    "en_noun": "box"
+  },
+  {
+    "es_noun": "la pelota",
+    "en_noun": "ball"
+  },
+  {
+    "es_noun": "el grupo",
+    "en_noun": "group"
+  },
+  {
+    "es_noun": "el barco",
+    "en_noun": "boat"
+  },
+  {
+    "es_noun": "el conteo",
+    "en_noun": "count"
+  },
+  {
+    "es_noun": "el bastardo",
+    "en_noun": "bastard"
+  },
+  {
+    "es_noun": "el crimen",
+    "en_noun": "crime"
+  },
+  {
+    "es_noun": "la llave",
+    "en_noun": "key"
+  },
+  {
+    "es_noun": "la fuerza",
+    "en_noun": "force"
+  },
+  {
+    "es_noun": "el caballo",
+    "en_noun": "horse"
+  },
+  {
+    "es_noun": "el almuerzo",
+    "en_noun": "lunch"
+  },
+  {
+    "es_noun": "el americano",
+    "en_noun": "american"
+  },
+  {
+    "es_noun": "el papel",
+    "en_noun": "paper"
+  },
+  {
+    "es_noun": "el cargo",
+    "en_noun": "charge"
+  },
+  {
+    "es_noun": "la sorpresa",
+    "en_noun": "surprise"
+  },
+  {
+    "es_noun": "el espacio",
+    "en_noun": "space"
+  },
+  {
+    "es_noun": "la caída",
+    "en_noun": "fell"
+  },
+  {
+    "es_noun": "el honor",
+    "en_noun": "honor"
+  },
+  {
+    "es_noun": "el accidente",
+    "en_noun": "accident"
+  },
+  {
+    "es_noun": "el pez",
+    "en_noun": "fish"
+  },
+  {
+    "es_noun": "el bar",
+    "en_noun": "bar"
+  },
+  {
+    "es_noun": "el suelo",
+    "en_noun": "ground"
+  },
+  {
+    "es_noun": "el gobierno",
+    "en_noun": "government"
+  },
+  {
+    "es_noun": "el banco",
+    "en_noun": "bank"
+  },
+  {
+    "es_noun": "la cubierta",
+    "en_noun": "cover"
+  },
+  {
+    "es_noun": "el mayor",
+    "en_noun": "major"
+  },
+  {
+    "es_noun": "el escondite",
+    "en_noun": "hide"
+  },
+  {
+    "es_noun": "el palo",
+    "en_noun": "stick"
+  },
+  {
+    "es_noun": "el mar",
+    "en_noun": "sea"
+  },
+  {
+    "es_noun": "el té",
+    "en_noun": "tea"
+  },
+  {
+    "es_noun": "la área",
+    "en_noun": "area"
+  },
+  {
+    "es_noun": "el vestido",
+    "en_noun": "dress"
+  },
+  {
+    "es_noun": "el servicio",
+    "en_noun": "service"
+  },
+  {
+    "es_noun": "el viaje",
+    "en_noun": "trip"
+  },
+  {
+    "es_noun": "la radio",
+    "en_noun": "radio"
+  },
+  {
+    "es_noun": "el golpe",
+    "en_noun": "blow"
+  },
+  {
+    "es_noun": "la estrella",
+    "en_noun": "star"
+  },
+  {
+    "es_noun": "el récord",
+    "en_noun": "record"
+  },
+  {
+    "es_noun": "la oferta",
+    "en_noun": "offer"
+  },
+  {
+    "es_noun": "la prisión",
+    "en_noun": "prison"
+  },
+  {
+    "es_noun": "la alma",
+    "en_noun": "soul"
+  },
+  {
+    "es_noun": "la lista",
+    "en_noun": "list"
+  },
+  {
+    "es_noun": "el oro",
+    "en_noun": "gold"
+  },
+  {
+    "es_noun": "la tarde",
+    "en_noun": "afternoon"
+  },
+  {
+    "es_noun": "el agente",
+    "en_noun": "agent"
+  },
+  {
+    "es_noun": "el detective",
+    "en_noun": "detective"
+  },
+  {
+    "es_noun": "el arreglo",
+    "en_noun": "fix"
+  },
+  {
+    "es_noun": "el respeto",
+    "en_noun": "respect"
+  },
+  {
+    "es_noun": "el público",
+    "en_noun": "public"
+  },
+  {
+    "es_noun": "la novia",
+    "en_noun": "girlfriend"
+  },
+  {
+    "es_noun": "el borracho",
+    "en_noun": "drunk"
+  },
+  {
+    "es_noun": "el cerebro",
+    "en_noun": "brain"
+  },
+  {
+    "es_noun": "la célula",
+    "en_noun": "cell"
+  },
+  {
+    "es_noun": "el desorden",
+    "en_noun": "mess"
+  },
+  {
+    "es_noun": "el olor",
+    "en_noun": "smell"
+  },
+  {
+    "es_noun": "la mosca",
+    "en_noun": "fly"
+  },
+  {
+    "es_noun": "el asesino",
+    "en_noun": "killer"
+  },
+  {
+    "es_noun": "la escena",
+    "en_noun": "scene"
+  },
+  {
+    "es_noun": "la tarjeta",
+    "en_noun": "card"
+  },
+  {
+    "es_noun": "el inglés",
+    "en_noun": "english"
+  },
+  {
+    "es_noun": "la iglesia",
+    "en_noun": "church"
+  },
+  {
+    "es_noun": "el hielo",
+    "en_noun": "ice"
+  },
+  {
+    "es_noun": "la ventana",
+    "en_noun": "window"
+  },
+  {
+    "es_noun": "la parte",
+    "en_noun": "share"
+  },
+  {
+    "es_noun": "la risa",
+    "en_noun": "laugh"
+  },
+  {
+    "es_noun": "el teniente",
+    "en_noun": "lieutenant"
+  },
+  {
+    "es_noun": "el llanto",
+    "en_noun": "cry"
+  },
+  {
+    "es_noun": "la mamá",
+    "en_noun": "mum"
+  },
+  {
+    "es_noun": "la visita",
+    "en_noun": "visit"
+  },
+  {
+    "es_noun": "el asiento",
+    "en_noun": "seat"
+  },
+  {
+    "es_noun": "el profesor",
+    "en_noun": "teacher"
+  },
+  {
+    "es_noun": "la relación",
+    "en_noun": "relationship"
+  },
+  {
+    "es_noun": "el placer",
+    "en_noun": "pleasure"
+  },
+  {
+    "es_noun": "la cámara",
+    "en_noun": "camera"
+  },
+  {
+    "es_noun": "el colegio",
+    "en_noun": "college"
+  },
+  {
+    "es_noun": "el juez",
+    "en_noun": "judge"
+  },
+  {
+    "es_noun": "la posición",
+    "en_noun": "position"
+  },
+  {
+    "es_noun": "el bien",
+    "en_noun": "sake"
+  },
+  {
+    "es_noun": "el novio",
+    "en_noun": "boyfriend"
+  },
+  {
+    "es_noun": "la pared",
+    "en_noun": "wall"
+  },
+  {
+    "es_noun": "el privado",
+    "en_noun": "private"
+  },
+  {
+    "es_noun": "la parada",
+    "en_noun": "stop"
+  },
+  {
+    "es_noun": "el francés",
+    "en_noun": "french"
+  },
+  {
+    "es_noun": "el arte",
+    "en_noun": "art"
+  },
+  {
+    "es_noun": "la máquina",
+    "en_noun": "machine"
+  },
+  {
+    "es_noun": "el verde",
+    "en_noun": "green"
+  },
+  {
+    "es_noun": "el policía",
+    "en_noun": "cop"
+  },
+  {
+    "es_noun": "el vino",
+    "en_noun": "wine"
+  },
+  {
+    "es_noun": "el apartamento",
+    "en_noun": "apartment"
+  },
+  {
+    "es_noun": "el pueblo",
+    "en_noun": "village"
+  },
+  {
+    "es_noun": "la felicitaciones",
+    "en_noun": "congratulations"
+  },
+  {
+    "es_noun": "la cárcel",
+    "en_noun": "jail"
+  },
+  {
+    "es_noun": "la broma",
+    "en_noun": "joke"
+  },
+  {
+    "es_noun": "el mal",
+    "en_noun": "evil"
+  },
+  {
+    "es_noun": "el abogado",
+    "en_noun": "lawyer"
+  },
+  {
+    "es_noun": "el campo",
+    "en_noun": "field"
+  },
+  {
+    "es_noun": "el contacto",
+    "en_noun": "contact"
+  },
+  {
+    "es_noun": "la tienda",
+    "en_noun": "store"
+  },
+  {
+    "es_noun": "el comercio",
+    "en_noun": "shop"
+  },
+  {
+    "es_noun": "el profesor",
+    "en_noun": "professor"
+  },
+  {
+    "es_noun": "la señora",
+    "en_noun": "madam"
+  },
+  {
+    "es_noun": "la duda",
+    "en_noun": "doubt"
+  },
+  {
+    "es_noun": "el avión",
+    "en_noun": "plane"
+  },
+  {
+    "es_noun": "el efectivo",
+    "en_noun": "cash"
+  },
+  {
+    "es_noun": "la isla",
+    "en_noun": "island"
+  },
+  {
+    "es_noun": "el gato",
+    "en_noun": "cat"
+  },
+  {
+    "es_noun": "la decisión",
+    "en_noun": "decision"
+  },
+  {
+    "es_noun": "la cerveza",
+    "en_noun": "beer"
+  },
+  {
+    "es_noun": "la diferencia",
+    "en_noun": "difference"
+  },
+  {
+    "es_noun": "el empujón",
+    "en_noun": "push"
+  },
+  {
+    "es_noun": "el sur",
+    "en_noun": "south"
+  },
+  {
+    "es_noun": "el regalo",
+    "en_noun": "gift"
+  },
+  {
+    "es_noun": "el vaso",
+    "en_noun": "glass"
+  },
+  {
+    "es_noun": "el árbol",
+    "en_noun": "tree"
+  },
+  {
+    "es_noun": "el oso",
+    "en_noun": "bear"
+  },
+  {
+    "es_noun": "el norte",
+    "en_noun": "north"
+  },
+  {
+    "es_noun": "el autobús",
+    "en_noun": "bus"
+  },
+  {
+    "es_noun": "el socio",
+    "en_noun": "partner"
+  },
+  {
+    "es_noun": "el agarre",
+    "en_noun": "grab"
+  },
+  {
+    "es_noun": "la víctima",
+    "en_noun": "victim"
+  },
+  {
+    "es_noun": "la computadora",
+    "en_noun": "computer"
+  },
+  {
+    "es_noun": "el camión",
+    "en_noun": "truck"
+  },
+  {
+    "es_noun": "el alcance",
+    "en_noun": "reach"
+  },
+  {
+    "es_noun": "el tablero",
+    "en_noun": "board"
+  },
+  {
+    "es_noun": "la grasa",
+    "en_noun": "fat"
+  },
+  {
+    "es_noun": "el planeta",
+    "en_noun": "planet"
+  },
+  {
+    "es_noun": "la búsqueda",
+    "en_noun": "search"
+  },
+  {
+    "es_noun": "el viento",
+    "en_noun": "wind"
+  },
+  {
+    "es_noun": "el arresto",
+    "en_noun": "arrest"
+  },
+  {
+    "es_noun": "el salto",
+    "en_noun": "jump"
+  },
+  {
+    "es_noun": "el apoyo",
+    "en_noun": "support"
+  },
+  {
+    "es_noun": "la magia",
+    "en_noun": "magic"
+  },
+  {
+    "es_noun": "la mierda",
+    "en_noun": "crap"
+  },
+  {
+    "es_noun": "la cocina",
+    "en_noun": "kitchen"
+  },
+  {
+    "es_noun": "el verano",
+    "en_noun": "summer"
+  },
+  {
+    "es_noun": "el paciente",
+    "en_noun": "patient"
+  },
+  {
+    "es_noun": "la tía",
+    "en_noun": "aunt"
+  },
+  {
+    "es_noun": "la experiencia",
+    "en_noun": "experience"
+  },
+  {
+    "es_noun": "el cielo",
+    "en_noun": "heaven"
+  },
+  {
+    "es_noun": "el río",
+    "en_noun": "river"
+  },
+  {
+    "es_noun": "el golpe",
+    "en_noun": "knock"
+  },
+  {
+    "es_noun": "la fuga",
+    "en_noun": "escape"
+  },
+  {
+    "es_noun": "la dirección",
+    "en_noun": "address"
+  },
+  {
+    "es_noun": "el pie",
+    "en_noun": "foot"
+  },
+  {
+    "es_noun": "la luna",
+    "en_noun": "moon"
+  },
+  {
+    "es_noun": "el compañero",
+    "en_noun": "mate"
+  },
+  {
+    "es_noun": "el partido",
+    "en_noun": "match"
+  },
+  {
+    "es_noun": "el final",
+    "en_noun": "final"
+  },
+  {
+    "es_noun": "el humo",
+    "en_noun": "smoke"
+  },
+  {
+    "es_noun": "la culpa",
+    "en_noun": "blame"
+  },
+  {
+    "es_noun": "la prensa",
+    "en_noun": "press"
+  },
+  {
+    "es_noun": "la sonrisa",
+    "en_noun": "smile"
+  },
+  {
+    "es_noun": "el tipo",
+    "en_noun": "type"
+  },
+  {
+    "es_noun": "la misión",
+    "en_noun": "mission"
+  },
+  {
+    "es_noun": "el favor",
+    "en_noun": "favor"
+  },
+  {
+    "es_noun": "la acción",
+    "en_noun": "action"
+  },
+  {
+    "es_noun": "el deber",
+    "en_noun": "duty"
+  },
+  {
+    "es_noun": "el precio",
+    "en_noun": "price"
+  },
+  {
+    "es_noun": "el guardia",
+    "en_noun": "guard"
+  },
+  {
+    "es_noun": "el riesgo",
+    "en_noun": "risk"
+  },
+  {
+    "es_noun": "el aviso",
+    "en_noun": "notice"
+  },
+  {
+    "es_noun": "el enemigo",
+    "en_noun": "enemy"
+  },
+  {
+    "es_noun": "la patada",
+    "en_noun": "kick"
+  },
+  {
+    "es_noun": "la carrera",
+    "en_noun": "race"
+  },
+  {
+    "es_noun": "el traje",
+    "en_noun": "suit"
+  },
+  {
+    "es_noun": "el ajuste",
+    "en_noun": "fit"
+  },
+  {
+    "es_noun": "el director",
+    "en_noun": "director"
+  },
+  {
+    "es_noun": "el lugar",
+    "en_noun": "spot"
+  },
+  {
+    "es_noun": "la cruz",
+    "en_noun": "cross"
+  },
+  {
+    "es_noun": "el brazo",
+    "en_noun": "arm"
+  },
+  {
+    "es_noun": "la arriba",
+    "en_noun": "upstairs"
+  },
+  {
+    "es_noun": "el pollo",
+    "en_noun": "chicken"
+  },
+  {
+    "es_noun": "el departamento",
+    "en_noun": "department"
+  },
+  {
+    "es_noun": "el héroe",
+    "en_noun": "hero"
+  },
+  {
+    "es_noun": "el gas",
+    "en_noun": "gas"
+  },
+  {
+    "es_noun": "el sargento",
+    "en_noun": "sergeant"
+  },
+  {
+    "es_noun": "el bajo",
+    "en_noun": "low"
+  },
+  {
+    "es_noun": "la pierna",
+    "en_noun": "leg"
+  },
+  {
+    "es_noun": "el gusto",
+    "en_noun": "taste"
+  },
+  {
+    "es_noun": "el desperdicio",
+    "en_noun": "waste"
+  },
+  {
+    "es_noun": "el oeste",
+    "en_noun": "west"
+  },
+  {
+    "es_noun": "el grupo",
+    "en_noun": "bunch"
+  },
+  {
+    "es_noun": "la batalla",
+    "en_noun": "battle"
+  },
+  {
+    "es_noun": "el estudio",
+    "en_noun": "study"
+  },
+  {
+    "es_noun": "la mención",
+    "en_noun": "mention"
+  },
+  {
+    "es_noun": "la campana",
+    "en_noun": "bell"
+  },
+  {
+    "es_noun": "el escenario",
+    "en_noun": "stage"
+  },
+  {
+    "es_noun": "el agujero",
+    "en_noun": "hole"
+  },
+  {
+    "es_noun": "la cerradura",
+    "en_noun": "lock"
+  },
+  {
+    "es_noun": "la arma",
+    "en_noun": "weapon"
+  },
+  {
+    "es_noun": "la energía",
+    "en_noun": "energy"
+  },
+  {
+    "es_noun": "el trato",
+    "en_noun": "treat"
+  },
+  {
+    "es_noun": "la quemadura",
+    "en_noun": "burn"
+  },
+  {
+    "es_noun": "la forma",
+    "en_noun": "form"
+  },
+  {
+    "es_noun": "el cielo",
+    "en_noun": "sky"
+  },
+  {
+    "es_noun": "el desayuno",
+    "en_noun": "breakfast"
+  },
+  {
+    "es_noun": "la banda",
+    "en_noun": "band"
+  },
+  {
+    "es_noun": "la pista",
+    "en_noun": "track"
+  },
+  {
+    "es_noun": "el espíritu",
+    "en_noun": "spirit"
+  },
+  {
+    "es_noun": "la nariz",
+    "en_noun": "nose"
+  },
+  {
+    "es_noun": "el favorito",
+    "en_noun": "favorite"
+  },
+  {
+    "es_noun": "la memoria",
+    "en_noun": "memory"
+  },
+  {
+    "es_noun": "la risa",
+    "en_noun": "laughter"
+  },
+  {
+    "es_noun": "el rollo",
+    "en_noun": "roll"
+  },
+  {
+    "es_noun": "el testigo",
+    "en_noun": "witness"
+  },
+  {
+    "es_noun": "el doble",
+    "en_noun": "double"
+  },
+  {
+    "es_noun": "el baño",
+    "en_noun": "bathroom"
+  },
+  {
+    "es_noun": "la construcción",
+    "en_noun": "build"
+  },
+  {
+    "es_noun": "la bomba",
+    "en_noun": "bomb"
+  },
+  {
+    "es_noun": "la presión",
+    "en_noun": "pressure"
+  },
+  {
+    "es_noun": "el vuelo",
+    "en_noun": "flight"
+  },
+  {
+    "es_noun": "el interés",
+    "en_noun": "interest"
+  },
+  {
+    "es_noun": "la garganta",
+    "en_noun": "throat"
+  },
+  {
+    "es_noun": "el costo",
+    "en_noun": "cost"
+  },
+  {
+    "es_noun": "el peligro",
+    "en_noun": "danger"
+  },
+  {
+    "es_noun": "el cabrón",
+    "en_noun": "asshole"
+  },
+  {
+    "es_noun": "el cuello",
+    "en_noun": "neck"
+  },
+  {
+    "es_noun": "el sospechoso",
+    "en_noun": "suspect"
+  },
+  {
+    "es_noun": "la botella",
+    "en_noun": "bottle"
+  },
+  {
+    "es_noun": "la belleza",
+    "en_noun": "beauty"
+  },
+  {
+    "es_noun": "la naturaleza",
+    "en_noun": "nature"
+  },
+  {
+    "es_noun": "el vídeo",
+    "en_noun": "video"
+  },
+  {
+    "es_noun": "la lluvia",
+    "en_noun": "rain"
+  },
+  {
+    "es_noun": "el campamento",
+    "en_noun": "camp"
+  },
+  {
+    "es_noun": "la vergüenza",
+    "en_noun": "shame"
+  },
+  {
+    "es_noun": "el conductor",
+    "en_noun": "driver"
+  },
+  {
+    "es_noun": "el pájaro",
+    "en_noun": "bird"
+  },
+  {
+    "es_noun": "la multitud",
+    "en_noun": "crowd"
+  },
+  {
+    "es_noun": "el nivel",
+    "en_noun": "level"
+  },
+  {
+    "es_noun": "la fe",
+    "en_noun": "faith"
+  },
+  {
+    "es_noun": "el comandante",
+    "en_noun": "commander"
+  },
+  {
+    "es_noun": "el cliente",
+    "en_noun": "client"
+  },
+  {
+    "es_noun": "el motor",
+    "en_noun": "engine"
+  },
+  {
+    "es_noun": "el pop",
+    "en_noun": "pop"
+  },
+  {
+    "es_noun": "el animal",
+    "en_noun": "animal"
+  },
+  {
+    "es_noun": "el diablo",
+    "en_noun": "devil"
+  },
+  {
+    "es_noun": "el fin de semana",
+    "en_noun": "weekend"
+  },
+  {
+    "es_noun": "la piedra",
+    "en_noun": "stone"
+  },
+  {
+    "es_noun": "el cariño",
+    "en_noun": "sweetheart"
+  },
+  {
+    "es_noun": "la piel",
+    "en_noun": "skin"
+  },
+  {
+    "es_noun": "el cuchillo",
+    "en_noun": "knife"
+  },
+  {
+    "es_noun": "la droga",
+    "en_noun": "drug"
+  },
+  {
+    "es_noun": "el ciego",
+    "en_noun": "blind"
+  },
+  {
+    "es_noun": "el alemán",
+    "en_noun": "german"
+  },
+  {
+    "es_noun": "la playa",
+    "en_noun": "beach"
+  },
+  {
+    "es_noun": "el sombrero",
+    "en_noun": "hat"
+  },
+  {
+    "es_noun": "el local",
+    "en_noun": "local"
+  },
+  {
+    "es_noun": "el código",
+    "en_noun": "code"
+  },
+  {
+    "es_noun": "la sala",
+    "en_noun": "hall"
+  },
+  {
+    "es_noun": "la oportunidad",
+    "en_noun": "opportunity"
+  },
+  {
+    "es_noun": "la tonterías",
+    "en_noun": "bullshit"
+  },
+  {
+    "es_noun": "la esquina",
+    "en_noun": "corner"
+  },
+  {
+    "es_noun": "la taza",
+    "en_noun": "cup"
+  },
+  {
+    "es_noun": "la justicia",
+    "en_noun": "justice"
+  },
+  {
+    "es_noun": "el fondo",
+    "en_noun": "bottom"
+  },
+  {
+    "es_noun": "el fantasma",
+    "en_noun": "ghost"
+  },
+  {
+    "es_noun": "el restaurante",
+    "en_noun": "restaurant"
+  },
+  {
+    "es_noun": "el lenguaje",
+    "en_noun": "language"
+  },
+  {
+    "es_noun": "el este",
+    "en_noun": "east"
+  },
+  {
+    "es_noun": "el compañero",
+    "en_noun": "fellow"
+  },
+  {
+    "es_noun": "la nota",
+    "en_noun": "note"
+  },
+  {
+    "es_noun": "el líder",
+    "en_noun": "leader"
+  },
+  {
+    "es_noun": "la salud",
+    "en_noun": "health"
+  },
+  {
+    "es_noun": "el ángel",
+    "en_noun": "angel"
+  },
+  {
+    "es_noun": "la regla",
+    "en_noun": "rule"
+  },
+  {
+    "es_noun": "el primo",
+    "en_noun": "cousin"
+  },
+  {
+    "es_noun": "el consejo",
+    "en_noun": "advice"
+  },
+  {
+    "es_noun": "el perdón",
+    "en_noun": "pardon"
+  },
+  {
+    "es_noun": "la leche",
+    "en_noun": "milk"
+  },
+  {
+    "es_noun": "la velocidad",
+    "en_noun": "speed"
+  },
+  {
+    "es_noun": "el archivo",
+    "en_noun": "file"
+  },
+  {
+    "es_noun": "la cinta",
+    "en_noun": "tape"
+  },
+  {
+    "es_noun": "la práctica",
+    "en_noun": "practice"
+  },
+  {
+    "es_noun": "la emergencia",
+    "en_noun": "emergency"
+  },
+  {
+    "es_noun": "el puente",
+    "en_noun": "bridge"
+  },
+  {
+    "es_noun": "el entrenador",
+    "en_noun": "coach"
+  },
+  {
+    "es_noun": "el inspector",
+    "en_noun": "inspector"
+  },
+  {
+    "es_noun": "el ministro",
+    "en_noun": "minister"
+  },
+  {
+    "es_noun": "el aplauso",
+    "en_noun": "applause"
+  },
+  {
+    "es_noun": "la conversación",
+    "en_noun": "conversation"
+  },
+  {
+    "es_noun": "la cuenta",
+    "en_noun": "account"
+  },
+  {
+    "es_noun": "el aliento",
+    "en_noun": "breath"
+  },
+  {
+    "es_noun": "la tripulación",
+    "en_noun": "crew"
+  },
+  {
+    "es_noun": "la carne",
+    "en_noun": "meat"
+  },
+  {
+    "es_noun": "el pastel",
+    "en_noun": "cake"
+  },
+  {
+    "es_noun": "la fuerza",
+    "en_noun": "strength"
+  },
+  {
+    "es_noun": "la carrera",
+    "en_noun": "career"
+  },
+  {
+    "es_noun": "la vista",
+    "en_noun": "sight"
+  },
+  {
+    "es_noun": "el voto",
+    "en_noun": "vote"
+  },
+  {
+    "es_noun": "la copia",
+    "en_noun": "copy"
+  },
+  {
+    "es_noun": "la tontería",
+    "en_noun": "nonsense"
+  },
+  {
+    "es_noun": "el estudiante",
+    "en_noun": "student"
+  },
+  {
+    "es_noun": "el juicio",
+    "en_noun": "trial"
+  },
+  {
+    "es_noun": "la libertad",
+    "en_noun": "freedom"
+  },
+  {
+    "es_noun": "el mercado",
+    "en_noun": "market"
+  },
+  {
+    "es_noun": "el gerente",
+    "en_noun": "manager"
+  },
+  {
+    "es_noun": "el tamaño",
+    "en_noun": "size"
+  },
+  {
+    "es_noun": "la operación",
+    "en_noun": "operation"
+  },
+  {
+    "es_noun": "el truco",
+    "en_noun": "trick"
+  },
+  {
+    "es_noun": "el cielo",
+    "en_noun": "sweetie"
+  },
+  {
+    "es_noun": "el paquete",
+    "en_noun": "pack"
+  },
+  {
+    "es_noun": "el monstruo",
+    "en_noun": "monster"
+  },
+  {
+    "es_noun": "el centro",
+    "en_noun": "center"
+  },
+  {
+    "es_noun": "el viaje",
+    "en_noun": "travel"
+  },
+  {
+    "es_noun": "el objetivo",
+    "en_noun": "target"
+  },
+  {
+    "es_noun": "la ciencia",
+    "en_noun": "science"
+  },
+  {
+    "es_noun": "el proyecto",
+    "en_noun": "project"
+  },
+  {
+    "es_noun": "la alimentación",
+    "en_noun": "feed"
+  },
+  {
+    "es_noun": "el crédito",
+    "en_noun": "credit"
+  },
+  {
+    "es_noun": "el suicidio",
+    "en_noun": "suicide"
+  },
+  {
+    "es_noun": "la investigación",
+    "en_noun": "investigation"
+  },
+  {
+    "es_noun": "el enfermero",
+    "en_noun": "nurse"
+  },
+  {
+    "es_noun": "el aceite",
+    "en_noun": "oil"
+  },
+  {
+    "es_noun": "el criminal",
+    "en_noun": "criminal"
+  },
+  {
+    "es_noun": "el soldado",
+    "en_noun": "soldier"
+  },
+  {
+    "es_noun": "la camisa",
+    "en_noun": "shirt"
+  },
+  {
+    "es_noun": "el ejemplo",
+    "en_noun": "example"
+  },
+  {
+    "es_noun": "la huelga",
+    "en_noun": "strike"
+  },
+  {
+    "es_noun": "la silla",
+    "en_noun": "chair"
+  },
+  {
+    "es_noun": "el universo",
+    "en_noun": "universe"
+  },
+  {
+    "es_noun": "el comando",
+    "en_noun": "command"
+  },
+  {
+    "es_noun": "la condición",
+    "en_noun": "condition"
+  },
+  {
+    "es_noun": "el desafío",
+    "en_noun": "challenge"
+  },
+  {
+    "es_noun": "el boleto",
+    "en_noun": "ticket"
+  },
+  {
+    "es_noun": "la vista",
+    "en_noun": "view"
+  },
+  {
+    "es_noun": "el programa",
+    "en_noun": "program"
+  },
+  {
+    "es_noun": "el marrón",
+    "en_noun": "brown"
+  },
+  {
+    "es_noun": "el lavado",
+    "en_noun": "wash"
+  },
+  {
+    "es_noun": "la sociedad",
+    "en_noun": "society"
+  },
+  {
+    "es_noun": "la liberación",
+    "en_noun": "release"
+  },
+  {
+    "es_noun": "el nacimiento",
+    "en_noun": "birth"
+  },
+  {
+    "es_noun": "la investigación",
+    "en_noun": "research"
+  },
+  {
+    "es_noun": "el invitado",
+    "en_noun": "guest"
+  },
+  {
+    "es_noun": "el ascensor",
+    "en_noun": "lift"
+  },
+  {
+    "es_noun": "la opinión",
+    "en_noun": "opinion"
+  },
+  {
+    "es_noun": "el carácter",
+    "en_noun": "character"
+  },
+  {
+    "es_noun": "la montaña",
+    "en_noun": "mountain"
+  },
+  {
+    "es_noun": "el calor",
+    "en_noun": "heat"
+  },
+  {
+    "es_noun": "la corbata",
+    "en_noun": "tie"
+  },
+  {
+    "es_noun": "el sheriff",
+    "en_noun": "sheriff"
+  },
+  {
+    "es_noun": "el color",
+    "en_noun": "color"
+  },
+  {
+    "es_noun": "la espada",
+    "en_noun": "sword"
+  },
+  {
+    "es_noun": "el laboratorio",
+    "en_noun": "lab"
+  },
+  {
+    "es_noun": "la bala",
+    "en_noun": "bullet"
+  },
+  {
+    "es_noun": "la prueba",
+    "en_noun": "proof"
+  },
+  {
+    "es_noun": "la base",
+    "en_noun": "base"
+  },
+  {
+    "es_noun": "la crema",
+    "en_noun": "cream"
+  },
+  {
+    "es_noun": "el ruido",
+    "en_noun": "noise"
+  },
+  {
+    "es_noun": "el total",
+    "en_noun": "total"
+  },
+  {
+    "es_noun": "la pandilla",
+    "en_noun": "gang"
+  },
+  {
+    "es_noun": "la felicidad",
+    "en_noun": "happiness"
+  },
+  {
+    "es_noun": "la alegría",
+    "en_noun": "joy"
+  },
+  {
+    "es_noun": "la hembra",
+    "en_noun": "female"
+  },
+  {
+    "es_noun": "la sorteo",
+    "en_noun": "draw"
+  },
+  {
+    "es_noun": "el macho",
+    "en_noun": "male"
+  },
+  {
+    "es_noun": "el mordisco",
+    "en_noun": "bite"
+  },
+  {
+    "es_noun": "la ducha",
+    "en_noun": "shower"
+  },
+  {
+    "es_noun": "la audiencia",
+    "en_noun": "audience"
+  },
+  {
+    "es_noun": "el propósito",
+    "en_noun": "purpose"
+  },
+  {
+    "es_noun": "el destino",
+    "en_noun": "fate"
+  },
+  {
+    "es_noun": "el tornillo",
+    "en_noun": "screw"
+  },
+  {
+    "es_noun": "el caballero",
+    "en_noun": "gentleman"
+  },
+  {
+    "es_noun": "la medicina",
+    "en_noun": "medicine"
+  },
+  {
+    "es_noun": "la responsabilidad",
+    "en_noun": "responsibility"
+  },
+  {
+    "es_noun": "la charla",
+    "en_noun": "talk"
+  },
+  {
+    "es_noun": "la división",
+    "en_noun": "split"
+  },
+  {
+    "es_noun": "el peso",
+    "en_noun": "weight"
+  },
+  {
+    "es_noun": "la unidad",
+    "en_noun": "unit"
+  },
+  {
+    "es_noun": "el cerdo",
+    "en_noun": "pig"
+  },
+  {
+    "es_noun": "el escritorio",
+    "en_noun": "desk"
+  },
+  {
+    "es_noun": "el dedo",
+    "en_noun": "finger"
+  },
+  {
+    "es_noun": "la piscina",
+    "en_noun": "pool"
+  },
+  {
+    "es_noun": "el enfoque",
+    "en_noun": "focus"
+  },
+  {
+    "es_noun": "el jardín",
+    "en_noun": "garden"
+  },
+  {
+    "es_noun": "la propiedad",
+    "en_noun": "property"
+  },
+  {
+    "es_noun": "el alcalde",
+    "en_noun": "mayor"
+  },
+  {
+    "es_noun": "el asunto",
+    "en_noun": "issue"
+  },
+  {
+    "es_noun": "la amigo",
+    "en_noun": "pal"
+  },
+  {
+    "es_noun": "la entrevista",
+    "en_noun": "interview"
+  },
+  {
+    "es_noun": "el aficionado",
+    "en_noun": "fan"
+  },
+  {
+    "es_noun": "la señal",
+    "en_noun": "signal"
+  },
+  {
+    "es_noun": "el silencio",
+    "en_noun": "silence"
+  },
+  {
+    "es_noun": "la cirugía",
+    "en_noun": "surgery"
+  },
+  {
+    "es_noun": "el daño",
+    "en_noun": "harm"
+  },
+  {
+    "es_noun": "el personal",
+    "en_noun": "staff"
+  },
+  {
+    "es_noun": "el chef",
+    "en_noun": "chef"
+  },
+  {
+    "es_noun": "el clima",
+    "en_noun": "weather"
+  },
+  {
+    "es_noun": "la distancia",
+    "en_noun": "distance"
+  },
+  {
+    "es_noun": "el proceso",
+    "en_noun": "process"
+  },
+  {
+    "es_noun": "la estación",
+    "en_noun": "season"
+  },
+  {
+    "es_noun": "el acceso",
+    "en_noun": "access"
+  },
+  {
+    "es_noun": "el modelo",
+    "en_noun": "model"
+  },
+  {
+    "es_noun": "el camino",
+    "en_noun": "path"
+  },
+  {
+    "es_noun": "el ruso",
+    "en_noun": "russian"
+  },
+  {
+    "es_noun": "el miembro",
+    "en_noun": "member"
+  },
+  {
+    "es_noun": "el estilo",
+    "en_noun": "style"
+  },
+  {
+    "es_noun": "la alarma",
+    "en_noun": "alarm"
+  },
+  {
+    "es_noun": "el japonés",
+    "en_noun": "japanese"
+  },
+  {
+    "es_noun": "el azúcar",
+    "en_noun": "sugar"
+  },
+  {
+    "es_noun": "el techo",
+    "en_noun": "roof"
+  },
+  {
+    "es_noun": "el funeral",
+    "en_noun": "funeral"
+  },
+  {
+    "es_noun": "el daño",
+    "en_noun": "damage"
+  },
+  {
+    "es_noun": "el estómago",
+    "en_noun": "stomach"
+  },
+  {
+    "es_noun": "el pan",
+    "en_noun": "bread"
+  },
+  {
+    "es_noun": "la nieve",
+    "en_noun": "snow"
+  },
+  {
+    "es_noun": "el castillo",
+    "en_noun": "castle"
+  },
+  {
+    "es_noun": "el discurso",
+    "en_noun": "speech"
+  },
+  {
+    "es_noun": "el bloque",
+    "en_noun": "block"
+  },
+  {
+    "es_noun": "el temblor",
+    "en_noun": "shake"
+  },
+  {
+    "es_noun": "la excavación",
+    "en_noun": "dig"
+  },
+  {
+    "es_noun": "el poste",
+    "en_noun": "post"
+  },
+  {
+    "es_noun": "la realidad",
+    "en_noun": "reality"
+  },
+  {
+    "es_noun": "el fútbol",
+    "en_noun": "football"
+  },
+  {
+    "es_noun": "la extensión",
+    "en_noun": "spread"
+  },
+  {
+    "es_noun": "el abrigo",
+    "en_noun": "coat"
+  },
+  {
+    "es_noun": "el pecho",
+    "en_noun": "chest"
+  },
+  {
+    "es_noun": "el éxito",
+    "en_noun": "success"
+  },
+  {
+    "es_noun": "la madame",
+    "en_noun": "madame"
+  },
+  {
+    "es_noun": "la seguridad",
+    "en_noun": "safety"
+  },
+  {
+    "es_noun": "el permiso",
+    "en_noun": "permission"
+  },
+  {
+    "es_noun": "el capricho",
+    "en_noun": "fancy"
+  },
+  {
+    "es_noun": "la teoría",
+    "en_noun": "theory"
+  },
+  {
+    "es_noun": "la puerta",
+    "en_noun": "gate"
+  },
+  {
+    "es_noun": "el viaje",
+    "en_noun": "journey"
+  },
+  {
+    "es_noun": "la pintura",
+    "en_noun": "paint"
+  },
+  {
+    "es_noun": "el amante",
+    "en_noun": "lover"
+  },
+  {
+    "es_noun": "el humor",
+    "en_noun": "mood"
+  },
+  {
+    "es_noun": "la tormenta",
+    "en_noun": "storm"
+  },
+  {
+    "es_noun": "la página",
+    "en_noun": "page"
+  },
+  {
+    "es_noun": "el queso",
+    "en_noun": "cheese"
+  },
+  {
+    "es_noun": "el sacerdote",
+    "en_noun": "priest"
+  },
+  {
+    "es_noun": "el arrepentimiento",
+    "en_noun": "regret"
+  },
+  {
+    "es_noun": "el contrato",
+    "en_noun": "contract"
+  },
+  {
+    "es_noun": "el ladrón",
+    "en_noun": "thief"
+  },
+  {
+    "es_noun": "el divorcio",
+    "en_noun": "divorce"
+  },
+  {
+    "es_noun": "la lección",
+    "en_noun": "lesson"
+  },
+  {
+    "es_noun": "la comunidad",
+    "en_noun": "community"
+  },
+  {
+    "es_noun": "el tema",
+    "en_noun": "subject"
+  },
+  {
+    "es_noun": "el alquiler",
+    "en_noun": "rent"
+  },
+  {
+    "es_noun": "la venganza",
+    "en_noun": "revenge"
+  },
+  {
+    "es_noun": "el comercio",
+    "en_noun": "trade"
+  },
+  {
+    "es_noun": "el bosque",
+    "en_noun": "forest"
+  },
+  {
+    "es_noun": "la prisa",
+    "en_noun": "rush"
+  },
+  {
+    "es_noun": "el dueño",
+    "en_noun": "owner"
+  },
+  {
+    "es_noun": "la cantidad",
+    "en_noun": "amount"
+  },
+  {
+    "es_noun": "el artista",
+    "en_noun": "artist"
+  },
+  {
+    "es_noun": "el bolsillo",
+    "en_noun": "pocket"
+  },
+  {
+    "es_noun": "el cáncer",
+    "en_noun": "cancer"
+  },
+  {
+    "es_noun": "el par",
+    "en_noun": "pair"
+  },
+  {
+    "es_noun": "la ruina",
+    "en_noun": "ruin"
+  },
+  {
+    "es_noun": "el abuelo",
+    "en_noun": "grandfather"
+  },
+  {
+    "es_noun": "la bicicleta",
+    "en_noun": "bike"
+  },
+  {
+    "es_noun": "la pérdida",
+    "en_noun": "loss"
+  },
+  {
+    "es_noun": "el mentiroso",
+    "en_noun": "liar"
+  },
+  {
+    "es_noun": "el invierno",
+    "en_noun": "winter"
+  },
+  {
+    "es_noun": "el asistente",
+    "en_noun": "assistant"
+  },
+  {
+    "es_noun": "el asesino",
+    "en_noun": "murderer"
+  },
+  {
+    "es_noun": "la granja",
+    "en_noun": "farm"
+  },
+  {
+    "es_noun": "la lengua",
+    "en_noun": "tongue"
+  },
+  {
+    "es_noun": "el baño",
+    "en_noun": "toilet"
+  },
+  {
+    "es_noun": "el genio",
+    "en_noun": "genius"
+  },
+  {
+    "es_noun": "la plaza",
+    "en_noun": "square"
+  },
+  {
+    "es_noun": "el secretario",
+    "en_noun": "secretary"
+  },
+  {
+    "es_noun": "la conexión",
+    "en_noun": "connection"
+  },
+  {
+    "es_noun": "la planta baja",
+    "en_noun": "downstairs"
+  },
+  {
+    "es_noun": "la habitación",
+    "en_noun": "bedroom"
+  },
+  {
+    "es_noun": "el profesional",
+    "en_noun": "professional"
+  },
+  {
+    "es_noun": "la gira",
+    "en_noun": "tour"
+  },
+  {
+    "es_noun": "el jugador",
+    "en_noun": "player"
+  },
+  {
+    "es_noun": "la plata",
+    "en_noun": "silver"
+  },
+  {
+    "es_noun": "la lástima",
+    "en_noun": "pity"
+  },
+  {
+    "es_noun": "el reloj",
+    "en_noun": "clock"
+  },
+  {
+    "es_noun": "el océano",
+    "en_noun": "ocean"
+  },
+  {
+    "es_noun": "la ADN",
+    "en_noun": "dna"
+  },
+  {
+    "es_noun": "el choque",
+    "en_noun": "crash"
+  },
+  {
+    "es_noun": "el baño",
+    "en_noun": "bath"
+  },
+  {
+    "es_noun": "la fortuna",
+    "en_noun": "fortune"
+  },
+  {
+    "es_noun": "el siglo",
+    "en_noun": "century"
+  },
+  {
+    "es_noun": "el seguro",
+    "en_noun": "insurance"
+  },
+  {
+    "es_noun": "el aeropuerto",
+    "en_noun": "airport"
+  },
+  {
+    "es_noun": "el templo",
+    "en_noun": "temple"
+  },
+  {
+    "es_noun": "el conocimiento",
+    "en_noun": "knowledge"
+  },
+  {
+    "es_noun": "el mapa",
+    "en_noun": "map"
+  },
+  {
+    "es_noun": "la competencia",
+    "en_noun": "competition"
+  },
+  {
+    "es_noun": "la defensa",
+    "en_noun": "defense"
+  },
+  {
+    "es_noun": "la bondad",
+    "en_noun": "goodness"
+  },
+  {
+    "es_noun": "el evento",
+    "en_noun": "event"
+  },
+  {
+    "es_noun": "el período",
+    "en_noun": "period"
+  },
+  {
+    "es_noun": "la forma",
+    "en_noun": "shape"
+  },
+  {
+    "es_noun": "el infierno",
+    "en_noun": "hell"
+  },
+  {
+    "es_noun": "el teléfono",
+    "en_noun": "telephone"
+  },
+  {
+    "es_noun": "la solicitud",
+    "en_noun": "request"
+  },
+  {
+    "es_noun": "la subvención",
+    "en_noun": "grant"
+  },
+  {
+    "es_noun": "el asunto",
+    "en_noun": "affair"
+  },
+  {
+    "es_noun": "la tumba",
+    "en_noun": "grave"
+  },
+  {
+    "es_noun": "el gigante",
+    "en_noun": "giant"
+  },
+  {
+    "es_noun": "la planta",
+    "en_noun": "plant"
+  },
+  {
+    "es_noun": "el sitio",
+    "en_noun": "site"
+  },
+  {
+    "es_noun": "la declaración",
+    "en_noun": "statement"
+  },
+  {
+    "es_noun": "el ascenso",
+    "en_noun": "rise"
+  },
+  {
+    "es_noun": "la chaqueta",
+    "en_noun": "jacket"
+  },
+  {
+    "es_noun": "la misericordia",
+    "en_noun": "mercy"
+  },
+  {
+    "es_noun": "la prostituta",
+    "en_noun": "whore"
+  },
+  {
+    "es_noun": "el interruptor",
+    "en_noun": "switch"
+  },
+  {
+    "es_noun": "la comida",
+    "en_noun": "meal"
+  },
+  {
+    "es_noun": "la dirección",
+    "en_noun": "direction"
+  },
+  {
+    "es_noun": "la datos",
+    "en_noun": "data"
+  },
+  {
+    "es_noun": "el cuerno",
+    "en_noun": "horn"
+  },
+  {
+    "es_noun": "el abogado",
+    "en_noun": "attorney"
+  },
+  {
+    "es_noun": "el oficial",
+    "en_noun": "official"
+  },
+  {
+    "es_noun": "la rata",
+    "en_noun": "rat"
+  },
+  {
+    "es_noun": "la pizza",
+    "en_noun": "pizza"
+  },
+  {
+    "es_noun": "el choque",
+    "en_noun": "shock"
+  },
+  {
+    "es_noun": "la sopa",
+    "en_noun": "soup"
+  },
+  {
+    "es_noun": "el valor",
+    "en_noun": "courage"
+  },
+  {
+    "es_noun": "el amarillo",
+    "en_noun": "yellow"
+  },
+  {
+    "es_noun": "la ubicación",
+    "en_noun": "location"
+  },
+  {
+    "es_noun": "el idiota",
+    "en_noun": "jerk"
+  },
+  {
+    "es_noun": "el chocolate",
+    "en_noun": "chocolate"
+  },
+  {
+    "es_noun": "la imagen",
+    "en_noun": "image"
+  },
+  {
+    "es_noun": "el regular",
+    "en_noun": "regular"
+  },
+  {
+    "es_noun": "el taxi",
+    "en_noun": "taxi"
+  },
+  {
+    "es_noun": "el orín",
+    "en_noun": "piss"
+  },
+  {
+    "es_noun": "la herida",
+    "en_noun": "wound"
+  },
+  {
+    "es_noun": "el plato",
+    "en_noun": "plate"
+  },
+  {
+    "es_noun": "la televisión",
+    "en_noun": "television"
+  },
+  {
+    "es_noun": "el bicho raro",
+    "en_noun": "freak"
+  },
+  {
+    "es_noun": "el tráfico",
+    "en_noun": "traffic"
+  },
+  {
+    "es_noun": "el amanecer",
+    "en_noun": "dawn"
+  },
+  {
+    "es_noun": "el veneno",
+    "en_noun": "poison"
+  },
+  {
+    "es_noun": "el misterio",
+    "en_noun": "mystery"
+  },
+  {
+    "es_noun": "el indio",
+    "en_noun": "indian"
+  },
+  {
+    "es_noun": "el estruendo",
+    "en_noun": "bang"
+  },
+  {
+    "es_noun": "la enfermedad",
+    "en_noun": "disease"
+  },
+  {
+    "es_noun": "el italiano",
+    "en_noun": "italian"
+  },
+  {
+    "es_noun": "el papel",
+    "en_noun": "role"
+  },
+  {
+    "es_noun": "el trasero",
+    "en_noun": "butt"
+  },
+  {
+    "es_noun": "la victoria",
+    "en_noun": "victory"
+  },
+  {
+    "es_noun": "la trampa",
+    "en_noun": "trap"
+  },
+  {
+    "es_noun": "la nación",
+    "en_noun": "nation"
+  },
+  {
+    "es_noun": "el deseo",
+    "en_noun": "desire"
+  },
+  {
+    "es_noun": "la medianoche",
+    "en_noun": "midnight"
+  },
+  {
+    "es_noun": "el jurado",
+    "en_noun": "jury"
+  },
+  {
+    "es_noun": "la cita",
+    "en_noun": "appointment"
+  },
+  {
+    "es_noun": "la natación",
+    "en_noun": "swim"
+  },
+  {
+    "es_noun": "el correo",
+    "en_noun": "mail"
+  },
+  {
+    "es_noun": "la vacaciones",
+    "en_noun": "vacation"
+  },
+  {
+    "es_noun": "la fuente",
+    "en_noun": "source"
+  },
+  {
+    "es_noun": "la fábrica",
+    "en_noun": "factory"
+  },
+  {
+    "es_noun": "el palacio",
+    "en_noun": "palace"
+  },
+  {
+    "es_noun": "la grieta",
+    "en_noun": "crack"
+  },
+  {
+    "es_noun": "el talento",
+    "en_noun": "talent"
+  },
+  {
+    "es_noun": "el vecindario",
+    "en_noun": "neighborhood"
+  },
+  {
+    "es_noun": "la amenaza",
+    "en_noun": "threat"
+  },
+  {
+    "es_noun": "la oreja",
+    "en_noun": "ear"
+  },
+  {
+    "es_noun": "el milagro",
+    "en_noun": "miracle"
+  },
+  {
+    "es_noun": "la abuela",
+    "en_noun": "grandmother"
+  },
+  {
+    "es_noun": "la empresa",
+    "en_noun": "firm"
+  },
+  {
+    "es_noun": "el ganador",
+    "en_noun": "winner"
+  },
+  {
+    "es_noun": "la licencia",
+    "en_noun": "license"
+  },
+  {
+    "es_noun": "la ventaja",
+    "en_noun": "advantage"
+  },
+  {
+    "es_noun": "el mono",
+    "en_noun": "monkey"
+  },
+  {
+    "es_noun": "el espejo",
+    "en_noun": "mirror"
+  },
+  {
+    "es_noun": "la madera",
+    "en_noun": "wood"
+  },
+  {
+    "es_noun": "el sindicato",
+    "en_noun": "union"
+  },
+  {
+    "es_noun": "el cristiano",
+    "en_noun": "christian"
+  },
+  {
+    "es_noun": "la violencia",
+    "en_noun": "violence"
+  },
+  {
+    "es_noun": "la protección",
+    "en_noun": "protection"
+  },
+  {
+    "es_noun": "el gancho",
+    "en_noun": "hook"
+  },
+  {
+    "es_noun": "el hijo de puta",
+    "en_noun": "motherfucker"
+  },
+  {
+    "es_noun": "la preocupación",
+    "en_noun": "concern"
+  },
+  {
+    "es_noun": "el efecto",
+    "en_noun": "effect"
+  },
+  {
+    "es_noun": "el estudio",
+    "en_noun": "studio"
+  },
+  {
+    "es_noun": "la carga",
+    "en_noun": "load"
+  },
+  {
+    "es_noun": "el tesoro",
+    "en_noun": "treasure"
+  },
+  {
+    "es_noun": "el hechizo",
+    "en_noun": "spell"
+  },
+  {
+    "es_noun": "el hierro",
+    "en_noun": "iron"
+  },
+  {
+    "es_noun": "el rescate",
+    "en_noun": "rescue"
+  },
+  {
+    "es_noun": "el tratamiento",
+    "en_noun": "treatment"
+  },
+  {
+    "es_noun": "el desierto",
+    "en_noun": "desert"
+  },
+  {
+    "es_noun": "el resultado",
+    "en_noun": "result"
+  },
+  {
+    "es_noun": "el piano",
+    "en_noun": "piano"
+  },
+  {
+    "es_noun": "la amistad",
+    "en_noun": "friendship"
+  },
+  {
+    "es_noun": "el caramelo",
+    "en_noun": "candy"
+  },
+  {
+    "es_noun": "la novia",
+    "en_noun": "bride"
+  },
+  {
+    "es_noun": "la flor",
+    "en_noun": "flower"
+  },
+  {
+    "es_noun": "el hueso",
+    "en_noun": "bone"
+  },
+  {
+    "es_noun": "el valor",
+    "en_noun": "value"
+  },
+  {
+    "es_noun": "el junior",
+    "en_noun": "junior"
+  },
+  {
+    "es_noun": "la restos",
+    "en_noun": "remains"
+  },
+  {
+    "es_noun": "el metal",
+    "en_noun": "metal"
+  },
+  {
+    "es_noun": "la propina",
+    "en_noun": "tip"
+  },
+  {
+    "es_noun": "la vacaciones",
+    "en_noun": "holiday"
+  },
+  {
+    "es_noun": "la tasa",
+    "en_noun": "rate"
+  },
+  {
+    "es_noun": "el rendimiento",
+    "en_noun": "performance"
+  },
+  {
+    "es_noun": "el gobernador",
+    "en_noun": "governor"
+  },
+  {
+    "es_noun": "el vehículo",
+    "en_noun": "vehicle"
+  },
+  {
+    "es_noun": "el brindis",
+    "en_noun": "toast"
+  },
+  {
+    "es_noun": "el orgullo",
+    "en_noun": "pride"
+  },
+  {
+    "es_noun": "el champán",
+    "en_noun": "champagne"
+  },
+  {
+    "es_noun": "el extraño",
+    "en_noun": "stranger"
+  },
+  {
+    "es_noun": "el uniforme",
+    "en_noun": "uniform"
+  },
+  {
+    "es_noun": "la lágrima",
+    "en_noun": "tear"
+  },
+  {
+    "es_noun": "el taxi",
+    "en_noun": "cab"
+  },
+  {
+    "es_noun": "la presencia",
+    "en_noun": "presence"
+  },
+  {
+    "es_noun": "el grito",
+    "en_noun": "scream"
+  },
+  {
+    "es_noun": "el polvo",
+    "en_noun": "dust"
+  },
+  {
+    "es_noun": "el borde",
+    "en_noun": "edge"
+  },
+  {
+    "es_noun": "la bruja",
+    "en_noun": "witch"
+  },
+  {
+    "es_noun": "la medios",
+    "en_noun": "media"
+  },
+  {
+    "es_noun": "la reclamación",
+    "en_noun": "claim"
+  },
+  {
+    "es_noun": "el arroz",
+    "en_noun": "rice"
+  },
+  {
+    "es_noun": "el huevo",
+    "en_noun": "egg"
+  },
+  {
+    "es_noun": "el puñetazo",
+    "en_noun": "punch"
+  },
+  {
+    "es_noun": "el reparto",
+    "en_noun": "cast"
+  },
+  {
+    "es_noun": "la inteligencia",
+    "en_noun": "intelligence"
+  },
+  {
+    "es_noun": "la vaca",
+    "en_noun": "cow"
+  },
+  {
+    "es_noun": "la superficie",
+    "en_noun": "surface"
+  },
+  {
+    "es_noun": "el cigarrillo",
+    "en_noun": "cigarette"
+  },
+  {
+    "es_noun": "el destino",
+    "en_noun": "destiny"
+  },
+  {
+    "es_noun": "la puntuación",
+    "en_noun": "score"
+  },
+  {
+    "es_noun": "la tecnología",
+    "en_noun": "technology"
+  },
+  {
+    "es_noun": "el dragón",
+    "en_noun": "dragon"
+  },
+  {
+    "es_noun": "el piloto",
+    "en_noun": "pilot"
+  },
+  {
+    "es_noun": "el pecado",
+    "en_noun": "sin"
+  },
+  {
+    "es_noun": "el emperador",
+    "en_noun": "emperor"
+  },
+  {
+    "es_noun": "la meta",
+    "en_noun": "goal"
+  },
+  {
+    "es_noun": "la juventud",
+    "en_noun": "youth"
+  },
+  {
+    "es_noun": "la olla",
+    "en_noun": "pot"
+  },
+  {
+    "es_noun": "el lobo",
+    "en_noun": "wolf"
+  },
+  {
+    "es_noun": "el estruendo",
+    "en_noun": "boom"
+  },
+  {
+    "es_noun": "la fila",
+    "en_noun": "row"
+  },
+  {
+    "es_noun": "la sección",
+    "en_noun": "section"
+  },
+  {
+    "es_noun": "el vertedero",
+    "en_noun": "dump"
+  },
+  {
+    "es_noun": "el texto",
+    "en_noun": "text"
+  },
+  {
+    "es_noun": "el prisionero",
+    "en_noun": "prisoner"
+  },
+  {
+    "es_noun": "el cero",
+    "en_noun": "zero"
+  },
+  {
+    "es_noun": "la rueda",
+    "en_noun": "wheel"
+  },
+  {
+    "es_noun": "el intercambio",
+    "en_noun": "exchange"
+  },
+  {
+    "es_noun": "la costa",
+    "en_noun": "coast"
+  },
+  {
+    "es_noun": "la nota (academic), grado (degree)",
+    "en_noun": "grade"
+  },
+  {
+    "es_noun": "el turno",
+    "en_noun": "shift"
+  },
+  {
+    "es_noun": "la cura",
+    "en_noun": "cure"
+  },
+  {
+    "es_noun": "el sacrificio",
+    "en_noun": "sacrifice"
+  },
+  {
+    "es_noun": "la bestia",
+    "en_noun": "beast"
+  },
+  {
+    "es_noun": "el pastel",
+    "en_noun": "pie"
+  },
+  {
+    "es_noun": "el material",
+    "en_noun": "material"
+  },
+  {
+    "es_noun": "la criatura",
+    "en_noun": "creature"
+  },
+  {
+    "es_noun": "el rastro",
+    "en_noun": "trace"
+  },
+  {
+    "es_noun": "el botón",
+    "en_noun": "button"
+  },
+  {
+    "es_noun": "la oscuridad",
+    "en_noun": "darkness"
+  },
+  {
+    "es_noun": "la ambulancia",
+    "en_noun": "ambulance"
+  },
+  {
+    "es_noun": "el internet",
+    "en_noun": "internet"
+  },
+  {
+    "es_noun": "el rango",
+    "en_noun": "range"
+  },
+  {
+    "es_noun": "la experto",
+    "en_noun": "expert"
+  },
+  {
+    "es_noun": "la congelación",
+    "en_noun": "freeze"
+  },
+  {
+    "es_noun": "la venta",
+    "en_noun": "sale"
+  },
+  {
+    "es_noun": "el jugo (Latin America), zumo (Spain)",
+    "en_noun": "juice"
+  },
+  {
+    "es_noun": "la solución",
+    "en_noun": "solution"
+  },
+  {
+    "es_noun": "la torre",
+    "en_noun": "tower"
+  },
+  {
+    "es_noun": "la masa",
+    "en_noun": "mass"
+  },
+  {
+    "es_noun": "el extraterrestre",
+    "en_noun": "alien"
+  },
+  {
+    "es_noun": "el horario",
+    "en_noun": "schedule"
+  },
+  {
+    "es_noun": "la escaleras",
+    "en_noun": "stairs"
+  },
+  {
+    "es_noun": "la fruta",
+    "en_noun": "fruit"
+  },
+  {
+    "es_noun": "el espía",
+    "en_noun": "spy"
+  },
+  {
+    "es_noun": "la anciano",
+    "en_noun": "senior"
+  },
+  {
+    "es_noun": "el garaje",
+    "en_noun": "garage"
+  },
+  {
+    "es_noun": "la ira",
+    "en_noun": "anger"
+  },
+  {
+    "es_noun": "la pista",
+    "en_noun": "clue"
+  },
+  {
+    "es_noun": "la revista",
+    "en_noun": "magazine"
+  },
+  {
+    "es_noun": "la zona",
+    "en_noun": "zone"
+  },
+  {
+    "es_noun": "el hombro",
+    "en_noun": "shoulder"
+  },
+  {
+    "es_noun": "el progreso",
+    "en_noun": "progress"
+  },
+  {
+    "es_noun": "la serpiente",
+    "en_noun": "snake"
+  },
+  {
+    "es_noun": "el esfuerzo",
+    "en_noun": "effort"
+  },
+  {
+    "es_noun": "el ascensor",
+    "en_noun": "elevator"
+  },
+  {
+    "es_noun": "la sentencia",
+    "en_noun": "sentence"
+  },
+  {
+    "es_noun": "el equipo",
+    "en_noun": "equipment"
+  },
+  {
+    "es_noun": "la actitud",
+    "en_noun": "attitude"
+  },
+  {
+    "es_noun": "el periódico",
+    "en_noun": "newspaper"
+  },
+  {
+    "es_noun": "la orden de arresto",
+    "en_noun": "warrant"
+  },
+  {
+    "es_noun": "el perdedor",
+    "en_noun": "loser"
+  },
+  {
+    "es_noun": "la serie",
+    "en_noun": "series"
+  },
+  {
+    "es_noun": "la visión",
+    "en_noun": "vision"
+  },
+  {
+    "es_noun": "el actor",
+    "en_noun": "actor"
+  },
+  {
+    "es_noun": "la maldición",
+    "en_noun": "curse"
+  },
+  {
+    "es_noun": "la sombra",
+    "en_noun": "shadow"
+  },
+  {
+    "es_noun": "la pasión",
+    "en_noun": "passion"
+  },
+  {
+    "es_noun": "la ruta",
+    "en_noun": "route"
+  },
+  {
+    "es_noun": "la reportero",
+    "en_noun": "reporter"
+  },
+  {
+    "es_noun": "la explosión",
+    "en_noun": "explosion"
+  },
+  {
+    "es_noun": "el escuadrón",
+    "en_noun": "squad"
+  },
+  {
+    "es_noun": "el reino",
+    "en_noun": "kingdom"
+  },
+  {
+    "es_noun": "la pantalla",
+    "en_noun": "screen"
+  },
+  {
+    "es_noun": "la moda",
+    "en_noun": "fashion"
+  },
+  {
+    "es_noun": "la ola",
+    "en_noun": "wave"
+  },
+  {
+    "es_noun": "la escalada",
+    "en_noun": "climb"
+  },
+  {
+    "es_noun": "la pluma",
+    "en_noun": "pen"
+  },
+  {
+    "es_noun": "el incidente",
+    "en_noun": "incident"
+  },
+  {
+    "es_noun": "el toro",
+    "en_noun": "bull"
+  },
+  {
+    "es_noun": "la cadena",
+    "en_noun": "chain"
+  },
+  {
+    "es_noun": "el dispositivo",
+    "en_noun": "device"
+  },
+  {
+    "es_noun": "la deuda",
+    "en_noun": "debt"
+  },
+  {
+    "es_noun": "la campaña",
+    "en_noun": "campaign"
+  },
+  {
+    "es_noun": "el abrazo",
+    "en_noun": "hug"
+  },
+  {
+    "es_noun": "el alcohol",
+    "en_noun": "alcohol"
+  },
+  {
+    "es_noun": "la conferencia",
+    "en_noun": "conference"
+  },
+  {
+    "es_noun": "la educación",
+    "en_noun": "education"
+  },
+  {
+    "es_noun": "la política",
+    "en_noun": "politics"
+  },
+  {
+    "es_noun": "la violación",
+    "en_noun": "rape"
+  },
+  {
+    "es_noun": "la momia",
+    "en_noun": "mummy"
+  },
+  {
+    "es_noun": "la frontera",
+    "en_noun": "border"
+  },
+  {
+    "es_noun": "el cable",
+    "en_noun": "wire"
+  },
+  {
+    "es_noun": "el premio",
+    "en_noun": "prize"
+  },
+  {
+    "es_noun": "el círculo",
+    "en_noun": "circle"
+  },
+  {
+    "es_noun": "el objeto",
+    "en_noun": "object"
+  },
+  {
+    "es_noun": "el robo",
+    "en_noun": "robbery"
+  },
+  {
+    "es_noun": "el trueno",
+    "en_noun": "thunder"
+  },
+  {
+    "es_noun": "la cuerda",
+    "en_noun": "rope"
+  },
+  {
+    "es_noun": "la sal",
+    "en_noun": "salt"
+  },
+  {
+    "es_noun": "la carne",
+    "en_noun": "flesh"
+  },
+  {
+    "es_noun": "la escritor",
+    "en_noun": "writer"
+  },
+  {
+    "es_noun": "la basura",
+    "en_noun": "trash"
+  },
+  {
+    "es_noun": "la recompensa",
+    "en_noun": "reward"
+  },
+  {
+    "es_noun": "la gloria",
+    "en_noun": "glory"
+  },
+  {
+    "es_noun": "la autoridad",
+    "en_noun": "authority"
+  },
+  {
+    "es_noun": "la propiedad",
+    "en_noun": "estate"
+  },
+  {
+    "es_noun": "el patio",
+    "en_noun": "yard"
+  },
+  {
+    "es_noun": "el tanque",
+    "en_noun": "tank"
+  },
+  {
+    "es_noun": "la confianza",
+    "en_noun": "confidence"
+  },
+  {
+    "es_noun": "la falta",
+    "en_noun": "lack"
+  },
+  {
+    "es_noun": "la manzana",
+    "en_noun": "apple"
+  },
+  {
+    "es_noun": "el acercamiento",
+    "en_noun": "approach"
+  },
+  {
+    "es_noun": "el pollito",
+    "en_noun": "chick"
+  },
+  {
+    "es_noun": "la muñeca",
+    "en_noun": "doll"
+  },
+  {
+    "es_noun": "el pato",
+    "en_noun": "duck"
+  },
+  {
+    "es_noun": "la acciones (stock)",
+    "en_noun": "stock"
+  },
+  {
+    "es_noun": "la biblioteca",
+    "en_noun": "library"
+  },
+  {
+    "es_noun": "el fracaso",
+    "en_noun": "failure"
+  },
+  {
+    "es_noun": "el movimiento",
+    "en_noun": "movement"
+  },
+  {
+    "es_noun": "el arco",
+    "en_noun": "bow"
+  },
+  {
+    "es_noun": "la cola",
+    "en_noun": "tail"
+  },
+  {
+    "es_noun": "el senador",
+    "en_noun": "senator"
+  },
+  {
+    "es_noun": "la pesadilla",
+    "en_noun": "nightmare"
+  },
+  {
+    "es_noun": "el teatro",
+    "en_noun": "theater"
+  },
+  {
+    "es_noun": "la arena",
+    "en_noun": "sand"
+  },
+  {
+    "es_noun": "la reputación",
+    "en_noun": "reputation"
+  },
+  {
+    "es_noun": "el resbalón",
+    "en_noun": "slip"
+  },
+  {
+    "es_noun": "el rosa (color)",
+    "en_noun": "pink"
+  },
+  {
+    "es_noun": "la doncella, criada",
+    "en_noun": "maid"
+  },
+  {
+    "es_noun": "la agencia",
+    "en_noun": "agency"
+  },
+  {
+    "es_noun": "la infancia",
+    "en_noun": "childhood"
+  },
+  {
+    "es_noun": "el opuesto",
+    "en_noun": "opposite"
+  },
+  {
+    "es_noun": "la política",
+    "en_noun": "policy"
+  },
+  {
+    "es_noun": "el pánico",
+    "en_noun": "panic"
+  },
+  {
+    "es_noun": "el diseño",
+    "en_noun": "design"
+  },
+  {
+    "es_noun": "la charla",
+    "en_noun": "chat"
+  },
+  {
+    "es_noun": "la tarea",
+    "en_noun": "task"
+  },
+  {
+    "es_noun": "la cháchara",
+    "en_noun": "chatter"
+  },
+  {
+    "es_noun": "el cinturón",
+    "en_noun": "belt"
+  },
+  {
+    "es_noun": "la garantía",
+    "en_noun": "guarantee"
+  },
+  {
+    "es_noun": "la corriente",
+    "en_noun": "current"
+  },
+  {
+    "es_noun": "la basura",
+    "en_noun": "garbage"
+  },
+  {
+    "es_noun": "la custodia",
+    "en_noun": "custody"
+  },
+  {
+    "es_noun": "el demonio",
+    "en_noun": "demon"
+  },
+  {
+    "es_noun": "la coincidencia",
+    "en_noun": "coincidence"
+  },
+  {
+    "es_noun": "el intento",
+    "en_noun": "attempt"
+  },
+  {
+    "es_noun": "la revolución",
+    "en_noun": "revolution"
+  },
+  {
+    "es_noun": "el acuerdo",
+    "en_noun": "agreement"
+  },
+  {
+    "es_noun": "el imperio",
+    "en_noun": "empire"
+  },
+  {
+    "es_noun": "el desastre",
+    "en_noun": "disaster"
+  },
+  {
+    "es_noun": "el avance",
+    "en_noun": "advance"
+  },
+  {
+    "es_noun": "la guitarra",
+    "en_noun": "guitar"
+  },
+  {
+    "es_noun": "el detalle",
+    "en_noun": "detail"
+  },
+  {
+    "es_noun": "el comportamiento",
+    "en_noun": "behavior"
+  },
+  {
+    "es_noun": "la entrega",
+    "en_noun": "delivery"
+  },
+  {
+    "es_noun": "la habilidad",
+    "en_noun": "ability"
+  },
+  {
+    "es_noun": "el distrito",
+    "en_noun": "district"
+  },
+  {
+    "es_noun": "el zapato",
+    "en_noun": "shoe"
+  },
+  {
+    "es_noun": "la esclavo",
+    "en_noun": "slave"
+  },
+  {
+    "es_noun": "el cobarde",
+    "en_noun": "coward"
+  },
+  {
+    "es_noun": "el cazador",
+    "en_noun": "hunter"
+  },
+  {
+    "es_noun": "la cultura",
+    "en_noun": "culture"
+  },
+  {
+    "es_noun": "la explicación",
+    "en_noun": "explanation"
+  },
+  {
+    "es_noun": "el comité",
+    "en_noun": "committee"
+  },
+  {
+    "es_noun": "el antecedente",
+    "en_noun": "background"
+  },
+  {
+    "es_noun": "la identidad",
+    "en_noun": "identity"
+  },
+  {
+    "es_noun": "el canal",
+    "en_noun": "channel"
+  },
+  {
+    "es_noun": "el límite",
+    "en_noun": "bound"
+  },
+  {
+    "es_noun": "la especie",
+    "en_noun": "species"
+  },
+  {
+    "es_noun": "la lucha",
+    "en_noun": "struggle"
+  },
+  {
+    "es_noun": "la máscara",
+    "en_noun": "mask"
+  },
+  {
+    "es_noun": "la fiebre",
+    "en_noun": "fever"
+  },
+  {
+    "es_noun": "el préstamo",
+    "en_noun": "loan"
+  },
+  {
+    "es_noun": "el silbato",
+    "en_noun": "whistle"
+  },
+  {
+    "es_noun": "el castigo",
+    "en_noun": "punishment"
+  },
+  {
+    "es_noun": "la producción",
+    "en_noun": "production"
+  },
+  {
+    "es_noun": "el capital",
+    "en_noun": "capital"
+  },
+  {
+    "es_noun": "el potencial",
+    "en_noun": "potential"
+  },
+  {
+    "es_noun": "el cuarto (room), trimestre (quarter)",
+    "en_noun": "quarter"
+  },
+  {
+    "es_noun": "el tazón",
+    "en_noun": "bowl"
+  },
+  {
+    "es_noun": "el museo",
+    "en_noun": "museum"
+  },
+  {
+    "es_noun": "la porra",
+    "en_noun": "cheer"
+  },
+  {
+    "es_noun": "el plato",
+    "en_noun": "dish"
+  },
+  {
+    "es_noun": "el disparo",
+    "en_noun": "gunshot"
+  },
+  {
+    "es_noun": "el armario",
+    "en_noun": "closet"
+  },
+  {
+    "es_noun": "la suciedad",
+    "en_noun": "dirt"
+  },
+  {
+    "es_noun": "la corona",
+    "en_noun": "crown"
+  },
+  {
+    "es_noun": "el grito",
+    "en_noun": "shout"
+  },
+  {
+    "es_noun": "el tipo",
+    "en_noun": "fella"
+  },
+  {
+    "es_noun": "el sofá",
+    "en_noun": "couch"
+  },
+  {
+    "es_noun": "la demanda",
+    "en_noun": "demand"
+  },
+  {
+    "es_noun": "la transferencia",
+    "en_noun": "transfer"
+  },
+  {
+    "es_noun": "la junta",
+    "en_noun": "joint"
+  },
+  {
+    "es_noun": "el episodio",
+    "en_noun": "episode"
+  },
+  {
+    "es_noun": "el sótano",
+    "en_noun": "basement"
+  },
+  {
+    "es_noun": "el romano",
+    "en_noun": "roman"
+  },
+  {
+    "es_noun": "el artículo",
+    "en_noun": "article"
+  },
+  {
+    "es_noun": "la guía",
+    "en_noun": "guide"
+  },
+  {
+    "es_noun": "el sándwich",
+    "en_noun": "sandwich"
+  },
+  {
+    "es_noun": "el destello",
+    "en_noun": "flash"
+  },
+  {
+    "es_noun": "la cartera",
+    "en_noun": "wallet"
+  },
+  {
+    "es_noun": "la calidad",
+    "en_noun": "quality"
+  },
+  {
+    "es_noun": "el concierto",
+    "en_noun": "concert"
+  },
+  {
+    "es_noun": "el cantante",
+    "en_noun": "singer"
+  },
+  {
+    "es_noun": "el carril",
+    "en_noun": "lane"
+  },
+  {
+    "es_noun": "el béisbol",
+    "en_noun": "baseball"
+  },
+  {
+    "es_noun": "el título",
+    "en_noun": "title"
+  },
+  {
+    "es_noun": "la comisionado",
+    "en_noun": "commissioner"
+  },
+  {
+    "es_noun": "el pis (slang)",
+    "en_noun": "pee"
+  },
+  {
+    "es_noun": "la caridad",
+    "en_noun": "charity"
+  },
+  {
+    "es_noun": "el drama",
+    "en_noun": "drama"
+  },
+  {
+    "es_noun": "la ceremonia",
+    "en_noun": "ceremony"
+  },
+  {
+    "es_noun": "el paquete",
+    "en_noun": "package"
+  },
+  {
+    "es_noun": "el brillo",
+    "en_noun": "shine"
+  },
+  {
+    "es_noun": "el camarada",
+    "en_noun": "comrade"
+  },
+  {
+    "es_noun": "la gato",
+    "en_noun": "pussy"
+  },
+  {
+    "es_noun": "el suministro",
+    "en_noun": "supply"
+  },
+  {
+    "es_noun": "el tono",
+    "en_noun": "tone"
+  },
+  {
+    "es_noun": "el cliente",
+    "en_noun": "customer"
+  },
+  {
+    "es_noun": "el sudor",
+    "en_noun": "sweat"
+  },
+  {
+    "es_noun": "la posibilidad",
+    "en_noun": "possibility"
+  },
+  {
+    "es_noun": "la bandera",
+    "en_noun": "flag"
+  },
+  {
+    "es_noun": "el plástico",
+    "en_noun": "plastic"
+  },
+  {
+    "es_noun": "la equipo (gear), marcha (gear in a vehicle)",
+    "en_noun": "gear"
+  },
+  {
+    "es_noun": "la rendición",
+    "en_noun": "surrender"
+  },
+  {
+    "es_noun": "la impresión",
+    "en_noun": "impression"
+  },
+  {
+    "es_noun": "el yo",
+    "en_noun": "self"
+  },
+  {
+    "es_noun": "el busto",
+    "en_noun": "bust"
+  },
+  {
+    "es_noun": "el sirviente",
+    "en_noun": "servant"
+  },
+  {
+    "es_noun": "el gimnasio",
+    "en_noun": "gym"
+  },
+  {
+    "es_noun": "el asalto",
+    "en_noun": "assault"
+  },
+  {
+    "es_noun": "el sendero",
+    "en_noun": "trail"
+  },
+  {
+    "es_noun": "la crisis",
+    "en_noun": "crisis"
+  },
+  {
+    "es_noun": "la colección",
+    "en_noun": "collection"
+  },
+  {
+    "es_noun": "el diamante",
+    "en_noun": "diamond"
+  },
+  {
+    "es_noun": "la adulto",
+    "en_noun": "adult"
+  },
+  {
+    "es_noun": "la biblia",
+    "en_noun": "bible"
+  },
+  {
+    "es_noun": "la liga",
+    "en_noun": "league"
+  },
+  {
+    "es_noun": "la naranja",
+    "en_noun": "orange"
+  },
+  {
+    "es_noun": "la imaginación",
+    "en_noun": "imagination"
+  },
+  {
+    "es_noun": "la vecino",
+    "en_noun": "neighbor"
+  },
+  {
+    "es_noun": "la explosión",
+    "en_noun": "blast"
+  },
+  {
+    "es_noun": "el equilibrio",
+    "en_noun": "balance"
+  },
+  {
+    "es_noun": "el golf",
+    "en_noun": "golf"
+  },
+  {
+    "es_noun": "la derrota",
+    "en_noun": "defeat"
+  },
+  {
+    "es_noun": "el tema",
+    "en_noun": "theme"
+  },
+  {
+    "es_noun": "la comodidad",
+    "en_noun": "comfort"
+  },
+  {
+    "es_noun": "la reacción",
+    "en_noun": "reaction"
+  },
+  {
+    "es_noun": "la leyenda",
+    "en_noun": "legend"
+  },
+  {
+    "es_noun": "el césped",
+    "en_noun": "grass"
+  },
+  {
+    "es_noun": "la impresión",
+    "en_noun": "print"
+  },
+  {
+    "es_noun": "el virus",
+    "en_noun": "virus"
+  },
+  {
+    "es_noun": "el lanzamiento",
+    "en_noun": "launch"
+  },
+  {
+    "es_noun": "la sirena",
+    "en_noun": "siren"
+  },
+  {
+    "es_noun": "la entrada",
+    "en_noun": "entrance"
+  },
+  {
+    "es_noun": "la religión",
+    "en_noun": "religion"
+  },
+  {
+    "es_noun": "la mantequilla",
+    "en_noun": "butter"
+  },
+  {
+    "es_noun": "la tarea",
+    "en_noun": "homework"
+  },
+  {
+    "es_noun": "el estrés",
+    "en_noun": "stress"
+  },
+  {
+    "es_noun": "la gorra",
+    "en_noun": "cap"
+  },
+  {
+    "es_noun": "el murciélago",
+    "en_noun": "bat"
+  },
+  {
+    "es_noun": "la mezcla",
+    "en_noun": "mix"
+  },
+  {
+    "es_noun": "la tortura",
+    "en_noun": "torture"
+  },
+  {
+    "es_noun": "la cubierta",
+    "en_noun": "deck"
+  },
+  {
+    "es_noun": "el conejo",
+    "en_noun": "rabbit"
+  },
+  {
+    "es_noun": "la opción",
+    "en_noun": "option"
+  },
+  {
+    "es_noun": "el acento",
+    "en_noun": "accent"
+  },
+  {
+    "es_noun": "el impuesto",
+    "en_noun": "tax"
+  },
+  {
+    "es_noun": "el desgarro",
+    "en_noun": "rip"
+  },
+  {
+    "es_noun": "el brote",
+    "en_noun": "bud"
+  },
+  {
+    "es_noun": "la terapia",
+    "en_noun": "therapy"
+  },
+  {
+    "es_noun": "la vida, existencia",
+    "en_noun": "lifetime"
+  },
+  {
+    "es_noun": "el aplastamiento",
+    "en_noun": "crush"
+  },
+  {
+    "es_noun": "la campeón",
+    "en_noun": "champion"
+  },
+  {
+    "es_noun": "el cráneo",
+    "en_noun": "skull"
+  },
+  {
+    "es_noun": "la versión",
+    "en_noun": "version"
+  },
+  {
+    "es_noun": "el amante",
+    "en_noun": "mistress"
+  },
+  {
+    "es_noun": "el combustible",
+    "en_noun": "fuel"
+  },
+  {
+    "es_noun": "el término",
+    "en_noun": "term"
+  },
+  {
+    "es_noun": "el bono, vínculo",
+    "en_noun": "bond"
+  },
+  {
+    "es_noun": "la llanura",
+    "en_noun": "plain"
+  },
+  {
+    "es_noun": "el experimento",
+    "en_noun": "experiment"
+  },
+  {
+    "es_noun": "el monje",
+    "en_noun": "monk"
+  },
+  {
+    "es_noun": "el león",
+    "en_noun": "lion"
+  },
+  {
+    "es_noun": "el muchacho",
+    "en_noun": "lad"
+  },
+  {
+    "es_noun": "el ejercicio",
+    "en_noun": "exercise"
+  },
+  {
+    "es_noun": "el monedero",
+    "en_noun": "purse"
+  },
+  {
+    "es_noun": "la cueva",
+    "en_noun": "cave"
+  },
+  {
+    "es_noun": "el estándar",
+    "en_noun": "standard"
+  },
+  {
+    "es_noun": "el túnel",
+    "en_noun": "tunnel"
+  },
+  {
+    "es_noun": "el acero",
+    "en_noun": "steel"
+  },
+  {
+    "es_noun": "la división",
+    "en_noun": "division"
+  },
+  {
+    "es_noun": "la oveja",
+    "en_noun": "sheep"
+  },
+  {
+    "es_noun": "el clásico",
+    "en_noun": "classic"
+  },
+  {
+    "es_noun": "el sobrino",
+    "en_noun": "nephew"
+  },
+  {
+    "es_noun": "la salsa",
+    "en_noun": "sauce"
+  },
+  {
+    "es_noun": "la influencia",
+    "en_noun": "influence"
+  },
+  {
+    "es_noun": "la red",
+    "en_noun": "network"
+  },
+  {
+    "es_noun": "el concurso",
+    "en_noun": "contest"
+  },
+  {
+    "es_noun": "la cabaña",
+    "en_noun": "cabin"
+  },
+  {
+    "es_noun": "la jungla",
+    "en_noun": "jungle"
+  },
+  {
+    "es_noun": "el vampiro",
+    "en_noun": "vampire"
+  },
+  {
+    "es_noun": "la salida",
+    "en_noun": "exit"
+  },
+  {
+    "es_noun": "el escupitajo",
+    "en_noun": "spit"
+  },
+  {
+    "es_noun": "la generación",
+    "en_noun": "generation"
+  },
+  {
+    "es_noun": "el cristal",
+    "en_noun": "crystal"
+  },
+  {
+    "es_noun": "el estatus",
+    "en_noun": "status"
+  },
+  {
+    "es_noun": "el grado",
+    "en_noun": "degree"
+  },
+  {
+    "es_noun": "el dólar (colloquial for 'buck'), venado (for 'buck' as a male deer)",
+    "en_noun": "buck"
+  },
+  {
+    "es_noun": "la marca",
+    "en_noun": "brand"
+  },
+  {
+    "es_noun": "el juguete",
+    "en_noun": "toy"
+  },
+  {
+    "es_noun": "el rasguño",
+    "en_noun": "scratch"
+  },
+  {
+    "es_noun": "la tribu",
+    "en_noun": "tribe"
+  },
+  {
+    "es_noun": "el guion",
+    "en_noun": "script"
+  },
+  {
+    "es_noun": "el nervio",
+    "en_noun": "nerve"
+  },
+  {
+    "es_noun": "el sello",
+    "en_noun": "seal"
+  },
+  {
+    "es_noun": "el bicho",
+    "en_noun": "bug"
+  },
+  {
+    "es_noun": "la respuesta",
+    "en_noun": "response"
+  },
+  {
+    "es_noun": "la vigilancia",
+    "en_noun": "surveillance"
+  },
+  {
+    "es_noun": "la ganancia",
+    "en_noun": "gain"
+  },
+  {
+    "es_noun": "el desencadenante",
+    "en_noun": "trigger"
+  },
+  {
+    "es_noun": "la clínica",
+    "en_noun": "clinic"
+  },
+  {
+    "es_noun": "la paciencia",
+    "en_noun": "patience"
+  },
+  {
+    "es_noun": "el traidor",
+    "en_noun": "traitor"
+  },
+  {
+    "es_noun": "el jolgorio",
+    "en_noun": "heck"
+  },
+  {
+    "es_noun": "el granizo",
+    "en_noun": "hail"
+  },
+  {
+    "es_noun": "el puerto",
+    "en_noun": "port"
+  },
+  {
+    "es_noun": "la carne de res",
+    "en_noun": "beef"
+  },
+  {
+    "es_noun": "la rutina",
+    "en_noun": "routine"
+  },
+  {
+    "es_noun": "el atuendo",
+    "en_noun": "outfit"
+  },
+  {
+    "es_noun": "la confesión",
+    "en_noun": "confession"
+  },
+  {
+    "es_noun": "la facilidad",
+    "en_noun": "ease"
+  },
+  {
+    "es_noun": "el subalterno",
+    "en_noun": "deputy"
+  },
+  {
+    "es_noun": "el director",
+    "en_noun": "principal"
+  },
+  {
+    "es_noun": "la participación",
+    "en_noun": "stake"
+  },
+  {
+    "es_noun": "el enlace",
+    "en_noun": "link"
+  },
+  {
+    "es_noun": "la industria",
+    "en_noun": "industry"
+  },
+  {
+    "es_noun": "el disfraz",
+    "en_noun": "costume"
+  },
+  {
+    "es_noun": "el argumento",
+    "en_noun": "argument"
+  },
+  {
+    "es_noun": "el movimiento",
+    "en_noun": "motion"
+  },
+  {
+    "es_noun": "la construcción",
+    "en_noun": "construction"
+  },
+  {
+    "es_noun": "el objetivo",
+    "en_noun": "aim"
+  },
+  {
+    "es_noun": "el patrón",
+    "en_noun": "pattern"
+  },
+  {
+    "es_noun": "el clavo",
+    "en_noun": "nail"
+  },
+  {
+    "es_noun": "la electricidad",
+    "en_noun": "electricity"
+  },
+  {
+    "es_noun": "el guerrero",
+    "en_noun": "warrior"
+  },
+  {
+    "es_noun": "la hada",
+    "en_noun": "fairy"
+  },
+  {
+    "es_noun": "el aniversario",
+    "en_noun": "anniversary"
+  },
+  {
+    "es_noun": "la temperatura",
+    "en_noun": "temperature"
+  },
+  {
+    "es_noun": "la caseta",
+    "en_noun": "booth"
+  },
+  {
+    "es_noun": "la mascota",
+    "en_noun": "pet"
+  },
+  {
+    "es_noun": "el deporte",
+    "en_noun": "sport"
+  },
+  {
+    "es_noun": "la fianza",
+    "en_noun": "bail"
+  },
+  {
+    "es_noun": "la interrupción",
+    "en_noun": "interrupt"
+  },
+  {
+    "es_noun": "la melodía",
+    "en_noun": "tune"
+  },
+  {
+    "es_noun": "la oración",
+    "en_noun": "prayer"
+  },
+  {
+    "es_noun": "la conciencia",
+    "en_noun": "conscience"
+  },
+  {
+    "es_noun": "el cuartel general",
+    "en_noun": "headquarters"
+  },
+  {
+    "es_noun": "el gallo",
+    "en_noun": "cock"
+  },
+  {
+    "es_noun": "el chip",
+    "en_noun": "chip"
+  },
+  {
+    "es_noun": "la culpa",
+    "en_noun": "guilt"
+  },
+  {
+    "es_noun": "el escalofrío",
+    "en_noun": "chill"
+  },
+  {
+    "es_noun": "el ratón",
+    "en_noun": "mouse"
+  },
+  {
+    "es_noun": "el distribuidor",
+    "en_noun": "dealer"
+  },
+  {
+    "es_noun": "el respaldo",
+    "en_noun": "backup"
+  },
+  {
+    "es_noun": "el paraíso",
+    "en_noun": "paradise"
+  },
+  {
+    "es_noun": "el obispo",
+    "en_noun": "bishop"
+  },
+  {
+    "es_noun": "el baúl",
+    "en_noun": "trunk"
+  },
+  {
+    "es_noun": "la tradición",
+    "en_noun": "tradition"
+  },
+  {
+    "es_noun": "la ensalada",
+    "en_noun": "salad"
+  },
+  {
+    "es_noun": "el complejo",
+    "en_noun": "complex"
+  },
+  {
+    "es_noun": "el promedio",
+    "en_noun": "average"
+  },
+  {
+    "es_noun": "el acantilado",
+    "en_noun": "cliff"
+  },
+  {
+    "es_noun": "el griego",
+    "en_noun": "greek"
+  },
+  {
+    "es_noun": "la representación",
+    "en_noun": "behalf"
+  },
+  {
+    "es_noun": "el punk",
+    "en_noun": "punk"
+  },
+  {
+    "es_noun": "la tira",
+    "en_noun": "strip"
+  },
+  {
+    "es_noun": "la tubería",
+    "en_noun": "pipe"
+  },
+  {
+    "es_noun": "la muestra",
+    "en_noun": "sample"
+  },
+  {
+    "es_noun": "la lavandería",
+    "en_noun": "laundry"
+  },
+  {
+    "es_noun": "el medio ambiente",
+    "en_noun": "environment"
+  },
+  {
+    "es_noun": "la jaula",
+    "en_noun": "cage"
+  },
+  {
+    "es_noun": "el robot",
+    "en_noun": "robot"
+  },
+  {
+    "es_noun": "el hábito",
+    "en_noun": "habit"
+  },
+  {
+    "es_noun": "la envoltura",
+    "en_noun": "wrap"
+  },
+  {
+    "es_noun": "el vientre",
+    "en_noun": "belly"
+  },
+  {
+    "es_noun": "el beneficio",
+    "en_noun": "benefit"
+  },
+  {
+    "es_noun": "el lavabo",
+    "en_noun": "sink"
+  },
+  {
+    "es_noun": "el pitido",
+    "en_noun": "beep"
+  },
+  {
+    "es_noun": "el motivo",
+    "en_noun": "motive"
+  },
+  {
+    "es_noun": "el circo",
+    "en_noun": "circus"
+  },
+  {
+    "es_noun": "el territorio",
+    "en_noun": "territory"
+  },
+  {
+    "es_noun": "la fosa",
+    "en_noun": "pit"
+  },
+  {
+    "es_noun": "la disculpa",
+    "en_noun": "apology"
+  },
+  {
+    "es_noun": "el examen",
+    "en_noun": "exam"
+  },
+  {
+    "es_noun": "el festival",
+    "en_noun": "festival"
+  },
+  {
+    "es_noun": "la actriz",
+    "en_noun": "actress"
+  },
+  {
+    "es_noun": "la sala",
+    "en_noun": "ward"
+  },
+  {
+    "es_noun": "la actividad",
+    "en_noun": "activity"
+  },
+  {
+    "es_noun": "el trabajador",
+    "en_noun": "worker"
+  },
+  {
+    "es_noun": "el policía",
+    "en_noun": "policeman"
+  },
+  {
+    "es_noun": "el refugio",
+    "en_noun": "shelter"
+  },
+  {
+    "es_noun": "la existencia",
+    "en_noun": "existence"
+  },
+  {
+    "es_noun": "la atmósfera",
+    "en_noun": "atmosphere"
+  },
+  {
+    "es_noun": "el producto",
+    "en_noun": "product"
+  },
+  {
+    "es_noun": "el entretanto",
+    "en_noun": "meantime"
+  },
+  {
+    "es_noun": "el límite",
+    "en_noun": "limit"
+  },
+  {
+    "es_noun": "la elección",
+    "en_noun": "election"
+  },
+  {
+    "es_noun": "la ropa interior",
+    "en_noun": "underwear"
+  },
+  {
+    "es_noun": "el pulso",
+    "en_noun": "pulse"
+  },
+  {
+    "es_noun": "la despedida",
+    "en_noun": "farewell"
+  },
+  {
+    "es_noun": "la bofetada",
+    "en_noun": "slap"
+  },
+  {
+    "es_noun": "el grito",
+    "en_noun": "yell"
+  },
+  {
+    "es_noun": "el timbre",
+    "en_noun": "doorbell"
+  },
+  {
+    "es_noun": "la aventura",
+    "en_noun": "adventure"
+  },
+  {
+    "es_noun": "el pasaporte",
+    "en_noun": "passport"
+  },
+  {
+    "es_noun": "el martillo",
+    "en_noun": "hammer"
+  },
+  {
+    "es_noun": "la capucha",
+    "en_noun": "hood"
+  },
+  {
+    "es_noun": "el juicio",
+    "en_noun": "judgment"
+  },
+  {
+    "es_noun": "el homicidio",
+    "en_noun": "homicide"
+  },
+  {
+    "es_noun": "la patrulla",
+    "en_noun": "patrol"
+  },
+  {
+    "es_noun": "el flujo",
+    "en_noun": "flow"
+  },
+  {
+    "es_noun": "la valla",
+    "en_noun": "fence"
+  },
+  {
+    "es_noun": "el mediodía",
+    "en_noun": "noon"
+  },
+  {
+    "es_noun": "la ocasión",
+    "en_noun": "occasion"
+  },
+  {
+    "es_noun": "la personalidad",
+    "en_noun": "personality"
+  },
+  {
+    "es_noun": "la fantasía",
+    "en_noun": "fantasy"
+  },
+  {
+    "es_noun": "el producto fresco",
+    "en_noun": "produce"
+  },
+  {
+    "es_noun": "la probabilidades",
+    "en_noun": "odds"
+  },
+  {
+    "es_noun": "la firma",
+    "en_noun": "signature"
+  },
+  {
+    "es_noun": "el individuo",
+    "en_noun": "individual"
+  },
+  {
+    "es_noun": "el encanto",
+    "en_noun": "charm"
+  },
+  {
+    "es_noun": "el presidente",
+    "en_noun": "chairman"
+  },
+  {
+    "es_noun": "el marco",
+    "en_noun": "frame"
+  },
+  {
+    "es_noun": "el alivio",
+    "en_noun": "relief"
+  },
+  {
+    "es_noun": "la nube",
+    "en_noun": "cloud"
+  },
+  {
+    "es_noun": "el cadáver",
+    "en_noun": "corpse"
+  },
+  {
+    "es_noun": "la organización",
+    "en_noun": "organization"
+  },
+  {
+    "es_noun": "el anfitrión",
+    "en_noun": "host"
+  },
+  {
+    "es_noun": "el transporte",
+    "en_noun": "transport"
+  },
+  {
+    "es_noun": "el oxígeno",
+    "en_noun": "oxygen"
+  },
+  {
+    "es_noun": "el ciudadano",
+    "en_noun": "citizen"
+  },
+  {
+    "es_noun": "el impacto",
+    "en_noun": "impact"
+  },
+  {
+    "es_noun": "la ofensa",
+    "en_noun": "offense"
+  },
+  {
+    "es_noun": "el productor",
+    "en_noun": "producer"
+  },
+  {
+    "es_noun": "el kit",
+    "en_noun": "kit"
+  },
+  {
+    "es_noun": "el anuncio",
+    "en_noun": "ad"
+  },
+  {
+    "es_noun": "la escolta",
+    "en_noun": "escort"
+  },
+  {
+    "es_noun": "la invitación",
+    "en_noun": "invitation"
+  },
+  {
+    "es_noun": "el terrorista",
+    "en_noun": "terrorist"
+  },
+  {
+    "es_noun": "la arcilla",
+    "en_noun": "clay"
+  },
+  {
+    "es_noun": "la tragedia",
+    "en_noun": "tragedy"
+  },
+  {
+    "es_noun": "la matemática",
+    "en_noun": "math"
+  },
+  {
+    "es_noun": "el cobertizo",
+    "en_noun": "shed"
+  },
+  {
+    "es_noun": "el procedimiento",
+    "en_noun": "procedure"
+  },
+  {
+    "es_noun": "el monitor",
+    "en_noun": "monitor"
+  },
+  {
+    "es_noun": "el giro",
+    "en_noun": "spin"
+  },
+  {
+    "es_noun": "el payaso",
+    "en_noun": "clown"
+  },
+  {
+    "es_noun": "el collar",
+    "en_noun": "necklace"
+  },
+  {
+    "es_noun": "el barro",
+    "en_noun": "mud"
+  },
+  {
+    "es_noun": "el perfil",
+    "en_noun": "profile"
+  },
+  {
+    "es_noun": "el ángulo",
+    "en_noun": "angle"
+  },
+  {
+    "es_noun": "la muebles",
+    "en_noun": "furniture"
+  },
+  {
+    "es_noun": "el compromiso",
+    "en_noun": "engagement"
+  },
+  {
+    "es_noun": "el idiota",
+    "en_noun": "moron"
+  },
+  {
+    "es_noun": "el tiburón",
+    "en_noun": "shark"
+  },
+  {
+    "es_noun": "la humanidad",
+    "en_noun": "humanity"
+  },
+  {
+    "es_noun": "el corte",
+    "en_noun": "chop"
+  },
+  {
+    "es_noun": "el chasquido",
+    "en_noun": "snap"
+  },
+  {
+    "es_noun": "la ventas",
+    "en_noun": "sales"
+  },
+  {
+    "es_noun": "el establo",
+    "en_noun": "stable"
+  },
+  {
+    "es_noun": "la abuela",
+    "en_noun": "granny"
+  },
+  {
+    "es_noun": "el poste",
+    "en_noun": "pole"
+  },
+  {
+    "es_noun": "el bailarín",
+    "en_noun": "dancer"
+  },
+  {
+    "es_noun": "el metraje",
+    "en_noun": "footage"
+  },
+  {
+    "es_noun": "el aumento",
+    "en_noun": "increase"
+  },
+  {
+    "es_noun": "el estiramiento",
+    "en_noun": "stretch"
+  },
+  {
+    "es_noun": "el romance",
+    "en_noun": "romance"
+  },
+  {
+    "es_noun": "el helicóptero",
+    "en_noun": "helicopter"
+  },
+  {
+    "es_noun": "el lanzamiento",
+    "en_noun": "pitch"
+  },
+  {
+    "es_noun": "la instancia",
+    "en_noun": "instance"
+  },
+  {
+    "es_noun": "el limón",
+    "en_noun": "lemon"
+  },
+  {
+    "es_noun": "el dolor de cabeza",
+    "en_noun": "headache"
+  },
+  {
+    "es_noun": "la basura",
+    "en_noun": "rubbish"
+  },
+  {
+    "es_noun": "la sesión",
+    "en_noun": "session"
+  },
+  {
+    "es_noun": "el alfiler",
+    "en_noun": "pin"
+  },
+  {
+    "es_noun": "la cámara",
+    "en_noun": "chamber"
+  },
+  {
+    "es_noun": "el comercial",
+    "en_noun": "commercial"
+  },
+  {
+    "es_noun": "el hígado",
+    "en_noun": "liver"
+  },
+  {
+    "es_noun": "el pene",
+    "en_noun": "penis"
+  },
+  {
+    "es_noun": "el ingeniero",
+    "en_noun": "engineer"
+  },
+  {
+    "es_noun": "la cena",
+    "en_noun": "supper"
+  },
+  {
+    "es_noun": "el licor",
+    "en_noun": "liquor"
+  },
+  {
+    "es_noun": "el taladro",
+    "en_noun": "drill"
+  },
+  {
+    "es_noun": "el callejón",
+    "en_noun": "alley"
+  },
+  {
+    "es_noun": "el salto",
+    "en_noun": "hop"
+  },
+  {
+    "es_noun": "la destrucción",
+    "en_noun": "destruction"
+  },
+  {
+    "es_noun": "la chatarra",
+    "en_noun": "junk"
+  },
+  {
+    "es_noun": "el cohete",
+    "en_noun": "rocket"
+  },
+  {
+    "es_noun": "el anciano",
+    "en_noun": "elder"
+  },
+  {
+    "es_noun": "la ópera",
+    "en_noun": "opera"
+  },
+  {
+    "es_noun": "la autopista",
+    "en_noun": "highway"
+  },
+  {
+    "es_noun": "el luchador",
+    "en_noun": "fighter"
+  },
+  {
+    "es_noun": "la concha",
+    "en_noun": "shell"
+  },
+  {
+    "es_noun": "el alfa",
+    "en_noun": "alpha"
+  },
+  {
+    "es_noun": "la libertad",
+    "en_noun": "liberty"
+  },
+  {
+    "es_noun": "el cirujano",
+    "en_noun": "surgeon"
+  },
+  {
+    "es_noun": "el vago",
+    "en_noun": "bum"
+  },
+  {
+    "es_noun": "la viuda",
+    "en_noun": "widow"
+  },
+  {
+    "es_noun": "el reverendo",
+    "en_noun": "reverend"
+  },
+  {
+    "es_noun": "el insulto",
+    "en_noun": "insult"
+  },
+  {
+    "es_noun": "el comentario",
+    "en_noun": "comment"
+  },
+  {
+    "es_noun": "el jabón",
+    "en_noun": "soap"
+  },
+  {
+    "es_noun": "el pinchazo",
+    "en_noun": "prick"
+  },
+  {
+    "es_noun": "la balanza",
+    "en_noun": "scale"
+  },
+  {
+    "es_noun": "la pena",
+    "en_noun": "grief"
+  },
+  {
+    "es_noun": "la rodilla",
+    "en_noun": "knee"
+  },
+  {
+    "es_noun": "la zorra",
+    "en_noun": "slut"
+  },
+  {
+    "es_noun": "el álbum",
+    "en_noun": "album"
+  },
+  {
+    "es_noun": "el acusado",
+    "en_noun": "defendant"
+  },
+  {
+    "es_noun": "la diosa",
+    "en_noun": "goddess"
+  },
+  {
+    "es_noun": "la curva",
+    "en_noun": "bend"
+  },
+  {
+    "es_noun": "el maquillaje",
+    "en_noun": "makeup"
+  },
+  {
+    "es_noun": "la lealtad",
+    "en_noun": "loyalty"
+  },
+  {
+    "es_noun": "el polvo",
+    "en_noun": "powder"
+  },
+  {
+    "es_noun": "el gen",
+    "en_noun": "gene"
+  },
+  {
+    "es_noun": "la dieta",
+    "en_noun": "diet"
+  },
+  {
+    "es_noun": "el padre",
+    "en_noun": "parent"
+  },
+  {
+    "es_noun": "la mermelada",
+    "en_noun": "jam"
+  },
+  {
+    "es_noun": "el salario",
+    "en_noun": "salary"
+  },
+  {
+    "es_noun": "el latín",
+    "en_noun": "latin"
+  },
+  {
+    "es_noun": "la población",
+    "en_noun": "population"
+  },
+  {
+    "es_noun": "el embajador",
+    "en_noun": "ambassador"
+  },
+  {
+    "es_noun": "la taquilla",
+    "en_noun": "locker"
+  },
+  {
+    "es_noun": "la alabanza",
+    "en_noun": "praise"
+  },
+  {
+    "es_noun": "el trauma",
+    "en_noun": "trauma"
+  },
+  {
+    "es_noun": "la orilla",
+    "en_noun": "shore"
+  },
+  {
+    "es_noun": "la riqueza",
+    "en_noun": "wealth"
+  },
+  {
+    "es_noun": "la luna de miel",
+    "en_noun": "honeymoon"
+  },
+  {
+    "es_noun": "la hoja",
+    "en_noun": "blade"
+  },
+  {
+    "es_noun": "el whisky",
+    "en_noun": "whiskey"
+  },
+  {
+    "es_noun": "el núcleo",
+    "en_noun": "core"
+  },
+  {
+    "es_noun": "la ayuda",
+    "en_noun": "aid"
+  },
+  {
+    "es_noun": "la tienda de campaña",
+    "en_noun": "tent"
+  },
+  {
+    "es_noun": "la rubia",
+    "en_noun": "blonde"
+  },
+  {
+    "es_noun": "la intención",
+    "en_noun": "intention"
+  },
+  {
+    "es_noun": "el abuso",
+    "en_noun": "abuse"
+  },
+  {
+    "es_noun": "la poesía",
+    "en_noun": "poetry"
+  },
+  {
+    "es_noun": "el jet",
+    "en_noun": "jet"
+  },
+  {
+    "es_noun": "la resistencia",
+    "en_noun": "resistance"
+  },
+  {
+    "es_noun": "la barba",
+    "en_noun": "beard"
+  },
+  {
+    "es_noun": "la estrategia",
+    "en_noun": "strategy"
+  },
+  {
+    "es_noun": "la cabra",
+    "en_noun": "goat"
+  },
+  {
+    "es_noun": "el premio",
+    "en_noun": "award"
+  },
+  {
+    "es_noun": "el maíz",
+    "en_noun": "corn"
+  },
+  {
+    "es_noun": "el profesional",
+    "en_noun": "pro"
+  },
+  {
+    "es_noun": "la red",
+    "en_noun": "net"
+  },
+  {
+    "es_noun": "el tatuaje",
+    "en_noun": "tattoo"
+  },
+  {
+    "es_noun": "el golpe",
+    "en_noun": "stroke"
+  },
+  {
+    "es_noun": "la novela",
+    "en_noun": "novel"
+  },
+  {
+    "es_noun": "el caos",
+    "en_noun": "chaos"
+  },
+  {
+    "es_noun": "el colega",
+    "en_noun": "colleague"
+  },
+  {
+    "es_noun": "el científico",
+    "en_noun": "scientist"
+  },
+  {
+    "es_noun": "el cuento",
+    "en_noun": "tale"
+  },
+  {
+    "es_noun": "el almacén",
+    "en_noun": "warehouse"
+  },
+  {
+    "es_noun": "el elefante",
+    "en_noun": "elephant"
+  },
+  {
+    "es_noun": "el rehén",
+    "en_noun": "hostage"
+  },
+  {
+    "es_noun": "la rama",
+    "en_noun": "branch"
+  },
+  {
+    "es_noun": "la objeción",
+    "en_noun": "objection"
+  },
+  {
+    "es_noun": "el regazo",
+    "en_noun": "lap"
+  },
+  {
+    "es_noun": "la posesión",
+    "en_noun": "possession"
+  },
+  {
+    "es_noun": "el grifo",
+    "en_noun": "tap"
+  },
+  {
+    "es_noun": "el superior",
+    "en_noun": "superior"
+  },
+  {
+    "es_noun": "la barbilla",
+    "en_noun": "chin"
+  },
+  {
+    "es_noun": "el refresco",
+    "en_noun": "soda"
+  },
+  {
+    "es_noun": "la comisión",
+    "en_noun": "commission"
+  },
+  {
+    "es_noun": "el cine",
+    "en_noun": "cinema"
+  },
+  {
+    "es_noun": "el músculo",
+    "en_noun": "muscle"
+  },
+  {
+    "es_noun": "el poema",
+    "en_noun": "poem"
+  },
+  {
+    "es_noun": "la apelación",
+    "en_noun": "appeal"
+  },
+  {
+    "es_noun": "el bistec",
+    "en_noun": "steak"
+  },
+  {
+    "es_noun": "la supervivencia",
+    "en_noun": "survival"
+  },
+  {
+    "es_noun": "el beneficio",
+    "en_noun": "profit"
+  },
+  {
+    "es_noun": "el símbolo",
+    "en_noun": "symbol"
+  },
+  {
+    "es_noun": "la locura",
+    "en_noun": "madness"
+  },
+  {
+    "es_noun": "el desarrollo",
+    "en_noun": "development"
+  },
+  {
+    "es_noun": "la vela",
+    "en_noun": "sail"
+  },
+  {
+    "es_noun": "el diente",
+    "en_noun": "tooth"
+  },
+  {
+    "es_noun": "la reseña",
+    "en_noun": "review"
+  },
+  {
+    "es_noun": "el baloncesto",
+    "en_noun": "basketball"
+  },
+  {
+    "es_noun": "la gerencia",
+    "en_noun": "management"
+  },
+  {
+    "es_noun": "el tubo",
+    "en_noun": "tube"
+  },
+  {
+    "es_noun": "el rifle",
+    "en_noun": "rifle"
+  },
+  {
+    "es_noun": "el tronco",
+    "en_noun": "log"
+  },
+  {
+    "es_noun": "la abeja",
+    "en_noun": "bee"
+  },
+  {
+    "es_noun": "el apretón",
+    "en_noun": "squeeze"
+  },
+  {
+    "es_noun": "la manera",
+    "en_noun": "manner"
+  },
+  {
+    "es_noun": "la entrada",
+    "en_noun": "entry"
+  },
+  {
+    "es_noun": "el cable",
+    "en_noun": "cable"
+  },
+  {
+    "es_noun": "la sartén",
+    "en_noun": "pan"
+  },
+  {
+    "es_noun": "el nativo",
+    "en_noun": "native"
+  },
+  {
+    "es_noun": "el camarero",
+    "en_noun": "waiter"
+  },
+  {
+    "es_noun": "el ladrillo",
+    "en_noun": "brick"
+  },
+  {
+    "es_noun": "el cerdo",
+    "en_noun": "pork"
+  },
+  {
+    "es_noun": "la pila",
+    "en_noun": "pile"
+  },
+  {
+    "es_noun": "la expresión",
+    "en_noun": "expression"
+  },
+  {
+    "es_noun": "el clan",
+    "en_noun": "clan"
+  },
+  {
+    "es_noun": "la instalación",
+    "en_noun": "facility"
+  },
+  {
+    "es_noun": "la recepción",
+    "en_noun": "reception"
+  },
+  {
+    "es_noun": "la estatua",
+    "en_noun": "statue"
+  },
+  {
+    "es_noun": "el satélite",
+    "en_noun": "satellite"
+  },
+  {
+    "es_noun": "el pulimento",
+    "en_noun": "polish"
+  },
+  {
+    "es_noun": "la libra",
+    "en_noun": "pound"
+  },
+  {
+    "es_noun": "la comunicación",
+    "en_noun": "communication"
+  },
+  {
+    "es_noun": "la nevera",
+    "en_noun": "fridge"
+  },
+  {
+    "es_noun": "la fundación",
+    "en_noun": "foundation"
+  },
+  {
+    "es_noun": "la apariencia",
+    "en_noun": "appearance"
+  },
+  {
+    "es_noun": "la propuesta",
+    "en_noun": "proposal"
+  },
+  {
+    "es_noun": "el combate",
+    "en_noun": "combat"
+  },
+  {
+    "es_noun": "el tobogán",
+    "en_noun": "slide"
+  },
+  {
+    "es_noun": "el retraso",
+    "en_noun": "delay"
+  },
+  {
+    "es_noun": "el trabajo",
+    "en_noun": "labor"
+  },
+  {
+    "es_noun": "la carga",
+    "en_noun": "burden"
+  },
+  {
+    "es_noun": "el pago",
+    "en_noun": "payment"
+  },
+  {
+    "es_noun": "el centro comercial",
+    "en_noun": "mall"
+  },
+  {
+    "es_noun": "el papeleo",
+    "en_noun": "paperwork"
+  },
+  {
+    "es_noun": "el cordero",
+    "en_noun": "lamb"
+  },
+  {
+    "es_noun": "el artículo",
+    "en_noun": "item"
+  },
+  {
+    "es_noun": "el testimonio",
+    "en_noun": "testimony"
+  },
+  {
+    "es_noun": "la cadera",
+    "en_noun": "hip"
+  },
+  {
+    "es_noun": "el baile de graduación",
+    "en_noun": "prom"
+  },
+  {
+    "es_noun": "el parche",
+    "en_noun": "patch"
+  },
+  {
+    "es_noun": "la tarea",
+    "en_noun": "assignment"
+  },
+  {
+    "es_noun": "el motel",
+    "en_noun": "motel"
+  },
+  {
+    "es_noun": "el fraude",
+    "en_noun": "fraud"
+  },
+  {
+    "es_noun": "el postre",
+    "en_noun": "dessert"
+  },
+  {
+    "es_noun": "la lesión",
+    "en_noun": "injury"
+  },
+  {
+    "es_noun": "el combate",
+    "en_noun": "bout"
+  },
+  {
+    "es_noun": "el saco",
+    "en_noun": "sack"
+  },
+  {
+    "es_noun": "el suelo",
+    "en_noun": "soil"
+  },
+  {
+    "es_noun": "la placa",
+    "en_noun": "badge"
+  },
+  {
+    "es_noun": "el motor",
+    "en_noun": "motor"
+  },
+  {
+    "es_noun": "la descripción",
+    "en_noun": "description"
+  },
+  {
+    "es_noun": "la batería",
+    "en_noun": "battery"
+  },
+  {
+    "es_noun": "la queja",
+    "en_noun": "complaint"
+  },
+  {
+    "es_noun": "el vaquero",
+    "en_noun": "cowboy"
+  },
+  {
+    "es_noun": "la privacidad",
+    "en_noun": "privacy"
+  },
+  {
+    "es_noun": "la sabiduría",
+    "en_noun": "wisdom"
+  },
+  {
+    "es_noun": "el contrario",
+    "en_noun": "contrary"
+  },
+  {
+    "es_noun": "la grúa",
+    "en_noun": "crane"
+  },
+  {
+    "es_noun": "la fuga",
+    "en_noun": "leak"
+  },
+  {
+    "es_noun": "la pastilla",
+    "en_noun": "pill"
+  },
+  {
+    "es_noun": "la maleta",
+    "en_noun": "suitcase"
+  },
+  {
+    "es_noun": "el vodka",
+    "en_noun": "vodka"
+  },
+  {
+    "es_noun": "el químico",
+    "en_noun": "chemical"
+  },
+  {
+    "es_noun": "el católico",
+    "en_noun": "catholic"
+  },
+  {
+    "es_noun": "el fútbol",
+    "en_noun": "soccer"
+  },
+  {
+    "es_noun": "el cepillo",
+    "en_noun": "brush"
+  },
+  {
+    "es_noun": "la enfermedad",
+    "en_noun": "illness"
+  },
+  {
+    "es_noun": "la voltereta",
+    "en_noun": "flip"
+  },
+  {
+    "es_noun": "el giro",
+    "en_noun": "twist"
+  },
+  {
+    "es_noun": "el capítulo",
+    "en_noun": "chapter"
+  },
+  {
+    "es_noun": "la medida",
+    "en_noun": "measure"
+  },
+  {
+    "es_noun": "el radar",
+    "en_noun": "radar"
+  },
+  {
+    "es_noun": "el editor",
+    "en_noun": "editor"
+  },
+  {
+    "es_noun": "la estructura",
+    "en_noun": "structure"
+  },
+  {
+    "es_noun": "el mariscal",
+    "en_noun": "marshal"
+  },
+  {
+    "es_noun": "la oferta",
+    "en_noun": "bid"
+  },
+  {
+    "es_noun": "la palma",
+    "en_noun": "palm"
+  },
+  {
+    "es_noun": "el pub",
+    "en_noun": "pub"
+  },
+  {
+    "es_noun": "el análisis",
+    "en_noun": "analysis"
+  },
+  {
+    "es_noun": "el trono",
+    "en_noun": "throne"
+  },
+  {
+    "es_noun": "el granero",
+    "en_noun": "barn"
+  },
+  {
+    "es_noun": "la ira",
+    "en_noun": "rage"
+  },
+  {
+    "es_noun": "la flota",
+    "en_noun": "fleet"
+  },
+  {
+    "es_noun": "el presupuesto",
+    "en_noun": "budget"
+  },
+  {
+    "es_noun": "el humor",
+    "en_noun": "humor"
+  },
+  {
+    "es_noun": "el empleado",
+    "en_noun": "employee"
+  },
+  {
+    "es_noun": "la medicación",
+    "en_noun": "medication"
+  },
+  {
+    "es_noun": "el alcohol",
+    "en_noun": "booze"
+  },
+  {
+    "es_noun": "la hermana",
+    "en_noun": "sis"
+  },
+  {
+    "es_noun": "la tortuga",
+    "en_noun": "turtle"
+  },
+  {
+    "es_noun": "la nuez",
+    "en_noun": "nut"
+  },
+  {
+    "es_noun": "la moneda",
+    "en_noun": "coin"
+  },
+  {
+    "es_noun": "la base",
+    "en_noun": "basis"
+  },
+  {
+    "es_noun": "la discusión",
+    "en_noun": "discussion"
+  },
+  {
+    "es_noun": "el temperamento",
+    "en_noun": "temper"
+  },
+  {
+    "es_noun": "la trama",
+    "en_noun": "plot"
+  },
+  {
+    "es_noun": "el casino",
+    "en_noun": "casino"
+  },
+  {
+    "es_noun": "el póker",
+    "en_noun": "poker"
+  },
+  {
+    "es_noun": "el granjero",
+    "en_noun": "farmer"
+  },
+  {
+    "es_noun": "el mostrador",
+    "en_noun": "counter"
+  },
+  {
+    "es_noun": "el cabrón",
+    "en_noun": "fucker"
+  },
+  {
+    "es_noun": "la reparación",
+    "en_noun": "repair"
+  },
+  {
+    "es_noun": "la galleta",
+    "en_noun": "cookie"
+  },
+  {
+    "es_noun": "el panadero",
+    "en_noun": "baker"
+  },
+  {
+    "es_noun": "el masaje",
+    "en_noun": "massage"
+  },
+  {
+    "es_noun": "el entretenimiento",
+    "en_noun": "entertainment"
+  },
+  {
+    "es_noun": "el cubo",
+    "en_noun": "bucket"
+  },
+  {
+    "es_noun": "el látigo",
+    "en_noun": "whip"
+  },
+  {
+    "es_noun": "el perdón",
+    "en_noun": "forgiveness"
+  },
+  {
+    "es_noun": "la araña",
+    "en_noun": "spider"
+  },
+  {
+    "es_noun": "la fase",
+    "en_noun": "phase"
+  },
+  {
+    "es_noun": "el diario",
+    "en_noun": "diary"
+  },
+  {
+    "es_noun": "la manta",
+    "en_noun": "blanket"
+  },
+  {
+    "es_noun": "la comedia",
+    "en_noun": "comedy"
+  },
+  {
+    "es_noun": "la altura",
+    "en_noun": "height"
+  },
+  {
+    "es_noun": "el buceo",
+    "en_noun": "dive"
+  },
+  {
+    "es_noun": "el tenis",
+    "en_noun": "tennis"
+  },
+  {
+    "es_noun": "el sol",
+    "en_noun": "sunshine"
+  },
+  {
+    "es_noun": "la droga",
+    "en_noun": "dope"
+  },
+  {
+    "es_noun": "el permiso",
+    "en_noun": "permit"
+  },
+  {
+    "es_noun": "el jazz",
+    "en_noun": "jazz"
+  },
+  {
+    "es_noun": "la golondrina",
+    "en_noun": "swallow"
+  },
+  {
+    "es_noun": "la toalla",
+    "en_noun": "towel"
+  },
+  {
+    "es_noun": "la función",
+    "en_noun": "function"
+  },
+  {
+    "es_noun": "el conejo",
+    "en_noun": "bunny"
+  },
+  {
+    "es_noun": "la sobrina",
+    "en_noun": "niece"
+  },
+  {
+    "es_noun": "el fiscal",
+    "en_noun": "prosecutor"
+  },
+  {
+    "es_noun": "el fondo",
+    "en_noun": "fund"
+  },
+  {
+    "es_noun": "la bomba",
+    "en_noun": "pump"
+  },
+  {
+    "es_noun": "la región",
+    "en_noun": "region"
+  },
+  {
+    "es_noun": "la debilidad",
+    "en_noun": "weakness"
+  },
+  {
+    "es_noun": "el descubrimiento",
+    "en_noun": "discovery"
+  },
+  {
+    "es_noun": "la aguja",
+    "en_noun": "needle"
+  },
+  {
+    "es_noun": "el ejecutivo",
+    "en_noun": "executive"
+  },
+  {
+    "es_noun": "la parada",
+    "en_noun": "halt"
+  },
+  {
+    "es_noun": "el nido",
+    "en_noun": "nest"
+  },
+  {
+    "es_noun": "la gravedad",
+    "en_noun": "gravity"
+  },
+  {
+    "es_noun": "el vagón",
+    "en_noun": "wagon"
+  },
+  {
+    "es_noun": "la estafa",
+    "en_noun": "con"
+  },
+  {
+    "es_noun": "la explosión",
+    "en_noun": "burst"
+  },
+  {
+    "es_noun": "la hierba",
+    "en_noun": "weed"
+  },
+  {
+    "es_noun": "el concepto",
+    "en_noun": "concept"
+  },
+  {
+    "es_noun": "el buque",
+    "en_noun": "vessel"
+  },
+  {
+    "es_noun": "el zoológico",
+    "en_noun": "zoo"
+  },
+  {
+    "es_noun": "el hedor",
+    "en_noun": "stink"
+  },
+  {
+    "es_noun": "el cuero",
+    "en_noun": "leather"
+  },
+  {
+    "es_noun": "el mexicano",
+    "en_noun": "mexican"
+  },
+  {
+    "es_noun": "la hoja",
+    "en_noun": "sheet"
+  },
+  {
+    "es_noun": "la bota",
+    "en_noun": "boot"
+  },
+  {
+    "es_noun": "el reverso",
+    "en_noun": "reverse"
+  },
+  {
+    "es_noun": "el nieto",
+    "en_noun": "grandson"
+  },
+  {
+    "es_noun": "el escudo",
+    "en_noun": "shield"
+  },
+  {
+    "es_noun": "la conducta",
+    "en_noun": "conduct"
+  },
+  {
+    "es_noun": "el equipaje",
+    "en_noun": "luggage"
+  },
+  {
+    "es_noun": "la promoción",
+    "en_noun": "promotion"
+  },
+  {
+    "es_noun": "el menú",
+    "en_noun": "menu"
+  },
+  {
+    "es_noun": "el tocino",
+    "en_noun": "bacon"
+  },
+  {
+    "es_noun": "el método",
+    "en_noun": "method"
+  },
+  {
+    "es_noun": "el desfile",
+    "en_noun": "parade"
+  },
+  {
+    "es_noun": "la patata",
+    "en_noun": "potato"
+  },
+  {
+    "es_noun": "la etiqueta",
+    "en_noun": "tag"
+  },
+  {
+    "es_noun": "la radiación",
+    "en_noun": "radiation"
+  },
+  {
+    "es_noun": "la técnica",
+    "en_noun": "technique"
+  },
+  {
+    "es_noun": "la joyería",
+    "en_noun": "jewelry"
+  },
+  {
+    "es_noun": "la niñera",
+    "en_noun": "nanny"
+  },
+  {
+    "es_noun": "el carrito",
+    "en_noun": "cart"
+  },
+  {
+    "es_noun": "el tejido",
+    "en_noun": "tissue"
+  },
+  {
+    "es_noun": "el tirador",
+    "en_noun": "shooter"
+  },
+  {
+    "es_noun": "la llegada",
+    "en_noun": "arrival"
+  },
+  {
+    "es_noun": "la raíz",
+    "en_noun": "root"
+  },
+  {
+    "es_noun": "la galaxia",
+    "en_noun": "galaxy"
+  },
+  {
+    "es_noun": "el chisme",
+    "en_noun": "gossip"
+  },
+  {
+    "es_noun": "la habilidad",
+    "en_noun": "skill"
+  },
+  {
+    "es_noun": "la conspiración",
+    "en_noun": "conspiracy"
+  },
+  {
+    "es_noun": "el novio",
+    "en_noun": "groom"
+  },
+  {
+    "es_noun": "la cereza",
+    "en_noun": "cherry"
+  },
+  {
+    "es_noun": "la hambre",
+    "en_noun": "hunger"
+  },
+  {
+    "es_noun": "el ideal",
+    "en_noun": "ideal"
+  },
+  {
+    "es_noun": "la masa",
+    "en_noun": "dough"
+  },
+  {
+    "es_noun": "el terror",
+    "en_noun": "terror"
+  },
+  {
+    "es_noun": "el jamón",
+    "en_noun": "ham"
+  },
+  {
+    "es_noun": "la prioridad",
+    "en_noun": "priority"
+  },
+  {
+    "es_noun": "la humanidad",
+    "en_noun": "mankind"
+  },
+  {
+    "es_noun": "el clic",
+    "en_noun": "click"
+  },
+  {
+    "es_noun": "el europeo",
+    "en_noun": "european"
+  },
+  {
+    "es_noun": "la almohada",
+    "en_noun": "pillow"
+  },
+  {
+    "es_noun": "el escáner",
+    "en_noun": "scan"
+  },
+  {
+    "es_noun": "el ensayo",
+    "en_noun": "rehearsal"
+  },
+  {
+    "es_noun": "el poeta",
+    "en_noun": "poet"
+  },
+  {
+    "es_noun": "la celebración",
+    "en_noun": "celebration"
+  },
+  {
+    "es_noun": "el ganado",
+    "en_noun": "cattle"
+  },
+  {
+    "es_noun": "el cajón",
+    "en_noun": "drawer"
+  },
+  {
+    "es_noun": "el encendedor",
+    "en_noun": "lighter"
+  },
+  {
+    "es_noun": "el registro",
+    "en_noun": "register"
+  },
+  {
+    "es_noun": "el cómic",
+    "en_noun": "comic"
+  },
+  {
+    "es_noun": "la lámpara",
+    "en_noun": "lamp"
+  },
+  {
+    "es_noun": "la puñalada",
+    "en_noun": "stab"
+  },
+  {
+    "es_noun": "la dignidad",
+    "en_noun": "dignity"
+  },
+  {
+    "es_noun": "el naufragio",
+    "en_noun": "wreck"
+  },
+  {
+    "es_noun": "el pariente",
+    "en_noun": "relative"
+  },
+  {
+    "es_noun": "la coma",
+    "en_noun": "coma"
+  },
+  {
+    "es_noun": "el cabo",
+    "en_noun": "corporal"
+  },
+  {
+    "es_noun": "la cesta",
+    "en_noun": "basket"
+  },
+  {
+    "es_noun": "el horror",
+    "en_noun": "horror"
+  },
+  {
+    "es_noun": "el juramento",
+    "en_noun": "oath"
+  },
+  {
+    "es_noun": "el vapor",
+    "en_noun": "steam"
+  },
+  {
+    "es_noun": "el solo",
+    "en_noun": "solo"
+  },
+  {
+    "es_noun": "el cementerio",
+    "en_noun": "cemetery"
+  },
+  {
+    "es_noun": "el golpe",
+    "en_noun": "bump"
+  },
+  {
+    "es_noun": "el personal",
+    "en_noun": "personnel"
+  },
+  {
+    "es_noun": "la escoria",
+    "en_noun": "scum"
+  },
+  {
+    "es_noun": "la multitud",
+    "en_noun": "mob"
+  },
+  {
+    "es_noun": "la combinación",
+    "en_noun": "combination"
+  },
+  {
+    "es_noun": "la viga",
+    "en_noun": "beam"
+  },
+  {
+    "es_noun": "la alianza",
+    "en_noun": "alliance"
+  },
+  {
+    "es_noun": "el consejero",
+    "en_noun": "counselor"
+  },
+  {
+    "es_noun": "la siesta",
+    "en_noun": "nap"
+  },
+  {
+    "es_noun": "el conflicto",
+    "en_noun": "conflict"
+  },
+  {
+    "es_noun": "la asistencia",
+    "en_noun": "assistance"
+  },
+  {
+    "es_noun": "el retiro",
+    "en_noun": "retreat"
+  },
+  {
+    "es_noun": "el candidato",
+    "en_noun": "candidate"
+  },
+  {
+    "es_noun": "la goma",
+    "en_noun": "rubber"
+  },
+  {
+    "es_noun": "el bingo",
+    "en_noun": "bingo"
+  },
+  {
+    "es_noun": "la autopsia",
+    "en_noun": "autopsy"
+  },
+  {
+    "es_noun": "la alfombra",
+    "en_noun": "carpet"
+  },
+  {
+    "es_noun": "el cachorro",
+    "en_noun": "puppy"
+  },
+  {
+    "es_noun": "el intestino",
+    "en_noun": "gut"
+  },
+  {
+    "es_noun": "el ataúd",
+    "en_noun": "coffin"
+  },
+  {
+    "es_noun": "el instante",
+    "en_noun": "instant"
+  },
+  {
+    "es_noun": "la ceniza",
+    "en_noun": "ash"
+  },
+  {
+    "es_noun": "el escándalo",
+    "en_noun": "scandal"
+  },
+  {
+    "es_noun": "el aliado",
+    "en_noun": "ally"
+  },
+  {
+    "es_noun": "la flecha",
+    "en_noun": "arrow"
+  },
+  {
+    "es_noun": "la miseria",
+    "en_noun": "misery"
+  },
+  {
+    "es_noun": "el algodón",
+    "en_noun": "cotton"
+  },
+  {
+    "es_noun": "la suite",
+    "en_noun": "suite"
+  },
+  {
+    "es_noun": "la conferencia",
+    "en_noun": "lecture"
+  },
+  {
+    "es_noun": "la economía",
+    "en_noun": "economy"
+  },
+  {
+    "es_noun": "la mirada",
+    "en_noun": "stare"
+  },
+  {
+    "es_noun": "el guardián",
+    "en_noun": "guardian"
+  },
+  {
+    "es_noun": "la actuación",
+    "en_noun": "gig"
+  },
+  {
+    "es_noun": "la inversión",
+    "en_noun": "investment"
+  },
+  {
+    "es_noun": "la heroína",
+    "en_noun": "heroin"
+  },
+  {
+    "es_noun": "el depósito",
+    "en_noun": "deposit"
+  },
+  {
+    "es_noun": "la medalla",
+    "en_noun": "medal"
+  },
+  {
+    "es_noun": "el chicle",
+    "en_noun": "gum"
+  },
+  {
+    "es_noun": "la hinchazón",
+    "en_noun": "swell"
+  },
+  {
+    "es_noun": "el compromiso",
+    "en_noun": "commitment"
+  },
+  {
+    "es_noun": "la cabaña",
+    "en_noun": "hut"
+  },
+  {
+    "es_noun": "la parte trasera",
+    "en_noun": "rear"
+  },
+  {
+    "es_noun": "el fotógrafo",
+    "en_noun": "photographer"
+  },
+  {
+    "es_noun": "la emoción",
+    "en_noun": "excitement"
+  },
+  {
+    "es_noun": "el rancho",
+    "en_noun": "ranch"
+  },
+  {
+    "es_noun": "la tarifa",
+    "en_noun": "fee"
+  },
+  {
+    "es_noun": "la herramienta",
+    "en_noun": "tool"
+  },
+  {
+    "es_noun": "la profesión",
+    "en_noun": "profession"
+  },
+  {
+    "es_noun": "el documento",
+    "en_noun": "document"
+  },
+  {
+    "es_noun": "el periodista",
+    "en_noun": "journalist"
+  },
+  {
+    "es_noun": "el cebo",
+    "en_noun": "bait"
+  },
+  {
+    "es_noun": "el pecho",
+    "en_noun": "breast"
+  },
+  {
+    "es_noun": "la pena",
+    "en_noun": "sorrow"
+  },
+  {
+    "es_noun": "el compañero de cuarto",
+    "en_noun": "roommate"
+  },
+  {
+    "es_noun": "el consejo",
+    "en_noun": "counsel"
+  },
+  {
+    "es_noun": "el cañón",
+    "en_noun": "cannon"
+  },
+  {
+    "es_noun": "la penalización",
+    "en_noun": "penalty"
+  },
+  {
+    "es_noun": "el anuncio",
+    "en_noun": "announcement"
+  },
+  {
+    "es_noun": "la cocaína",
+    "en_noun": "cocaine"
+  },
+  {
+    "es_noun": "el abrazo",
+    "en_noun": "embrace"
+  },
+  {
+    "es_noun": "la púa",
+    "en_noun": "spike"
+  },
+  {
+    "es_noun": "la seda",
+    "en_noun": "silk"
+  },
+  {
+    "es_noun": "el robo",
+    "en_noun": "theft"
+  },
+  {
+    "es_noun": "el visitante",
+    "en_noun": "visitor"
+  },
+  {
+    "es_noun": "el ácido",
+    "en_noun": "acid"
+  },
+  {
+    "es_noun": "el alboroto",
+    "en_noun": "fuss"
+  },
+  {
+    "es_noun": "la ganga",
+    "en_noun": "bargain"
+  },
+  {
+    "es_noun": "el festín",
+    "en_noun": "feast"
+  },
+  {
+    "es_noun": "el collar",
+    "en_noun": "collar"
+  },
+  {
+    "es_noun": "la envidia",
+    "en_noun": "envy"
+  },
+  {
+    "es_noun": "la llama",
+    "en_noun": "flame"
+  },
+  {
+    "es_noun": "la fama",
+    "en_noun": "fame"
+  },
+  {
+    "es_noun": "el perfume",
+    "en_noun": "perfume"
+  },
+  {
+    "es_noun": "la protesta",
+    "en_noun": "protest"
+  },
+  {
+    "es_noun": "el psicópata",
+    "en_noun": "psycho"
+  },
+  {
+    "es_noun": "la emoción",
+    "en_noun": "emotion"
+  },
+  {
+    "es_noun": "la exhibición",
+    "en_noun": "display"
+  },
+  {
+    "es_noun": "el contenido",
+    "en_noun": "content"
+  },
+  {
+    "es_noun": "la pimienta",
+    "en_noun": "pepper"
+  },
+  {
+    "es_noun": "la falda",
+    "en_noun": "skirt"
+  },
+  {
+    "es_noun": "el crucero",
+    "en_noun": "cruise"
+  },
+  {
+    "es_noun": "la embajada",
+    "en_noun": "embassy"
+  },
+  {
+    "es_noun": "la cicatriz",
+    "en_noun": "scar"
+  },
+  {
+    "es_noun": "el ritmo",
+    "en_noun": "rhythm"
+  },
+  {
+    "es_noun": "el mito",
+    "en_noun": "myth"
+  },
+  {
+    "es_noun": "el empujón",
+    "en_noun": "shove"
+  },
+  {
+    "es_noun": "el certificado",
+    "en_noun": "certificate"
+  },
+  {
+    "es_noun": "el tambor",
+    "en_noun": "drum"
+  },
+  {
+    "es_noun": "la infección",
+    "en_noun": "infection"
+  },
+  {
+    "es_noun": "el whisky",
+    "en_noun": "scotch"
+  },
+  {
+    "es_noun": "la rana",
+    "en_noun": "frog"
+  },
+  {
+    "es_noun": "el ajedrez",
+    "en_noun": "chess"
+  },
+  {
+    "es_noun": "la creencia",
+    "en_noun": "belief"
+  },
+  {
+    "es_noun": "el gabinete",
+    "en_noun": "cabinet"
+  },
+  {
+    "es_noun": "el rumor",
+    "en_noun": "rumor"
+  },
+  {
+    "es_noun": "el pulmón",
+    "en_noun": "lung"
+  },
+  {
+    "es_noun": "el rap",
+    "en_noun": "rap"
+  },
+  {
+    "es_noun": "el error",
+    "en_noun": "error"
+  },
+  {
+    "es_noun": "el debate",
+    "en_noun": "debate"
+  },
+  {
+    "es_noun": "la suma",
+    "en_noun": "sum"
+  },
+  {
+    "es_noun": "el barrido",
+    "en_noun": "sweep"
+  },
+  {
+    "es_noun": "la era",
+    "en_noun": "era"
+  },
+  {
+    "es_noun": "la bóveda",
+    "en_noun": "vault"
+  },
+  {
+    "es_noun": "el líquido",
+    "en_noun": "liquid"
+  },
+  {
+    "es_noun": "el avión",
+    "en_noun": "aircraft"
+  },
+  {
+    "es_noun": "el disparos",
+    "en_noun": "gunfire"
+  },
+  {
+    "es_noun": "el chaval",
+    "en_noun": "chap"
+  },
+  {
+    "es_noun": "la fritura",
+    "en_noun": "fry"
+  },
+  {
+    "es_noun": "la carga",
+    "en_noun": "cargo"
+  },
+  {
+    "es_noun": "el puño",
+    "en_noun": "fist"
+  },
+  {
+    "es_noun": "el chupón",
+    "en_noun": "sucker"
+  },
+  {
+    "es_noun": "el horno",
+    "en_noun": "oven"
+  },
+  {
+    "es_noun": "el odio",
+    "en_noun": "hatred"
+  },
+  {
+    "es_noun": "el banco",
+    "en_noun": "bench"
+  },
+  {
+    "es_noun": "el sobre",
+    "en_noun": "envelope"
+  },
+  {
+    "es_noun": "la amabilidad",
+    "en_noun": "kindness"
+  },
+  {
+    "es_noun": "el casco",
+    "en_noun": "helmet"
+  },
+  {
+    "es_noun": "el gemelo",
+    "en_noun": "twin"
+  },
+  {
+    "es_noun": "el marinero",
+    "en_noun": "sailor"
+  },
+  {
+    "es_noun": "la escalera",
+    "en_noun": "ladder"
+  },
+  {
+    "es_noun": "el barril",
+    "en_noun": "barrel"
+  },
+  {
+    "es_noun": "la gente",
+    "en_noun": "folk"
+  },
+  {
+    "es_noun": "la banana",
+    "en_noun": "banana"
+  },
+  {
+    "es_noun": "la alternativa",
+    "en_noun": "alternative"
+  },
+  {
+    "es_noun": "el diseñador",
+    "en_noun": "designer"
+  },
+  {
+    "es_noun": "el dial",
+    "en_noun": "dial"
+  },
+  {
+    "es_noun": "la tensión",
+    "en_noun": "tension"
+  },
+  {
+    "es_noun": "la redada",
+    "en_noun": "raid"
+  },
+  {
+    "es_noun": "el explorador",
+    "en_noun": "scout"
+  },
+  {
+    "es_noun": "el ciervo",
+    "en_noun": "deer"
+  },
+  {
+    "es_noun": "el agarre",
+    "en_noun": "grip"
+  },
+  {
+    "es_noun": "la lata",
+    "en_noun": "tin"
+  },
+  {
+    "es_noun": "el guardián",
+    "en_noun": "warden"
+  },
+  {
+    "es_noun": "la cita",
+    "en_noun": "quote"
+  },
+  {
+    "es_noun": "el metro",
+    "en_noun": "subway"
+  },
+  {
+    "es_noun": "el almacenamiento",
+    "en_noun": "storage"
+  },
+  {
+    "es_noun": "el remolque",
+    "en_noun": "trailer"
+  },
+  {
+    "es_noun": "el operador",
+    "en_noun": "operator"
+  },
+  {
+    "es_noun": "la empresa",
+    "en_noun": "enterprise"
+  },
+  {
+    "es_noun": "el ciclo",
+    "en_noun": "cycle"
+  },
+  {
+    "es_noun": "la importancia",
+    "en_noun": "importance"
+  },
+  {
+    "es_noun": "el ganso",
+    "en_noun": "goose"
+  },
+  {
+    "es_noun": "el bajo",
+    "en_noun": "bass"
+  },
+  {
+    "es_noun": "el voluntario",
+    "en_noun": "volunteer"
+  },
+  {
+    "es_noun": "la residencia",
+    "en_noun": "residence"
+  },
+  {
+    "es_noun": "el labio",
+    "en_noun": "lip"
+  },
+  {
+    "es_noun": "la galería",
+    "en_noun": "gallery"
+  },
+  {
+    "es_noun": "la motocicleta",
+    "en_noun": "motorcycle"
+  },
+  {
+    "es_noun": "el culto",
+    "en_noun": "worship"
+  },
+  {
+    "es_noun": "el graduado",
+    "en_noun": "graduate"
+  },
+  {
+    "es_noun": "el congreso",
+    "en_noun": "congress"
+  },
+  {
+    "es_noun": "la ejecución",
+    "en_noun": "execution"
+  },
+  {
+    "es_noun": "el ritual",
+    "en_noun": "ritual"
+  },
+  {
+    "es_noun": "la ballena",
+    "en_noun": "whale"
+  },
+  {
+    "es_noun": "la solicitud",
+    "en_noun": "application"
+  },
+  {
+    "es_noun": "la bañera",
+    "en_noun": "tub"
+  },
+  {
+    "es_noun": "la pistola",
+    "en_noun": "pistol"
+  },
+  {
+    "es_noun": "la democracia",
+    "en_noun": "democracy"
+  },
+  {
+    "es_noun": "el campus",
+    "en_noun": "campus"
+  },
+  {
+    "es_noun": "la conclusión",
+    "en_noun": "conclusion"
+  },
+  {
+    "es_noun": "el granuja",
+    "en_noun": "rascal"
+  },
+  {
+    "es_noun": "la vela",
+    "en_noun": "candle"
+  },
+  {
+    "es_noun": "el principio",
+    "en_noun": "principle"
+  },
+  {
+    "es_noun": "el carnicero",
+    "en_noun": "butcher"
+  },
+  {
+    "es_noun": "el suéter",
+    "en_noun": "sweater"
+  },
+  {
+    "es_noun": "el rango",
+    "en_noun": "rank"
+  },
+  {
+    "es_noun": "el picnic",
+    "en_noun": "picnic"
+  },
+  {
+    "es_noun": "la recuperación",
+    "en_noun": "recovery"
+  },
+  {
+    "es_noun": "el reptar",
+    "en_noun": "crawl"
+  },
+  {
+    "es_noun": "la villa",
+    "en_noun": "villa"
+  },
+  {
+    "es_noun": "el brandy",
+    "en_noun": "brandy"
+  },
+  {
+    "es_noun": "el apetito",
+    "en_noun": "appetite"
+  },
+  {
+    "es_noun": "la lesbiana",
+    "en_noun": "lesbian"
+  },
+  {
+    "es_noun": "el pastor",
+    "en_noun": "shepherd"
+  },
+  {
+    "es_noun": "la perspectiva",
+    "en_noun": "perspective"
+  },
+  {
+    "es_noun": "el hockey",
+    "en_noun": "hockey"
+  },
+  {
+    "es_noun": "el reptar",
+    "en_noun": "creep"
+  },
+  {
+    "es_noun": "la disciplina",
+    "en_noun": "discipline"
+  },
+  {
+    "es_noun": "la lamida",
+    "en_noun": "lick"
+  },
+  {
+    "es_noun": "el carbón",
+    "en_noun": "coal"
+  },
+  {
+    "es_noun": "la tumba",
+    "en_noun": "tomb"
+  },
+  {
+    "es_noun": "el silencio",
+    "en_noun": "hush"
+  },
+  {
+    "es_noun": "el muñeco",
+    "en_noun": "dummy"
+  },
+  {
+    "es_noun": "la sugerencia",
+    "en_noun": "suggestion"
+  },
+  {
+    "es_noun": "la adición",
+    "en_noun": "addition"
+  },
+  {
+    "es_noun": "el terapeuta",
+    "en_noun": "therapist"
+  },
+  {
+    "es_noun": "la libertad condicional",
+    "en_noun": "parole"
+  },
+  {
+    "es_noun": "el café",
+    "en_noun": "cafe"
+  },
+  {
+    "es_noun": "el mago",
+    "en_noun": "wizard"
+  },
+  {
+    "es_noun": "la conciencia",
+    "en_noun": "consciousness"
+  },
+  {
+    "es_noun": "el sector",
+    "en_noun": "sector"
+  },
+  {
+    "es_noun": "la puesta del sol",
+    "en_noun": "sunset"
+  },
+  {
+    "es_noun": "la creación",
+    "en_noun": "creation"
+  },
+  {
+    "es_noun": "el pasaje",
+    "en_noun": "passage"
+  },
+  {
+    "es_noun": "el cumplido",
+    "en_noun": "compliment"
+  },
+  {
+    "es_noun": "la transmisión",
+    "en_noun": "broadcast"
+  },
+  {
+    "es_noun": "la presa",
+    "en_noun": "prey"
+  },
+  {
+    "es_noun": "el rompecabezas",
+    "en_noun": "puzzle"
+  },
+  {
+    "es_noun": "el arreglo",
+    "en_noun": "arrangement"
+  },
+  {
+    "es_noun": "la invasión",
+    "en_noun": "invasion"
+  },
+  {
+    "es_noun": "la eternidad",
+    "en_noun": "eternity"
+  },
+  {
+    "es_noun": "la plaga",
+    "en_noun": "plague"
+  },
+  {
+    "es_noun": "la filosofía",
+    "en_noun": "philosophy"
+  },
+  {
+    "es_noun": "la prostituta",
+    "en_noun": "prostitute"
+  },
+  {
+    "es_noun": "el instinto",
+    "en_noun": "instinct"
+  },
+  {
+    "es_noun": "el afecto",
+    "en_noun": "affection"
+  },
+  {
+    "es_noun": "el nazi",
+    "en_noun": "nazi"
+  },
+  {
+    "es_noun": "el ministerio",
+    "en_noun": "ministry"
+  },
+  {
+    "es_noun": "el lujo",
+    "en_noun": "luxury"
+  },
+  {
+    "es_noun": "la brisa",
+    "en_noun": "breeze"
+  },
+  {
+    "es_noun": "la salchicha",
+    "en_noun": "sausage"
+  },
+  {
+    "es_noun": "la física",
+    "en_noun": "physics"
+  },
+  {
+    "es_noun": "el pirata",
+    "en_noun": "pirate"
+  },
+  {
+    "es_noun": "la rebanada",
+    "en_noun": "slice"
+  },
+  {
+    "es_noun": "la caña",
+    "en_noun": "rod"
+  },
+  {
+    "es_noun": "el riñón",
+    "en_noun": "kidney"
+  },
+  {
+    "es_noun": "la inspiración",
+    "en_noun": "inspiration"
+  },
+  {
+    "es_noun": "el jengibre",
+    "en_noun": "ginger"
+  },
+  {
+    "es_noun": "el destino",
+    "en_noun": "destination"
+  },
+  {
+    "es_noun": "el concreto",
+    "en_noun": "concrete"
+  },
+  {
+    "es_noun": "el arroyo",
+    "en_noun": "stream"
+  },
+  {
+    "es_noun": "el dentista",
+    "en_noun": "dentist"
+  },
+  {
+    "es_noun": "el desagüe",
+    "en_noun": "drain"
+  },
+  {
+    "es_noun": "el aerosol",
+    "en_noun": "spray"
+  },
+  {
+    "es_noun": "el órgano",
+    "en_noun": "organ"
+  },
+  {
+    "es_noun": "el pulgar",
+    "en_noun": "thumb"
+  },
+  {
+    "es_noun": "el burro",
+    "en_noun": "donkey"
+  },
+  {
+    "es_noun": "la fórmula",
+    "en_noun": "formula"
+  },
+  {
+    "es_noun": "la prostituta",
+    "en_noun": "hooker"
+  },
+  {
+    "es_noun": "el sostén",
+    "en_noun": "bra"
+  },
+  {
+    "es_noun": "el soltero",
+    "en_noun": "bachelor"
+  },
+  {
+    "es_noun": "el avión",
+    "en_noun": "airplane"
+  },
+  {
+    "es_noun": "la ausencia",
+    "en_noun": "absence"
+  },
+  {
+    "es_noun": "la luz del día",
+    "en_noun": "daylight"
+  },
+  {
+    "es_noun": "la muñeca",
+    "en_noun": "wrist"
+  },
+  {
+    "es_noun": "el dependiente",
+    "en_noun": "clerk"
+  },
+  {
+    "es_noun": "la escritura",
+    "en_noun": "deed"
+  },
+  {
+    "es_noun": "el ritmo",
+    "en_noun": "pace"
+  },
+  {
+    "es_noun": "el enchufe",
+    "en_noun": "plug"
+  },
+  {
+    "es_noun": "el privilegio",
+    "en_noun": "privilege"
+  },
+  {
+    "es_noun": "el bono",
+    "en_noun": "bonus"
+  },
+  {
+    "es_noun": "la honestidad",
+    "en_noun": "honesty"
+  },
+  {
+    "es_noun": "la bodega",
+    "en_noun": "cellar"
+  },
+  {
+    "es_noun": "el carruaje",
+    "en_noun": "carriage"
+  },
+  {
+    "es_noun": "el vestíbulo",
+    "en_noun": "lobby"
+  },
+  {
+    "es_noun": "el olor",
+    "en_noun": "scent"
+  },
+  {
+    "es_noun": "la hamburguesa",
+    "en_noun": "burger"
+  },
+  {
+    "es_noun": "el protocolo",
+    "en_noun": "protocol"
+  },
+  {
+    "es_noun": "el autor",
+    "en_noun": "author"
+  },
+  {
+    "es_noun": "el topo",
+    "en_noun": "mole"
+  },
+  {
+    "es_noun": "la desgracia",
+    "en_noun": "disgrace"
+  },
+  {
+    "es_noun": "la ilusión",
+    "en_noun": "illusion"
+  },
+  {
+    "es_noun": "el veredicto",
+    "en_noun": "verdict"
+  },
+  {
+    "es_noun": "el ingreso",
+    "en_noun": "income"
+  },
+  {
+    "es_noun": "la civilización",
+    "en_noun": "civilization"
+  },
+  {
+    "es_noun": "el bravucón",
+    "en_noun": "bully"
+  },
+  {
+    "es_noun": "el elemento",
+    "en_noun": "element"
+  },
+  {
+    "es_noun": "el pasajero",
+    "en_noun": "passenger"
+  },
+  {
+    "es_noun": "el globo",
+    "en_noun": "balloon"
+  },
+  {
+    "es_noun": "el dedo del pie",
+    "en_noun": "toe"
+  },
+  {
+    "es_noun": "el mortal",
+    "en_noun": "mortal"
+  },
+  {
+    "es_noun": "la lotería",
+    "en_noun": "lottery"
+  },
+  {
+    "es_noun": "la mansión",
+    "en_noun": "mansion"
+  },
+  {
+    "es_noun": "la cortina",
+    "en_noun": "curtain"
+  },
+  {
+    "es_noun": "la mejilla",
+    "en_noun": "cheek"
+  },
+  {
+    "es_noun": "el puerto",
+    "en_noun": "harbor"
+  },
+  {
+    "es_noun": "la inundación",
+    "en_noun": "flood"
+  },
+  {
+    "es_noun": "el cóctel",
+    "en_noun": "cocktail"
+  },
+  {
+    "es_noun": "la respuesta",
+    "en_noun": "reply"
+  },
+  {
+    "es_noun": "el zombi",
+    "en_noun": "zombie"
+  },
+  {
+    "es_noun": "el asociado",
+    "en_noun": "associate"
+  },
+  {
+    "es_noun": "la burbuja",
+    "en_noun": "bubble"
+  },
+  {
+    "es_noun": "la semilla",
+    "en_noun": "seed"
+  },
+  {
+    "es_noun": "la celebridad",
+    "en_noun": "celebrity"
+  },
+  {
+    "es_noun": "el misil",
+    "en_noun": "missile"
+  },
+  {
+    "es_noun": "la pudrición",
+    "en_noun": "rot"
+  },
+  {
+    "es_noun": "el láser",
+    "en_noun": "laser"
+  },
+  {
+    "es_noun": "el rencor",
+    "en_noun": "spite"
+  },
+  {
+    "es_noun": "el molino",
+    "en_noun": "mill"
+  },
+  {
+    "es_noun": "la camarera",
+    "en_noun": "waitress"
+  },
+  {
+    "es_noun": "la jubilación",
+    "en_noun": "retirement"
+  },
+  {
+    "es_noun": "el consenso",
+    "en_noun": "consent"
+  },
+  {
+    "es_noun": "el psiquiatra",
+    "en_noun": "shrink"
+  },
+  {
+    "es_noun": "el cobre",
+    "en_noun": "copper"
+  },
+  {
+    "es_noun": "la subasta",
+    "en_noun": "auction"
+  },
+  {
+    "es_noun": "la confusión",
+    "en_noun": "confusion"
+  },
+  {
+    "es_noun": "la columna",
+    "en_noun": "column"
+  },
+  {
+    "es_noun": "la simpatía",
+    "en_noun": "sympathy"
+  },
+  {
+    "es_noun": "el altavoz",
+    "en_noun": "speaker"
+  },
+  {
+    "es_noun": "el latón",
+    "en_noun": "brass"
+  },
+  {
+    "es_noun": "el constable",
+    "en_noun": "constable"
+  },
+  {
+    "es_noun": "el mocoso",
+    "en_noun": "brat"
+  },
+  {
+    "es_noun": "el esquema",
+    "en_noun": "scheme"
+  },
+  {
+    "es_noun": "el heredero",
+    "en_noun": "heir"
+  },
+  {
+    "es_noun": "la zanja",
+    "en_noun": "ditch"
+  },
+  {
+    "es_noun": "la sospecha",
+    "en_noun": "suspicion"
+  },
+  {
+    "es_noun": "la marea",
+    "en_noun": "tide"
+  },
+  {
+    "es_noun": "el torneo",
+    "en_noun": "tournament"
+  },
+  {
+    "es_noun": "el arcoíris",
+    "en_noun": "rainbow"
+  },
+  {
+    "es_noun": "la órbita",
+    "en_noun": "orbit"
+  },
+  {
+    "es_noun": "el cuerpo",
+    "en_noun": "corps"
+  },
+  {
+    "es_noun": "la plataforma",
+    "en_noun": "platform"
+  },
+  {
+    "es_noun": "la tela",
+    "en_noun": "cloth"
+  },
+  {
+    "es_noun": "la escopeta",
+    "en_noun": "shotgun"
+  },
+  {
+    "es_noun": "el pelaje",
+    "en_noun": "fur"
+  },
+  {
+    "es_noun": "la ginebra",
+    "en_noun": "gin"
+  }
+]
